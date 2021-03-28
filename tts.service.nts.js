@@ -4,9 +4,9 @@ function textToSpeech(textInput, language) {
     alert('Empty input!')
   } else {
     if (!language) {
-      playAudioFromUrl(URL_TTS_SERVER+`/audio/FEMALE/JA_JP/${textInput}.mp3`);
+      playAudioFromUrl(`/audio/FEMALE/JA_JP/${textInput}.mp3`);
     } else {
-      playAudioFromUrl(URL_TTS_SERVER+`/audio/FEMALE/VI_VN/${textInput}.mp3`);
+      playAudioFromUrl(`/audio/FEMALE/VI_VN/${textInput}.mp3`);
     }
   }
 }
@@ -15,6 +15,7 @@ function playAudioFromUrl(audioUrl) {
   audioElm.play().then(audioPlayResult => {
     console.log(`Played audio from URL:${audioUrl}`);
   }).catch(audioPlayError => {
+    console.warn(audioPlayError);
     console.warn(`Cannot play audio from URL:${audioUrl}`);
   });
 }
