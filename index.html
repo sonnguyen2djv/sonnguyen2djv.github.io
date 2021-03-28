@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link type="text/css" rel="stylesheet" href="style.css"/>
+  <style id="my-editable-stylesheet" title="title-my-editable-stylesheet">
+    /*For JS to edit!*/
+    .test-class {
+        display: none;
+    }
+  </style>
+  <script src="lessons.data.nts.js"></script>
+  <script src="dom.nts.js"></script>
+  <script src="tts.service.nts.js"></script>
+  <script>
+    //global.
+    /**@type {HTMLTableElement}*/
+    var WORD_TABLE = null;
+    /**@type {boolean}*/
+    var IS_SPEAK_VN = false;
+    /**@type {boolean}*/
+    var IS_SHOW_HIRA_COL = false;
+  </script>
+  <script>
+    /**@param {{kanji,hiragana,nom,meaning}[]} oneLesson
+     * @return {any[][]}*/
+    function convertOneLessonToMatrix(oneLesson) {
+      const arrayOfArrays = [];
+      for (const {kanji,hiragana,nom,meaning} of oneLesson) {
+        arrayOfArrays.push([kanji,hiragana,nom,meaning]);
+      }
+      return arrayOfArrays;
+    }
+    function setTableRowOnclickCustom(tableElement) {
+      getTableElementRows(tableElement).forEach((row,rowIndex)=>{
+        row.onclick = ev => {
+          console.log(`row clicked! rowIndex=${rowIndex}, row data=${row[STRCON.dataBinding]}`);
+          getTableElementRows(tableElement).forEach(r => {
+            //r.style.backgroundColor = '#2d2d2d';
+            r.cells[0].style.borderLeftColor = '#8c8c8c';
+          });
+          //row.style.backgroundColor = '#2f2f2f';
+          row.cells[0].style.borderLeftColor = 'red';
+          //textToSpeech(row[STRCON.dataBinding][0]);//TODO.
+        };
+        forOf(row.cells, (cell,cellIndex)=>{
+          cell.onclick = cellClickEvent => {
+            if (cellIndex === 0 || cellIndex === 1) {
+              textToSpeech(cell.innerText);
+            }
+            if (cellIndex === 2 || cellIndex === 3) {
+              textToSpeech(cell.innerText, 'vi_vn');
+            }
+          };
+        });
+      });
+    }
+    function showOrHideHiraganaColumn(isShow) {
+      document.querySelectorAll('.nts-table-col-1').forEach(elm => elm.style.display = (isShow ? 'table-cell' : 'none'));
+    }
+  </script>
+  <script>
+    window.onload = () => {
+      //Checkbox IS_SPEAK_VN.
+      {/*block*/
+        const checkboxId = 'elmId_checkbox_IS_SPEAK_VN';
+        const checkboxElement = createCheckBoxElement(checkboxId, isChecked=>{
+          IS_SPEAK_VN = isChecked;
+        }, IS_SPEAK_VN);
+        const labelElement = createLabelElement(checkboxId, 'Also speak Vietnamese?');
+        appendChildToById('#elmId_divCheckBoxContainer', checkboxElement, labelElement);
+      }
+      //Checkbox IS_SHOW_HIRA_COL.
+      {/*block*/
+        const checkboxId = 'elmId_checkbox_IS_SHOW_HIRA_COL';
+        const checkboxElement = createCheckBoxElement(checkboxId, isChecked=>{
+          IS_SHOW_HIRA_COL = isChecked;
+          showOrHideHiraganaColumn(IS_SHOW_HIRA_COL);
+        }, IS_SHOW_HIRA_COL);
+        const labelElement = createLabelElement(checkboxId, 'Show Hiragana?');
+        appendChildToById('#elmId_divCheckBoxContainer', checkboxElement, labelElement);
+      }
+      //Select.
+      const selectElement = createSelectElement(Object.keys(LESSONS), 'elmId_categorySelect',
+        newSelectedValue => {
+          console.log("selected:"+newSelectedValue);
+          const lessonMatrix = convertOneLessonToMatrix(LESSONS[newSelectedValue]);
+          updateTableElement(tableElement, lessonMatrix, setTableRowOnclickCustom);
+        });
+      appendChildToById('#elmId_divSelectContainer', selectElement);
+      //Table.
+      const tableElement = createTableElement(['kanji','hiragana','nom','meaning'], [], {
+        tableClassName: 'tg',
+        tableHeaderCellClassName: 'tg-0lax',
+        tableBodyCellClassName: 'tg-0lax',
+      }, setTableRowOnclickCustom);
+      appendChildToById('#elmId_divTableContainer', tableElement);
+      WORD_TABLE = tableElement;
+      //Init states after render.
+      showOrHideHiraganaColumn(IS_SHOW_HIRA_COL);
+    };
+  </script>
+</head>
+<body>
+<div id="elmId_mainDiv" class="nts-centralize-1">
+  <div id="elmId_divCheckBoxContainer"></div>
+  <div id="elmId_divSelectContainer"></div>
+  <div id="elmId_divTableContainer"></div>
+</div>
+</body>
+</html>
