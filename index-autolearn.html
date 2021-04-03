@@ -8,6 +8,13 @@
   <script src="dom.nts.js"></script>
   <script src="tts.service.nts.js"></script>
   <script>
+    //global.
+    /**@type {HTMLTableElement}*/
+    var WORD_TABLE = null;
+    /**@type {boolean}*/
+    var IS_SPEAK_VN = false;
+  </script>
+  <script>
     /**@param {{kanji,hiragana,nom,meaning}[]} oneLesson
      * @return {any[][]}*/
     function convertOneLessonToMatrix(oneLesson) {
@@ -34,6 +41,13 @@
   </script>
   <script>
     window.onload = () => {
+      //Checkbox.
+      const checkboxId = 'elmId_checkbox_IS_SPEAK_VN';
+      const checkboxElement_IS_SPEAK_VN = createCheckBoxElement(checkboxId, isChecked=>{
+        IS_SPEAK_VN = isChecked;
+      });
+      const labelElement = createLabelElement(checkboxId, 'Also speak Vietnamese?');
+      appendChildToById('#elmId_divCheckBoxContainer', checkboxElement_IS_SPEAK_VN, labelElement);
       //Select.
       const selectElement = createSelectElement(Object.keys(LESSONS), 'elmId_categorySelect',
         newSelectedValue => {
@@ -49,11 +63,13 @@
         tableBodyCellClassName: 'tg-0lax',
       }, setTableRowOnclickCustom);
       appendChildToById('#elmId_divTableContainer', tableElement);
+      WORD_TABLE = tableElement;
     };
   </script>
 </head>
 <body>
-<div id="elmId_mainDiv" style="margin-left: 600px">
+<div id="elmId_mainDiv" class="nts-centralize-1">
+  <div id="elmId_divCheckBoxContainer"></div>
   <div id="elmId_divSelectContainer"></div>
   <div id="elmId_divTableContainer" style="max-height: 800px; overflow-y: auto"></div>
 </div>

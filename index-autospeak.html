@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link type="text/css" rel="stylesheet" href="style.css"/>
+  <style id="my-editable-stylesheet" title="title-my-editable-stylesheet">
+    /*For JS to edit!*/
+    .test-class {
+        display: none;
+    }
+  </style>
+  <script src="lessons.data.nts.js"></script>
+  <script src="dom.nts.js"></script>
+  <script src="util.nts.js"></script>
+  <script src="tts.service.nts.js"></script>
+  <script>
+    //global.
+    /**@type {HTMLTableElement}*/
+    var WORD_TABLE = null;
+    /**@type {boolean}*/
+    var IS_SPEAK_VN = false;
+    /**@type {boolean}*/
+    var IS_SHOW_HIRA_COL = false;
+    /**@type {boolean}*/
+    var IS_AUTO_SPEAK = false;
+    /**@type {boolean}*/
+    var IS_AUTO_SPEAK_MEANING = false;
+    /**@type {number}*/
+    var INDEX_CURRENT_PLAY = -1;
+    /**@type {boolean}*/
+    var IS_PLAY_TWICE_CURRENT = false;
+    /**@type {boolean}*/
+    var IS_PLAY_TWICE_ALWAYS = false;
+    /**@type {boolean}*/
+    var IS_PLAY_INFINITY_ONE_LESSONS = false;
+  </script>
+  <script>
+    /**@param {{kanji,hiragana,nom,meaning}[]} oneLesson
+     * @return {any[][]}*/
+    function convertOneLessonToMatrix(oneLesson) {
+      const arrayOfArrays = [];
+      for (const {kanji,hiragana,nom,meaning} of oneLesson) {
+        arrayOfArrays.push([kanji,hiragana,nom,meaning]);
+      }
+      return arrayOfArrays;
+    }
+    function setTableRowOnclickCustom(tableElement) {
+      getTableElementRows(tableElement).forEach((row,rowIndex)=>{
+        row.onclick = clickEvent => {
+          console.log(`row clicked! rowIndex=${rowIndex}, row data=${row[STRCON.dataBinding]}`);
+          getTableElementRows(tableElement).forEach(r => {
+            //r.style.backgroundColor = '#2d2d2d';
+            r.cells[0].style.borderLeftColor = '#8c8c8c';
+          });
+          //row.style.backgroundColor = '#2f2f2f';
+          row.cells[0].style.borderLeftColor = 'red';
+          //textToSpeech(row[STRCON.dataBinding][0]);//TODO.
+          if (clickEvent.isTrusted) {
+            INDEX_CURRENT_PLAY = rowIndex;
+          }
+        };
+        forOf(row.cells, (cell,cellIndex)=>{
+          cell.onclick = cellClickEvent => {
+            if (cellIndex === 0 || cellIndex === 1) {
+              textToSpeech(cell.innerText);
+            }
+            if (cellIndex === 2 || cellIndex === 3) {
+              textToSpeech(cell.innerText, 'vi_vn');
+            }
+          };
+        });
+      });
+    }
+    function showOrHideHiraganaColumn(isShow) {
+      document.querySelectorAll('.nts-table-col-1').forEach(elm => elm.style.display = (isShow ? 'table-cell' : 'none'));
+    }
+    async function autoSpeak() {
+      const rows = getTableElementRows(WORD_TABLE);
+      if (INDEX_CURRENT_PLAY < 0) {
+        INDEX_CURRENT_PLAY = 0;
+      }
+      while (INDEX_CURRENT_PLAY < rows.length) {
+        const currentIndex = INDEX_CURRENT_PLAY;
+        const row = rows[currentIndex];
+        if (IS_AUTO_SPEAK) {
+          row.scrollIntoView();
+          row.cells.item(0).click();
+          await sleep(1000);
+          if (IS_AUTO_SPEAK_MEANING) {
+            row.cells.item(3).click();
+          } else {
+            row.cells.item(2).click();
+          }
+          await sleep(1000);
+          //Replay (if checked).
+          if (IS_PLAY_TWICE_ALWAYS && currentIndex === INDEX_CURRENT_PLAY) {
+            row.cells.item(0).click();
+            await sleep(1000);
+            if (IS_AUTO_SPEAK_MEANING) {
+              row.cells.item(3).click();
+            } else {
+              row.cells.item(2).click();
+            }
+            await sleep(1000);
+          }
+        } else return; //NOT 'break' !.
+        if (currentIndex === INDEX_CURRENT_PLAY && !IS_PLAY_TWICE_CURRENT) {
+          INDEX_CURRENT_PLAY++;
+        } else if (IS_PLAY_TWICE_CURRENT) {
+          IS_PLAY_TWICE_CURRENT = false;
+        }
+      }
+      INDEX_CURRENT_PLAY = -1;
+      if (IS_PLAY_INFINITY_ONE_LESSONS) {
+        await autoSpeak(); // remember to add 'await'!
+      }
+    }
+  </script>
+  <script>
+    window.onload = () => {
+      //Checkbox IS_SHOW_HIRA_COL.
+      {/*block*/
+        const checkboxId = 'elmId_checkbox_IS_SHOW_HIRA_COL';
+        const checkboxElement = createCheckBoxElement(checkboxId, isChecked=>{
+          IS_SHOW_HIRA_COL = isChecked;
+          showOrHideHiraganaColumn(IS_SHOW_HIRA_COL);
+        }, IS_SHOW_HIRA_COL);
+        const labelElement = createLabelElement(checkboxId, 'Show Hiragana?');
+        appendChildToById('#elmId_divCheckBoxContainer', checkboxElement, labelElement);
+      }
+      //Checkbox IS_AUTO_SPEAK.
+      {/*block*/
+        const checkboxId = 'elmId_checkbox_IS_AUTO_SPEAK';
+        const checkboxElement = createCheckBoxElement(checkboxId, isChecked=>{
+          IS_AUTO_SPEAK = isChecked;
+          if (IS_AUTO_SPEAK) {
+            autoSpeak();
+          }
+        }, IS_AUTO_SPEAK);
+        const labelElement = createLabelElement(checkboxId, 'Auto speak?');
+        appendChildToById('#elmId_divCheckBoxContainer', checkboxElement, labelElement);
+      }
+      //Checkbox IS_AUTO_SPEAK_MEANING.
+      {/*block*/
+        const checkboxId = 'elmId_checkbox_IS_AUTO_SPEAK_MEANING';
+        const checkboxElement = createCheckBoxElement(checkboxId, isChecked=>{
+          IS_AUTO_SPEAK_MEANING = isChecked;
+        }, IS_AUTO_SPEAK);
+        const labelElement = createLabelElement(checkboxId, 'Speak meaning?');
+        appendChildToById('#elmId_divCheckBoxContainer', checkboxElement, labelElement);
+      }
+      //Checkbox IS_PLAY_TWICE_ALWAYS.
+      {/*block*/
+        const checkboxId = 'elmId_checkbox_IS_PLAY_TWICE_ALWAYS';
+        const checkboxElement = createCheckBoxElement(checkboxId, isChecked=>{
+          IS_PLAY_TWICE_ALWAYS = isChecked;
+        }, IS_PLAY_TWICE_ALWAYS);
+        const labelElement = createLabelElement(checkboxId, 'Speak twice?');
+        appendChildToById('#elmId_divCheckBoxContainer', checkboxElement, labelElement);
+      }
+      //Checkbox IS_PLAY_INFINITY_ONE_LESSONS.
+      {/*block*/
+        const checkboxId = 'elmId_checkbox_IS_PLAY_INFINITY_ONE_LESSONS';
+        const checkboxElement = createCheckBoxElement(checkboxId, isChecked=>{
+          IS_PLAY_INFINITY_ONE_LESSONS = isChecked;
+        }, IS_PLAY_INFINITY_ONE_LESSONS);
+        const labelElement = createLabelElement(checkboxId, 'Infinity(one lesson)?');
+        appendChildToById('#elmId_divCheckBoxContainer', checkboxElement, labelElement);
+      }
+      //Select.
+      const selectElement = createSelectElement(Object.keys(LESSONS), 'elmId_categorySelect',
+        newSelectedValue => {
+          console.log("selected:"+newSelectedValue);
+          const lessonMatrix = convertOneLessonToMatrix(LESSONS[newSelectedValue]);
+          updateTableElement(tableElement, lessonMatrix, setTableRowOnclickCustom);
+        });
+      appendChildToById('#elmId_divSelectContainer', selectElement);
+      //Table.
+      const tableElement = createTableElement(['kanji','hiragana','nom','meaning'], [], {
+        tableClassName: 'tg',
+        tableHeaderCellClassName: 'tg-0lax',
+        tableBodyCellClassName: 'tg-0lax',
+      }, setTableRowOnclickCustom);
+      appendChildToById('#elmId_divTableContainer', tableElement);
+      WORD_TABLE = tableElement;
+      //Init states after render.
+      showOrHideHiraganaColumn(IS_SHOW_HIRA_COL);
+      //Key press handlers.
+      document.onkeyup = event => {
+        const keyCode = event.which;
+        if (keyCode === 37 || keyCode === 38) {
+          event.preventDefault();
+          INDEX_CURRENT_PLAY -= 1;
+        } else if (keyCode === 32) {
+          event.preventDefault();
+          if (IS_AUTO_SPEAK) {
+            IS_AUTO_SPEAK = false;
+            document.querySelector('#elmId_checkbox_IS_AUTO_SPEAK').checked = false;
+          } else {
+            IS_AUTO_SPEAK = true;
+            document.querySelector('#elmId_checkbox_IS_AUTO_SPEAK').checked = true;
+            autoSpeak();
+          }
+        } else if (keyCode === 96) {
+          INDEX_CURRENT_PLAY = 0;
+        } else if (keyCode === 110) {
+          IS_PLAY_TWICE_CURRENT = true;
+        }
+      };
+    };
+  </script>
+</head>
+<body>
+<div id="elmId_mainDiv" class="nts-centralize-1">
+  <div id="elmId_divCheckBoxContainer"></div>
+  <div id="elmId_divSelectContainer"></div>
+  <div id="elmId_divTableContainer"></div>
+</div>
+</body>
+</html>
