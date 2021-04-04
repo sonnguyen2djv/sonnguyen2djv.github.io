@@ -2,154 +2,6 @@
 <head>
 <title>PlayAudioMinna</title>
 <script>
-const dataLinks_ = `
-1%20-%201%20-%20Kotoba.mp3
-1%20-%202%20-%20Bunkei.mp3
-1%20-%203%20-%20Reibun.mp3
-1%20-%204%20-%20Kaiwa.mp3
-1%20-%205%20-%20Renshuu%20C1.mp3
-1%20-%206%20-%20Renshuu%20C2.mp3
-1%20-%207%20-%20Renshuu%20C3.mp3
-1%20-%208%20-%20Mondai%201.mp3
-1%20-%209%20-%20Mondai%202.mp3
-1%20-%2010%20-%20Mondai%203.mp3
-2%20-%201%20-%20Kotoba.mp3
-2%20-%202%20-%20Bunkei.mp3
-2%20-%203%20-%20Reibun.mp3
-2%20-%205%20-%20Kaiwa.mp3
-2%20-%205%20-%20Renshuu%20C1.mp3
-2%20-%206%20-%20Renshuu%20C2.mp3
-2%20-%207%20-%20Renshuu%20C3.mp3
-2%20-%208%20-%20Mondai%201.mp3
-2%20-%209%20-%20Mondai%202.mp3
-2%20-%2010%20-%20Mondai%203.mp3
-3%20-%201%20-%20Kotoba.mp3
-3%20-%202%20-%20Bunkei.mp3
-3%20-%203%20-%20Reibun.mp3
-3%20-%204%20-%20Kaiwa.mp3
-3%20-%205%20-%20Renshuu%20C1.mp3
-3%20-%206%20-%20Renshuu%20C2.mp3
-3%20-%207%20-%20Renshuu%20C3.mp3
-3%20-%208%20-%20Mondai%201.mp3
-3%20-%209%20-%20Mondai%202.mp3
-4%20-%201%20-%20Kotoba.mp3
-4%20-%202%20-%20Bunkei.mp3
-4%20-%203%20-%20Reibun.mp3
-4%20-%204%20-%20Kaiwa.mp3
-4%20-%205%20-%20Renshuu%20C1.mp3
-4%20-%206%20-%20Renshuu%20C2.mp3
-4%20-%207%20-%20Renshuu%20C3.mp3
-4%20-%208%20-%20Mondai%201.mp3
-4%20-%209%20-%20Mondai%202.mp3
-4%20-%2010%20-%20Mondai%203.mp3
-4%20-%2011%20-%20Mondai%204.mp3
-5%20-%201%20-%20Kotoba.mp3
-5%20-%202%20-%20Bunkei.mp3
-5%20-%203%20-%20Reibun.mp3
-5%20-%204%20-%20Kaiwa.mp3
-5%20-%205%20-%20Renshuu%20C1.mp3
-5%20-%206%20-%20Renshuu%20C2.mp3
-5%20-%207%20-%20Renshuu%20C3.mp3
-5%20-%208%20-%20Mondai%201.mp3
-5%20-%209%20-%20Mondai%202.mp3
-5%20-%2010%20-%20Mondai%203.mp3
-6%20-%201%20-%20Kotoba.mp3
-6%20-%202%20-%20Bunkei.mp3
-6%20-%203%20-%20Reibun.mp3
-6%20-%204%20-%20Kaiwa.mp3
-6%20-%205%20-%20Renshuu%20C1.mp3
-6%20-%206%20-%20Renshuu%20C2.mp3
-6%20-%207%20-%20Renshuu%20C3.mp3
-6%20-%208%20-%20Mondai%201.mp3
-6%20-%209%20-%20Mondai%202.mp3
-7%20-%201%20-%20Kotoba.mp3
-7%20-%202%20-%20Bunkei.mp3
-7%20-%203%20-%20Reibun.mp3
-7%20-%204%20-%20Kaiwa.mp3
-7%20-%205%20-%20Renshuu%20C1.mp3
-7%20-%206%20-%20Renshuu%20C2.mp3
-7%20-%207%20-%20Renshuu%20C3.mp3
-7%20-%208%20-%20Mondai%201.mp3
-7%20-%209%20-%20Mondai%202.mp3
-7%20-%2010%20-%20Mondai%203.mp3
-8%20-%201%20-%20Kotoba.mp3
-8%20-%202%20-%20Bunkei.mp3
-8%20-%203%20-%20Reibun.mp3
-8%20-%204%20-%20Kaiwa.mp3
-8%20-%205%20-%20Renshuu%20C1.mp3
-8%20-%206%20-%20Renshuu%20C2.mp3
-8%20-%207%20-%20Renshuu%20C3.mp3
-8%20-%208%20-%20Mondai%201.mp3
-8%20-%209%20-%20Mondai%202.mp3
-8%20-%2010%20-%20Mondai%203.mp3
-9%20-%201%20-%20Kotoba.mp3
-9%20-%202%20-%20Bunkei.mp3
-9%20-%203%20-%20Reibun.mp3
-9%20-%204%20-%20Kaiwa.mp3
-9%20-%205%20-%20Renshuu%20C1.mp3
-9%20-%206%20-%20Renshuu%20C2.mp3
-9%20-%207%20-%20Renshuu%20C3.mp3
-9%20-%208%20-%20Mondai%201.mp3
-9%20-%209%20-%20Mondai%202.mp3
-10%20-%201%20-%20Kotoba.mp3
-10%20-%202%20-%20Bunkei.mp3
-10%20-%203%20-%20Reibun.mp3
-10%20-%204%20-%20Kaiwa.mp3
-10%20-%205%20-%20Renshuu%20C1.mp3
-10%20-%206%20-%20Renshuu%20C2.mp3
-10%20-%207%20-%20Renshuu%20C3.mp3
-10%20-%208%20-%20Mondai%201.mp3
-10%20-%209%20-%20Mondai%202.mp3
-10%20-%2010%20-%20Mondai%203.mp3
-11%20-%201%20-%20Kotoba.mp3
-11%20-%202-%20Bunkei.mp3
-11%20-%203%20-%20Reibun.mp3
-11%20-%204%20-%20Kaiwa.mp3
-11%20-%205%20-%20Renshuu%20C1.mp3
-11%20-%206%20-%20Renshuu%20C2.mp3
-11%20-%207%20-%20Renshuu%20C3.mp3
-11%20-%208%20-%20Mondai%201.mp3
-11%20-%209%20-%20Mondai%202.mp3
-11%20-%2010%20-%20Mondai%203.mp3
-12%20-%201%20-%20Kotoba.mp3
-12%20-%202%20-%20Bunkei.mp3
-12%20-%203%20-%20Reibun.mp3
-12%20-%204%20-%20Kaiwa.mp3
-12%20-%205%20-%20Renshuu%20C1.mp3
-12%20-%206%20-%20Renshuu%20C2.mp3
-12%20-%207%20-%20Renshuu%20C3.mp3
-12%20-%208%20-%20Mondai%201.mp3
-12%20-%209%20-%20Mondai%202.mp3
-13%20-%201%20-%20Kotoba.mp3
-13%20-%202%20-%20Bunkei.mp3
-13%20-%203%20-%20Reibun.mp3
-13%20-%204%20-%20Kaiwa.mp3
-13%20-%205%20-%20Renshuu%20C1.mp3
-13%20-%206%20-%20Renshuu%20C2.mp3
-13%20-%207%20-%20Renshuu%20C3.mp3
-13%20-%208%20-%20Mondai%201.mp3
-13%20-%209%20-%20Mondai%202.mp3
-14%20-%201%20-%20Kotoba.mp3
-14%20-%202%20-%20Bunkei.mp3
-14%20-%203%20-%20Reibun.mp3
-14%20-%204%20-%20Kaiwa.mp3
-14%20-%205%20-%20Renshuu%20C1.mp3
-14%20-%206%20-%20Renshuu%20C2.mp3
-14%20-%207%20-%20Renshuu%20C3.mp3
-14%20-%208%20-%20Mondai%201.mp3
-14%20-%209%20-%20Mondai%202.mp3
-14%20-%2010%20-%20Mondai%203.mp3
-15%20-%201%20-%20Kotoba.mp3
-15%20-%202%20-%20Bunkei.mp3
-15%20-%203%20-%20Reibun.mp3
-15%20-%204%20-%20Kaiwa.mp3
-15%20-%205%20-%20Renshuu%20C1.mp3
-15%20-%206%20-%20Renshuu%20C2.mp3
-15%20-%207%20-%20Renshuu%20C3.mp3
-15%20-%208%20-%20Mondai%201.mp3
-15%20-%209%20-%20Mondai%202.mp3
-Minna%20No%20Nihongo%20I%20-%20Honsatsu.pdf
-`;
 const dataLinks = `
 1 - 1 - Kotoba.mp3
 1 - 2 - Bunkei.mp3
@@ -296,7 +148,6 @@ const dataLinks = `
 15 - 7 - Renshuu C3.mp3
 15 - 8 - Mondai 1.mp3
 15 - 9 - Mondai 2.mp3
-Minna No Nihongo I - Honsatsu.pdf
 `;
 </script>
 <script src="dom.nts.js"></script>
@@ -305,18 +156,16 @@ var CURRENT_AUDIO = new Audio();
 CURRENT_AUDIO.setAttribute('controls', true);
 var AUDIO_CONFIG = {
   loop: false,
-  playbackRate: 1,
-};
-Object.defineProperty(AUDIO_CONFIG, 'loop', {
-  set: function(value) {
+  setLoop(value) {
     CURRENT_AUDIO && (CURRENT_AUDIO.loop = value);
-  }
-});
-Object.defineProperty(AUDIO_CONFIG, 'playbackRate', {
-  set: function(value) {
+    this.loop = value;
+  },
+  playbackRate: 1,
+  setPlaybackRate(value) {
     CURRENT_AUDIO && (CURRENT_AUDIO.playbackRate = value);
+    this.playbackRate = value;
   }
-});
+};
 </script>
 <script>
 function playAudio(url) {
@@ -324,6 +173,7 @@ function playAudio(url) {
   //Object.assign(CURRENT_AUDIO, AUDIO_CONFIG);
   CURRENT_AUDIO.src = url;
   CURRENT_AUDIO.play();
+  CURRENT_AUDIO.playbackRate = AUDIO_CONFIG.playbackRate;
 }
 function processAndPlayAudio(url, clickedElement) {
   for (const child of document.querySelector('#elmId_audioList').children) {
@@ -331,6 +181,14 @@ function processAndPlayAudio(url, clickedElement) {
   }
   clickedElement.style.backgroundColor = 'red';
   playAudio(url);
+}
+function onchangeAudioSpeedInput(value) {
+  console.log(value);
+  AUDIO_CONFIG.setPlaybackRate(0.7 + 0.3*(value/100));
+}
+function onclickBtnResetAudioSpeed() {
+  document.querySelector('#elmId_ctrlAudioSpeed').value = 100;
+  AUDIO_CONFIG.setPlaybackRate(1);
 }
 </script>
 <script>
@@ -345,7 +203,7 @@ window.onload = () => {
 
   const checkboxId = 'elmId_checkbox_IsPlayAudioLoop';
   const checkboxElement = createCheckBoxElement(checkboxId, isChecked => {
-    AUDIO_CONFIG.loop = isChecked;
+    AUDIO_CONFIG.setLoop(isChecked);
   }, AUDIO_CONFIG.loop);
   const labelElement = createLabelElement(checkboxId, 'Loop audio?');
   appendChildToById('#elmId_divCheckBoxContainer', checkboxElement, labelElement);
@@ -353,8 +211,15 @@ window.onload = () => {
 </script>
 </head>
 <body>
-<div id="elmId_divCheckBoxContainer"></div>
-<div id="elmId_audio" style="height: 100px;"></div>
-<div id="elmId_audioList" style="height: 200px; width: 400px; overflow-y: scroll"></div>
+<div>
+  <div id="elmId_divCheckBoxContainer" style="display: inline"></div>
+  <div id="elmId_divInputContainer" style="display: inline">
+    <label for="elmId_ctrlAudioSpeed">Speed</label>
+    <input id="elmId_ctrlAudioSpeed" type="range" value="100" onchange="onchangeAudioSpeedInput(this.value)">
+    <button onclick="onclickBtnResetAudioSpeed()">Reset speed</button>
+  </div>
+</div>
+<div id="elmId_audio" style="height: 50px"></div>
+<div id="elmId_audioList" style="height: calc(100vh - 100px); width: 200px; overflow-y: scroll"></div>
 </body>
 </html>
