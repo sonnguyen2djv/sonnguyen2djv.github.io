@@ -154,6 +154,7 @@ const dataLinks = `
 <script>
 var CURRENT_AUDIO = new Audio();
 CURRENT_AUDIO.setAttribute('controls', true);
+CURRENT_AUDIO.style.height = '30px';
 var AUDIO_CONFIG = {
   loop: false,
   setLoop(value) {
@@ -218,8 +219,9 @@ window.onload = () => {
     <input id="elmId_ctrlAudioSpeed" type="range" value="100" onchange="onchangeAudioSpeedInput(this.value)">
     <button onclick="onclickBtnResetAudioSpeed()">Reset speed</button>
   </div>
+  <div id="elmId_audio" style="display: inline"></div>
 </div>
-<div id="elmId_audio" style="height: 50px"></div>
+
 <!--
 <div id="elmId_audioList" style="height: calc(100vh - 100px); width: 200px; overflow-y: scroll"></div>
 -->
