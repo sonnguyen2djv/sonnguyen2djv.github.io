@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link type="text/css" rel="stylesheet" href="style.css"/>
+  <script src="lessons.data.nts.js"></script>
+  <script src="dom.nts.js"></script>
+  <script src="tts.service.nts.js"></script>
+  <script>
+    /**@param {{kanji,hiragana,nom,meaning}[]} oneLesson
+     * @return {any[][]}*/
+    function convertOneLessonToMatrix(oneLesson) {
+      const arrayOfArrays = [];
+      for (const {kanji,hiragana,nom,meaning} of oneLesson) {
+        arrayOfArrays.push([kanji,hiragana,nom,meaning]);
+      }
+      return arrayOfArrays;
+    }
+    function setTableRowOnclickCustom(tableElement) {
+      getTableElementRows(tableElement).forEach((row,rowIndex)=>{
+        row.onclick = ev => {
+          console.log(`row clicked! rowIndex=${rowIndex}, row data=${row[STRCON.dataBinding]}`);
+          getTableElementRows(tableElement).forEach(r => {
+            //r.style.backgroundColor = '#2d2d2d';
+            r.cells[0].style.borderLeftColor = '#8c8c8c';
+          });
+          //row.style.backgroundColor = '#2f2f2f';
+          row.cells[0].style.borderLeftColor = 'red';
+          textToSpeech(row[STRCON.dataBinding][0]);
+        };
+      });
+    }
+  </script>
+  <script>
+    window.onload = () => {
+      //Select.
+      const selectElement = createSelectElement(Object.keys(LESSONS), 'elmId_categorySelect',
+        newSelectedValue => {
+          console.log("selected:"+newSelectedValue);
+          const lessonMatrix = convertOneLessonToMatrix(LESSONS[newSelectedValue]);
+          updateTableElement(tableElement, lessonMatrix, setTableRowOnclickCustom);
+        });
+      appendChildToById('#elmId_divSelectContainer', selectElement);
+      //Table.
+      const tableElement = createTableElement(['kanji','hiragana','nom','meaning'], [], {
+        tableClassName: 'tg',
+        tableHeaderCellClassName: 'tg-0lax',
+        tableBodyCellClassName: 'tg-0lax',
+      }, setTableRowOnclickCustom);
+      appendChildToById('#elmId_divTableContainer', tableElement);
+    };
+  </script>
+</head>
+<body>
+<div id="elmId_mainDiv" style="margin-left: 600px">
+  <div id="elmId_divSelectContainer"></div>
+  <div id="elmId_divTableContainer" style="max-height: 800px; overflow-y: auto"></div>
+</div>
+</body>
+</html>
