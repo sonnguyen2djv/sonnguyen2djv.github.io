@@ -8,6 +8,15 @@ const STRCON = {
 }
 
 /**@param {string} id
+ * @return {string}*/
+const correctifyElementId = function(id) {
+  if (id.startsWith('#') && id.length > 1) {
+    id = id.slice(1);
+  }
+  return id;
+};
+
+/**@param {string} id
  * @return HTMLElement*/
 const getElementById = function(id) {
   if (!id) return null;
@@ -46,6 +55,16 @@ const appendChildToById = function(id, ...childElements) {
   } else {
     return false;
   }
+};
+
+/**@param {Element} element*/
+const removeElement = function(element) {
+  element.parentElement.removeChild(element);
+};
+const removeElementById = function(id) {
+  id = correctifyElementId(id);
+  const element = document.querySelector(id);
+  removeElement(element);
 };
 
 /**
@@ -279,9 +298,12 @@ function createLabelElement(forInputId, text) {
 
 // Export.
 module && (module.exports = {
+  correctifyElementId,
   getElementById,
   appendChildTo,
   appendChildToById,
+  removeElement,
+  removeElementById,
   createSelectElement,
   updateSelectElement,
   createTableElement,

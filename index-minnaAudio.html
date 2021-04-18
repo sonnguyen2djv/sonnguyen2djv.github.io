@@ -192,6 +192,11 @@ function onclickBtnResetAudioSpeed() {
   document.querySelector('#elmId_ctrlAudioSpeed').value = 100;
   AUDIO_CONFIG.setPlaybackRate(1);
 }
+function onclickLoadPdf() {
+  //removeElement(document.querySelector('#elmId_btnShowPdf'));
+  document.querySelector('#elmId_divPdfContainer').innerHTML
+    = `<embed src="./pdf/MinnaNoNihongoI_Honsatsu.pdf" width="1000" height="500">`;
+}
 </script>
 <script>
 window.onload = () => {
@@ -229,7 +234,11 @@ window.onload = () => {
 
 <div>
   <div id="elmId_audioList" style="height: calc(100vh - 100px); width: 200px; overflow-y: scroll; display: inline-block"></div>
-  <div style="display: inline-block"><embed src="./pdf/MinnaNoNihongoI_Honsatsu.pdf" width="1000" height="500"></div>
+  <div id="elmId_divPdfContainer" style="display: inline-block">
+    <button id="elmId_btnShowPdf" onclick="onclickLoadPdf();" style="width: 200px; height: 100px;">
+      Load PDF
+    </button>
+  </div>
 </div>
 
 </body>
