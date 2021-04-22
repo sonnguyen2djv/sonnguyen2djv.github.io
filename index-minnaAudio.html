@@ -193,9 +193,11 @@ function onclickBtnResetAudioSpeed() {
   AUDIO_CONFIG.setPlaybackRate(1);
 }
 function onclickLoadPdf() {
-  //removeElement(document.querySelector('#elmId_btnShowPdf'));
+  const defaultPdfUrl = './pdf/MinnaNoNihongoI_Honsatsu.pdf';
+  const customPdfUrl = document.querySelector('#elmId_inputPdfFileUrl').value;
+  const finalUrl = customPdfUrl ? customPdfUrl : defaultPdfUrl;
   document.querySelector('#elmId_divPdfContainer').innerHTML
-    = `<embed src="./pdf/MinnaNoNihongoI_Honsatsu.pdf" width="1000" height="500">`;
+    = `<embed src="${finalUrl}" width="1000" height="500">`;
 }
 </script>
 <script>
@@ -214,6 +216,12 @@ window.onload = () => {
   }, AUDIO_CONFIG.loop);
   const labelElement = createLabelElement(checkboxId, 'Loop audio?');
   appendChildToById('#elmId_divCheckBoxContainer', checkboxElement, labelElement);
+
+  document.querySelector('#elmId_inputPdfFileUpload').onchange = (event) => {
+    const file = event.target.files[0];
+    const url = URL.createObjectURL(file);
+    document.querySelector('#elmId_inputPdfFileUrl').value = url;
+  };
 };
 </script>
 </head>
@@ -234,11 +242,12 @@ window.onload = () => {
 
 <div>
   <div id="elmId_audioList" style="height: calc(100vh - 100px); width: 200px; overflow-y: scroll; display: inline-block"></div>
-  <div id="elmId_divPdfContainer" style="display: inline-block">
-    <button id="elmId_btnShowPdf" onclick="onclickLoadPdf();" style="width: 200px; height: 100px;">
-      Load PDF
-    </button>
-  </div>
+  <div id="elmId_divPdfContainer" style="display: inline-block"></div>
+</div>
+<div>
+  <button id="elmId_btnShowPdf" onclick="onclickLoadPdf();">Load PDF</button>
+  <input id="elmId_inputPdfFileUrl" type="text">
+  <input id="elmId_inputPdfFileUpload" type="file">
 </div>
 
 </body>
