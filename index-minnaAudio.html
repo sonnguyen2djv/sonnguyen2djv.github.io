@@ -222,6 +222,35 @@ window.onload = () => {
     const url = URL.createObjectURL(file);
     document.querySelector('#elmId_inputPdfFileUrl').value = url;
   };
+
+  document.onkeydown = keyboardEvent => {
+    console.log(keyboardEvent);
+    const isUseKeyboardForControllingAudio = document.querySelector('#elmId_checkboxUseArrowKeyForAudio').checked;
+    if (!isUseKeyboardForControllingAudio) {
+      return;
+    }
+    const sec = parseInt(document.querySelector('#elmId_inputAudioChangeSec').value);
+    if (sec <= 0) {
+      return;
+    }
+    switch(keyboardEvent.keyCode) {
+      case 37: {
+        CURRENT_AUDIO.currentTime -= sec;
+      } break;
+      case 39: {
+        CURRENT_AUDIO.currentTime += sec;
+      } break;
+      case 32: {
+        keyboardEvent.preventDefault();
+        if (CURRENT_AUDIO.paused) {
+          CURRENT_AUDIO.play();
+        } else {
+          CURRENT_AUDIO.pause();
+        }
+      }
+    }
+  };
+
 };
 </script>
 </head>
@@ -232,6 +261,10 @@ window.onload = () => {
     <label for="elmId_ctrlAudioSpeed">Speed</label>
     <input id="elmId_ctrlAudioSpeed" type="range" value="100" onchange="onchangeAudioSpeedInput(this.value)">
     <button onclick="onclickBtnResetAudioSpeed()">Reset speed</button>
+    <label for="elmId_checkboxUseArrowKeyForAudio">UseArrows</label>
+    <input id="elmId_checkboxUseArrowKeyForAudio" type="checkbox" checked>
+    <input id="elmId_inputAudioChangeSec" type="number" style="width: 40px;" value="3">
+    <label for="elmId_inputAudioChangeSec">Secs</label>
   </div>
   <div id="elmId_audio" style="display: inline"></div>
 </div>
