@@ -63,6 +63,7 @@ function createCharAnchorElement(char, onclick) {
   htmlAnchorElement.innerText = char;
   htmlAnchorElement.href = "javascript:void(0);";
   htmlAnchorElement.onclick = onclick;
+  htmlAnchorElement.style.fontSize = '24px';
   return htmlAnchorElement;
 }
 function createSimpleHtmlStr(content) {
