@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <script>
+function inputElm() {
+  return document.querySelector('#elmId_kanjiInput');
+}
+function iframeElm() {
+  return document.querySelector('#elmId_iframeHvdic');
+}
+function searchByInput() {
+  const inputText = inputElm().value.replaceAll(/ /g, '');
+  const inputTextSplitArray = inputText.split('');
+  const elmCharList = document.querySelector('#elmId_charList');
+  elmCharList.innerHTML = '';
+  for (const char of inputTextSplitArray) {
+    const anchorElement = createCharAnchorElement(char, clickEvent => {
+      fetchHtmlThenUpdateIframe(char);
+    });
+    elmCharList.appendChild(anchorElement);
+  }
+}
+function fetchHtmlThenUpdateIframe(char) {
+  fetch(`/cache_hvdic/${char}`).then(async response => {
+    if (response.ok) {
+      const html = await response.text();
+      console.log('html=<below>');
+      console.log(html);
+      const iframeElement = iframeElm();
+      setIframeContent(iframeElement, html);
+    } else {
+      const iframeElement = iframeElm();
+      setIframeContent(iframeElement, createSimpleHtmlStr(`ERROR: ${response.status} (${response.statusText})`));
+    }
+  }).catch(async networkError => {
+    alert(networkError);
+  });
+}
+function setIframeContent(iframeElement, contentHtmlStr) {
+  const iframeHtmlElm = iframeElement.contentWindow.document.querySelector('html');
+  iframeHtmlElm.innerHTML = contentHtmlStr;
+  setTimeout(() => {
+    try {
+      const list_adsbygoogle = iframeHtmlElm.querySelectorAll('.adsbygoogle');
+      for (const ad of list_adsbygoogle) {
+        ad.style.display = 'none';
+        console.log('Hide another ad!');
+      }
+      const list_anim = iframeHtmlElm.querySelectorAll('.hanzi-writer');
+      for (const anim of list_anim) {
+        anim.style.display = 'none';
+        console.log('Hide another anim!');
+      }
+      iframeHtmlElm.querySelector('#header-content').style.display = 'none';
+      iframeHtmlElm.querySelector('#LookupForm').style.display = 'none';
+    } catch (ignored) {}
+  }, 100);
+}
+function createCharAnchorElement(char, onclick) {
+  const htmlAnchorElement = document.createElement('a');
+  htmlAnchorElement.innerText = char;
+  htmlAnchorElement.href = "javascript:void(0);";
+  htmlAnchorElement.onclick = onclick;
+  return htmlAnchorElement;
+}
+function createSimpleHtmlStr(content) {
+  return `
+    <html lang="vi">
+    <head>
+      <title>Error</title>
+    </head>
+    <body>
+      <div>${content}</div>
+    </body>
+    </html>
+  `;
+}
+  </script>
+</head>
+<body>
+<div>
+  <label for="elmId_kanjiInput">Insert Kanji here:</label>
+  <input id="elmId_kanjiInput"/>
+  <button onclick="searchByInput();">Find</button>
+</div>
+<div id="elmId_charList"></div>
+<div>
+  <iframe id="elmId_iframeHvdic" sandbox="allow-same-origin" width="1800" height="800"></iframe>
+</div>
+</body>
+</html>
