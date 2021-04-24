@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <script src="kanji_dict_simple.js"></script>
+  <script src="common_func.js"></script>
+  <script>
+function inputElm() {
+  return document.querySelector('#elmId_kanjiInput');
+}
+function myTemplate1(entry) {
+  return `<div>
+  <div>Âm Việt: <span>${entry.viet}</span></div>
+  <div>Hiragana: <span>${entry.hira}</span></div>
+  <div>Giải nghĩa: <span>${entry.mean}</span></div>
+</div>`;
+}
+function myTemplate2(text,list) {
+  return `<div>
+<div>${myTemplate2A(text)}</div>
+<div>---</div>
+<div>${myTemplate2B(list)}</div>
+</div>`
+}
+function myTemplate2A(text) {
+  return `<span>${text}</span>`;
+}
+function myTemplate2B(list) {
+  let html = '';
+  for (const item of list) {
+    html += `<div><span>${item.kanji}</span>=><span>${item.vietFull}</span>&nbsp(<span>${item.mean}<span>)</div>`
+  }
+  return html;
+}
+function appendWithSpace(originalStr, appendingStr) {
+  if (originalStr.length > 0) {
+    return originalStr + ' ' + appendingStr;
+  } else {
+    return '' + appendingStr;
+  }
+}
+function searchByInput() {
+  const inputText = inputElm().value.replaceAll(/ /g, '');
+  saveSearchToLocalstorage(inputText);
+  createDatalistShowingSavedSearches();
+  if (inputText.length === 1) {
+    const entry = lookupKanjiSingle(inputText);
+    document.querySelector('#elmId_lookupResult').innerHTML = myTemplate1(entry);
+  } else if (inputText.length > 1) {
+    const characterList = inputText.split('');
+    const listKanjiViet = [];
+    let vietStrBuilder = '';
+    for (const kanjiChar of characterList) {
+      const entry = lookupKanjiSingle(kanjiChar);
+      const viet = firstVietWord(entry && entry.viet || kanjiChar);
+      const vietFull = entry && entry.viet || '?'
+      const meaning = entry && entry.mean || '?';
+      listKanjiViet.push({kanji: kanjiChar, viet: viet, vietFull: vietFull, mean: meaning})
+      vietStrBuilder = appendWithSpace(vietStrBuilder, viet);
+    }
+    document.querySelector('#elmId_lookupResult').innerHTML = myTemplate2(vietStrBuilder, listKanjiViet);
+  }
+}
+function resetSavedSearchIntoLocalstorage() {
+  localStorage.setItem("saved_searches", JSON.stringify([]));
+}
+function saveSearchToLocalstorage(inputText) {
+  if (inputText) {
+    const ls_savedSearches = localStorage.getItem("saved_searches");
+    if (ls_savedSearches) {
+      try {
+        const savedSearches = JSON.parse(ls_savedSearches);
+        if (savedSearches.indexOf(inputText) < 0) {
+          savedSearches.push(inputText);
+          localStorage.setItem("saved_searches", JSON.stringify(savedSearches));
+        }
+      } catch (e) {
+        console.error(e);
+      }
+    } else {
+      resetSavedSearchIntoLocalstorage();
+    }
+  }
+}
+function retrieveSavedSearchFromLocalstorage() {
+  const ls_savedSearches = localStorage.getItem("saved_searches");
+  if (ls_savedSearches) {
+    try {
+      const savedSearches = JSON.parse(ls_savedSearches);
+      if (Array.isArray(savedSearches)) {
+        return savedSearches;
+      } else {
+        console.error("Malformed savedSearches in localStorage!");
+      }
+    } catch (e) {
+      console.error(e);
+    }
+  } else {
+    resetSavedSearchIntoLocalstorage();
+  }
+  return [];
+}
+function createDatalistShowingSavedSearches() {
+  const savedSearches = retrieveSavedSearchFromLocalstorage();
+  let datalistStr = '';
+  for (let i = savedSearches.length - 1; i >= 0; i--) {
+    datalistStr += `<option value="${savedSearches[i]}">`;
+  }
+  document.querySelector('#elmId_kanjiDataList').innerHTML = datalistStr;
+}
+function addListenerOnPressEnterInput() {
+  const input = inputElm();
+  input.addEventListener("keyup", function(event) {
+    if (event.keyCode === 13) {
+      searchByInput();
+    }
+  });
+}
+function focusOnInputElm() {
+  inputElm().focus();
+}
+window.onload = function() {
+  createDatalistShowingSavedSearches();
+  addListenerOnPressEnterInput();
+  focusOnInputElm();
+};
+  </script>
+</head>
+<body>
+<div style="margin-left: 500px; font-size: 20px">
+  <div>
+    <label for="elmId_kanjiInput">Insert Kanji here:</label>
+    <input id="elmId_kanjiInput" list="elmId_kanjiDataList"/>
+    <datalist id="elmId_kanjiDataList">
+      <!--<option value="Chocolate">
+      <option value="Coconut">
+      <option value="Mint">
+      <option value="Strawberry">
+      <option value="Vanilla">-->
+    </datalist>
+    <button onclick="searchByInput()">Find</button>
+  </div>
+  <div id="elmId_lookupResult"></div>
+</div>
+</body>
+</html>

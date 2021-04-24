@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-0lax{text-align:left;vertical-align:top;line-height:10px;}
+  </style>
+  <script src="kanji_dict_simple.js"></script>
+  <script src="kanji_categories_simple.js"></script>
+  <script src="common_func.js"></script>
+  <script>
+let selectedCategoryData = null; //global.
+function categorySelectElm() {
+  return document.querySelector('#elmId_categorySelect');
+}
+function tableBodyElm() {
+  return document.querySelector('#elmId_tableBody');
+}
+function mainDivElm() {
+  return document.querySelector('#elmId_mainDiv');
+}
+function readDataNouns() {
+  const categoryNameList = DATA_TOTAL_V1.map(it=>it.title);
+  let strBuilder = '';
+  categoryNameList.forEach((categoryName,index)=>{
+    strBuilder += `<option value="${index}">${categoryName}</option>`;
+  });
+  const elm_categorySelect = categorySelectElm();
+  elm_categorySelect.innerHTML = strBuilder;
+}
+function addListenerOnCategorySelect() {
+  const elm_categorySelect = categorySelectElm();
+  elm_categorySelect.onchange = function() {
+    console.log("select change!");
+    selectedCategoryData = DATA_TOTAL_V1[elm_categorySelect.value];
+    console.log(selectedCategoryData);
+    printCategoryWordsIntoTable(selectedCategoryData.data);
+  };
+}
+function printCategoryWordsIntoTable(categoryDataList) {
+  let stringBuilder = '';
+  for (const wordInfo of categoryDataList) {
+    try {
+      const vietList = [];
+      const romajiList = [];
+      const kanjisRaw = wordInfo.kanji;
+      if (kanjisRaw) {
+        const kanjiList = kanjisRaw.split('');
+        for (const kanjiChar of kanjiList) {
+          const entry = lookupKanjiSingle(kanjiChar);
+          if (entry) {
+            vietList.push(firstVietWord(entry.viet));
+            romajiList.push(entry.hira);
+          } else {
+            vietList.push(kanjiChar);
+            romajiList.push(kanjiChar);
+          }
+        }
+      }
+      let romajiKan = '';
+      try {
+        romajiKan = romajiList.map(it=>it.replaceAll(', ','|')).join(' ');
+      } catch(e) {}
+      stringBuilder += `<tr>
+        <td class="tg-0lax">${wordInfo.kanji}</td>
+        <td class="tg-0lax">${wordInfo.hira}</td>
+        <td class="tg-0lax">${vietList.join(' ')}</td>
+        <td class="tg-0lax">${wordInfo.romaji}</td>
+        <td class="tg-0lax">${romajiKan}</td>
+        <td class="tg-0lax">${wordInfo.meanEn}</td>
+      </tr>`;
+    } catch (e) {
+      console.error(e);
+    }
+  }
+  tableBodyElm().innerHTML = stringBuilder;
+}
+function testLookup(i) {
+  const characterList = selectedCategoryData.data[i].kanji.split('');
+  for (const kanjiChar of characterList) {
+    const entry = lookupKanjiSingle(kanjiChar);
+    const viet = firstVietWord(entry && entry.viet || kanjiChar);
+    const vietFull = entry && entry.viet || '?';
+    const meaning = entry && entry.mean || '?';
+    console.log({kanji: kanjiChar, viet: viet, vietFull: vietFull, mean: meaning});
+  }
+}
+function reCenterMainDiv() {
+  const fun = function() {
+    const screenWidth = window.screen.width;
+    mainDivElm().style.marginLeft = screenWidth/4.5 + 'px';
+  };
+  setTimeout(()=>{fun();}, 200);
+}
+window.onload = function() {
+    readDataNouns();
+    addListenerOnCategorySelect();
+    reCenterMainDiv();
+};
+  </script>
+</head>
+<body>
+<div id="elmId_mainDiv" style="margin-left: 600px">
+  <div>
+    <label for="elmId_categorySelect">Select category:</label>
+    <select name="cars" id="elmId_categorySelect"></select>
+  </div>
+  <div style="max-height: 800px; overflow-y: auto">
+    <table class="tg">
+    <thead>
+      <tr>
+        <th class="tg-0lax">Kanji</th>
+        <th class="tg-0lax">Hira</th>
+        <th class="tg-0lax">Viet</th>
+        <th class="tg-0lax">Romaji</th>
+        <th class="tg-0lax">RomajiKan</th>
+        <th class="tg-0lax">English meaning</th>
+      </tr>
+    </thead>
+    <tbody id="elmId_tableBody"></tbody>
+    </table>
+  </div>
+</div>
+</body>
+</html>
