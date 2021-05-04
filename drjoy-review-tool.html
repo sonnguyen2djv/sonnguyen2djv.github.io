@@ -144,18 +144,35 @@ function trim(str) {
   }
 }
 
+function throwErrorAndLog(message) {
+  console.error(message);
+  throw new Error(message);
+}
+
 /**@param {DriveFileInfo} mainFolder*/
 async function readMainFolder(mainFolder) {
   const mainFolderId = mainFolder.id;
   const inputFolder = (await findFiles(`"${mainFolderId}" in parents and name = "${INPUT_FOLDER_NAME}"`))[0];
+  if (!inputFolder) {
+    throwErrorAndLog('inputFolder not found!');
+  }
   const outputFolderFound = (await findFiles(`"${mainFolderId}" in parents and name = "${OUTPUT_FOLDER_NAME}"`))[0];
 
   const filePersonelResponse
     = (await findFiles(`"${inputFolder.id}" in parents and name = "${FILENAME_PERSONEL_RESPONSE}"`))[0];
+  if (!inputFolder) {
+    throwErrorAndLog('filePersonelResponse not found!');
+  }
   const fileReviewReportTemplate
     = (await findFiles(`"${inputFolder.id}" in parents and name = "${FILENAME_REVIEWREPORT_TEMPLATE}"`))[0];
+  if (!inputFolder) {
+    throwErrorAndLog('fileReviewReportTemplate not found!');
+  }
   const fileCompanyMember
     = (await findFiles(`"${inputFolder.id}" in parents and name = "${FILENAME_COMPANY_MEMBERS}"`))[0];
+  if (!inputFolder) {
+    throwErrorAndLog('fileCompanyMember not found!');
+  }
 
   // Reset output folder.
   if (outputFolderFound) {
@@ -212,21 +229,6 @@ async function readMainFolder(mainFolder) {
 
 function writeToSpreadSheet(fileId, personelResponse) {
   return new Promise((resolve, reject) => {
-    /*gapi.client.sheets.spreadsheets.values.update({
-      spreadsheetId: fileId,
-      range: range,
-      valueInputOption: valueInputOption,
-      resource: {
-        values: [
-          [''],
-          [''],
-          [''],
-        ]
-      }
-    }).then((response) => {
-      var result = response.result;
-      console.log(`${result.updatedCells} cells updated.`);
-    });*/
     const data = [
       {
         range: 'B11:B13',
@@ -340,11 +342,10 @@ function findFiles(query) {
 function pickerCallback(data) {
   if (data.action === google.picker.Action.PICKED) {
     const selectedFileOrFolder = data.docs[0];
-    if (selectedFileOrFolder.name !== MAIN_FOLDER_NAME) {
-      alert(`You must select folder ${MAIN_FOLDER_NAME}! (wrong selected folder: ${selectedFileOrFolder.name})`);
-    } else {
-      alert(`Ok! (folder ${MAIN_FOLDER_NAME} selected)`);
+    try {
       readMainFolder(selectedFileOrFolder);
+    } catch (e) {
+      alert("Invalid folder structure!");
     }
   }
 }
@@ -356,6 +357,10 @@ function test() {
   }, initResponse => {
     const oauthToken = initResponse.authInstance.currentUser.get().getAuthResponse(true).access_token;
     gapi.load('picker', {callback: () => {
+      const viewTest = new google.picker.DocsView(google.picker.ViewId.DOCS);
+      viewTest.setIncludeFolders(true);
+      viewTest.setSelectFolderEnabled(true);
+
       // const view = new google.picker.View(google.picker.ViewId.DOCS);
       const view = new google.picker.DocsView(google.picker.ViewId.DOCS);
       view.setIncludeFolders(true);
@@ -363,12 +368,22 @@ function test() {
       view.setParent('root');
       //view.setMimeTypes("image/png,image/jpeg,image/jpg");
 
+      const viewShared = new google.picker.DocsView(google.picker.ViewId.DOCS);
+      viewShared.setIncludeFolders(true);
+      viewShared.setSelectFolderEnabled(true);
+      viewShared.setOwnedByMe(false);
+      viewShared.setEnableDrives(true);
+
       const picker = new google.picker.PickerBuilder()
         //.enableFeature(google.picker.Feature.NAV_HIDDEN)
-        .enableFeature(google.picker.Feature.MULTISELECT_ENABLED)
+        //.enableFeature(google.picker.Feature.MULTISELECT_ENABLED)
+        .enableFeature(google.picker.Feature.SUPPORT_DRIVES)
+        .enableFeature(google.picker.Feature.SUPPORT_TEAM_DRIVES)
         .setAppId(appId)
         .setOAuthToken(oauthToken)
+        .addView(viewTest)
         .addView(view)
+        .addView(viewShared)
         .addView(new google.picker.DocsUploadView())
         //.setDeveloperKey(developerKey)
         .setCallback(pickerCallback)
@@ -382,7 +397,7 @@ function test() {
 </head>
 <body>
   <div>
-    <button onclick="test();">Select Folder</button>
+    <button id="elmId_mainBtn" onclick="test();">Select Folder</button>
   </div>
   <div id="result"></div>
 </body>
