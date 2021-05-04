@@ -230,6 +230,21 @@ async function readMainFolder(mainFolder) {
   const noop = 0;
 }
 
+function sumScorePersonelResponse(personelResponse) {
+  try {
+    const totalScore =
+      parseInt(personelResponse.productivity.score) +
+      parseInt(personelResponse.quality.score) +
+      parseInt(personelResponse.deadline.score) +
+      parseInt(personelResponse.kaizen.score) +
+      parseInt(personelResponse.teamwork.score) +
+      parseInt(personelResponse.rule.score);
+    return totalScore;
+  } catch (e) {
+    return 0;
+  }
+}
+
 function writeToSpreadSheet(fileId, personelResponse) {
   return new Promise((resolve, reject) => {
     const data = [
@@ -263,6 +278,12 @@ function writeToSpreadSheet(fileId, personelResponse) {
           [personelResponse.kaizen.text],
           [personelResponse.teamwork.text],
           [personelResponse.rule.text],
+        ]
+      },
+      {
+        range: 'B18:B18',
+        values: [
+          [sumScorePersonelResponse(personelResponse)],
         ]
       },
     ];
