@@ -174,11 +174,14 @@ async function readMainFolder(mainFolder) {
     throwErrorAndLog('fileCompanyMember not found!');
   }
 
+  /*
   // Reset output folder.
   if (outputFolderFound) {
     await deleteFileOrFolder(outputFolderFound.id);
   }
   const outputFolder = await createFolder(OUTPUT_FOLDER_NAME, mainFolderId);
+  */
+  const outputFolder = await createFolder(OUTPUT_FOLDER_NAME+(new Date().getTime()), mainFolderId);
 
   const staffList = await readSSFile_COMPANY_MEMBERS(fileCompanyMember);
   console.log(staffList);
