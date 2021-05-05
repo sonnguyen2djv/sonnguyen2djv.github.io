@@ -59,41 +59,49 @@ function readSSFile_PERSONEL_RESPONSE(filePersonelResponse) {
               spreadsheetId: filePersonelResponse.id,
               range: `${gradeCode}!A2:O200`,
             }).then(response => {
-              const personelResponseList = [];
-              const rows = response.result.values;
-              for (const row of rows) {
-                const personelResponse = {};
-                personelResponse.timeStamp = trim(row[0]);
-                personelResponse.email = trim(row[1]);
-                personelResponse.productivity = {
-                  text: trim(row[4]),
-                  score: trim(row[3]),
-                };
-                personelResponse.quality = {
-                  text: trim(row[6]),
-                  score: trim(row[5]),
-                };
-                personelResponse.deadline = {
-                  text: trim(row[8]),
-                  score: trim(row[7]),
-                };
-                personelResponse.kaizen = {
-                  text: trim(row[10]),
-                  score: trim(row[9]),
-                };
-                personelResponse.teamwork = {
-                  text: trim(row[12]),
-                  score: trim(row[11]),
-                };
-                personelResponse.rule = {
-                  text: trim(row[14]),
-                  score: trim(row[13]),
-                };
-                if (personelResponse.email) {
-                  personelResponseList.push(personelResponse);
+              try {
+                const personelResponseList = [];
+                const rows = response.result.values;
+                if (!rows) {
+                  const noooop = 0;
                 }
+                for (const row of rows) {
+                  const personelResponse = {};
+                  personelResponse.timeStamp = trim(row[0]);
+                  personelResponse.email = trim(row[1]);
+                  personelResponse.productivity = {
+                    text: trim(row[4]),
+                    score: trim(row[3]),
+                  };
+                  personelResponse.quality = {
+                    text: trim(row[6]),
+                    score: trim(row[5]),
+                  };
+                  personelResponse.deadline = {
+                    text: trim(row[8]),
+                    score: trim(row[7]),
+                  };
+                  personelResponse.kaizen = {
+                    text: trim(row[10]),
+                    score: trim(row[9]),
+                  };
+                  personelResponse.teamwork = {
+                    text: trim(row[12]),
+                    score: trim(row[11]),
+                  };
+                  personelResponse.rule = {
+                    text: trim(row[14]),
+                    score: trim(row[13]),
+                  };
+                  if (personelResponse.email) {
+                    personelResponseList.push(personelResponse);
+                  }
+                }
+                resolve(personelResponseList);
+              } catch (e) {
+                console.error(e);
+                resolve([]); //TODO.
               }
-              resolve(personelResponseList);
             }, errorResponse => {
               reject(errorResponse);
             });
@@ -115,22 +123,30 @@ function readSSFile_COMPANY_MEMBERS(fileCompanyMember) {
       spreadsheetId: fileCompanyMember.id,
       range: 'Sheet1!A2:G200',
     }).then(response => {
-      const staffList = [];
-      const rows = response.result.values;
-      for (const row of rows) {
-        const rowId = trim(row[0]);
-        const staff = {};
-        staff.name = trim(row[1]);
-        staff.position = trim(row[2]);
-        staff.grade = trim(row[3]);
-        staff.startDate = trim(row[4]);
-        staff.email = trim(row[5]);
-        staff.team = trim(row[6]);
-        if (staff.name) {
-          staffList.push(staff);
+      try {
+        const staffList = [];
+        const rows = response.result.values;
+        if (!rows) {
+          const nooop = 0;
         }
+        for (const row of rows) {
+          const rowId = trim(row[0]);
+          const staff = {};
+          staff.name = trim(row[1]);
+          staff.position = trim(row[2]);
+          staff.grade = trim(row[3]);
+          staff.startDate = trim(row[4]);
+          staff.email = trim(row[5]);
+          staff.team = trim(row[6]);
+          if (staff.name) {
+            staffList.push(staff);
+          }
+        }
+        resolve(staffList);
+      } catch (e) {
+        console.error(e);
+        resolve([]); //TODO.
       }
-      resolve(staffList);
     }, errorResponse => {
       reject(new Error(errorResponse.result.error.message));
     });
