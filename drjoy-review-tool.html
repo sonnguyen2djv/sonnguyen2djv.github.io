@@ -63,7 +63,7 @@ function readSSFile_PERSONEL_RESPONSE(filePersonelResponse) {
                 const personelResponseList = [];
                 const rows = response.result.values;
                 if (!rows) {
-                  const noooop = 0;
+                  throw new Error(`Sheet ${gradeCode} of file "Response list" maybe empty!`);
                 }
                 for (const row of rows) {
                   const personelResponse = {};
@@ -99,7 +99,6 @@ function readSSFile_PERSONEL_RESPONSE(filePersonelResponse) {
                 }
                 resolve(personelResponseList);
               } catch (e) {
-                console.error(`Error at sheet ${gradeCode}`);
                 console.error(e);
                 resolve([]); //TODO.
               }
@@ -128,7 +127,7 @@ function readSSFile_COMPANY_MEMBERS(fileCompanyMember) {
         const staffList = [];
         const rows = response.result.values;
         if (!rows) {
-          const nooop = 0;
+          throw new Error('Sheet1 of file "List member" maybe empty!');
         }
         for (const row of rows) {
           const rowId = trim(row[0]);
@@ -202,7 +201,7 @@ async function readMainFolder(mainFolder) {
   console.log('Done creating OUTPUT folder');
 
   const staffList = await readSSFile_COMPANY_MEMBERS(fileCompanyMember);
-  console.log('Done reading file List member...');
+  console.log('Done reading file List member... staffList=(below)');
   console.log(staffList);
   const teams = {};
   for (const staff of staffList) {
@@ -221,7 +220,7 @@ async function readMainFolder(mainFolder) {
   console.log('Done creating folder for each team...');
 
   const totalPersonelResponse = await readSSFile_PERSONEL_RESPONSE(filePersonelResponse);
-  console.log('Done reading file Response list...');
+  console.log('Done reading file Response list... totalPersonelResponse=(below)');
   console.log(totalPersonelResponse);
 
   for (const teamCodeName in teams) {
