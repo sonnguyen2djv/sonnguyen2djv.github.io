@@ -99,6 +99,7 @@ function readSSFile_PERSONEL_RESPONSE(filePersonelResponse) {
                 }
                 resolve(personelResponseList);
               } catch (e) {
+                console.error(`Error at sheet ${gradeCode}`);
                 console.error(e);
                 resolve([]); //TODO.
               }
@@ -198,8 +199,10 @@ async function readMainFolder(mainFolder) {
   const outputFolder = await createFolder(OUTPUT_FOLDER_NAME, mainFolderId);
   */
   const outputFolder = await createFolder(OUTPUT_FOLDER_NAME+(new Date().getTime()), mainFolderId);
+  console.log('Done creating OUTPUT folder');
 
   const staffList = await readSSFile_COMPANY_MEMBERS(fileCompanyMember);
+  console.log('Done reading file List member...');
   console.log(staffList);
   const teams = {};
   for (const staff of staffList) {
@@ -215,8 +218,10 @@ async function readMainFolder(mainFolder) {
       teams[teamCodeName].folder = await createFolder(teamCodeName, outputFolder.id);
     }
   }
+  console.log('Done creating folder for each team...');
 
   const totalPersonelResponse = await readSSFile_PERSONEL_RESPONSE(filePersonelResponse);
+  console.log('Done reading file Response list...');
   console.log(totalPersonelResponse);
 
   for (const teamCodeName in teams) {
@@ -242,6 +247,8 @@ async function readMainFolder(mainFolder) {
       }
     }
   }
+
+  console.log('ALL DONE !');
 
   const noop = 0;
 }
