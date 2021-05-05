@@ -70,28 +70,28 @@ function readSSFile_PERSONEL_RESPONSE(filePersonelResponse) {
                   personelResponse.timeStamp = trim(row[0]);
                   personelResponse.email = trim(row[1]);
                   personelResponse.productivity = {
-                    text: trim(row[4]),
-                    score: trim(row[3]),
+                    text: trim(row[3]),
+                    score: trim(row[2]),
                   };
                   personelResponse.quality = {
-                    text: trim(row[6]),
-                    score: trim(row[5]),
+                    text: trim(row[5]),
+                    score: trim(row[4]),
                   };
                   personelResponse.deadline = {
-                    text: trim(row[8]),
-                    score: trim(row[7]),
+                    text: trim(row[7]),
+                    score: trim(row[6]),
                   };
                   personelResponse.kaizen = {
-                    text: trim(row[10]),
-                    score: trim(row[9]),
+                    text: trim(row[9]),
+                    score: trim(row[8]),
                   };
                   personelResponse.teamwork = {
-                    text: trim(row[12]),
-                    score: trim(row[11]),
+                    text: trim(row[11]),
+                    score: trim(row[10]),
                   };
                   personelResponse.rule = {
-                    text: trim(row[14]),
-                    score: trim(row[13]),
+                    text: trim(row[13]),
+                    score: trim(row[12]),
                   };
                   if (personelResponse.email) {
                     personelResponseList.push(personelResponse);
