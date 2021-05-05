@@ -160,17 +160,17 @@ async function readMainFolder(mainFolder) {
 
   const filePersonelResponse
     = (await findFiles(`"${inputFolder.id}" in parents and name = "${FILENAME_PERSONEL_RESPONSE}"`))[0];
-  if (!inputFolder) {
+  if (!filePersonelResponse) {
     throwErrorAndLog('filePersonelResponse not found!');
   }
   const fileReviewReportTemplate
     = (await findFiles(`"${inputFolder.id}" in parents and name = "${FILENAME_REVIEWREPORT_TEMPLATE}"`))[0];
-  if (!inputFolder) {
+  if (!fileReviewReportTemplate) {
     throwErrorAndLog('fileReviewReportTemplate not found!');
   }
   const fileCompanyMember
     = (await findFiles(`"${inputFolder.id}" in parents and name = "${FILENAME_COMPANY_MEMBERS}"`))[0];
-  if (!inputFolder) {
+  if (!fileCompanyMember) {
     throwErrorAndLog('fileCompanyMember not found!');
   }
 
