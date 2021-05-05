@@ -167,6 +167,7 @@ function throwErrorAndLog(message) {
 
 /**@param {DriveFileInfo} mainFolder*/
 async function readMainFolder(mainFolder) {
+  console.log('Reading input folder...');
   const mainFolderId = mainFolder.id;
   const inputFolder = (await findFiles(`"${mainFolderId}" in parents and name = "${INPUT_FOLDER_NAME}"`))[0];
   if (!inputFolder) {
@@ -231,6 +232,8 @@ async function readMainFolder(mainFolder) {
       if (!teamFolder || !teamStaffList) {
         console.warn(`Invalid team ${team}`);
       }
+      let countDoneStaff = 0;
+      const countTotalStaff = teamStaffList.length;
       for (const staff of teamStaffList) {
         const staffPersonelResponse = findFirstPersonelResponseByEmail(staff.email, totalPersonelResponse);
         if (!staffPersonelResponse) {
@@ -242,7 +245,8 @@ async function readMainFolder(mainFolder) {
         });
         console.log(copiedFile);
         const xxx = await writeToSpreadSheet(copiedFile.id, staffPersonelResponse);
-        console.log(xxx);
+        //console.log(xxx);
+        console.log(`Processed ${(++countDoneStaff)}/${countTotalStaff} staffs of team ${teamCodeName}`);
       }
     }
   }
