@@ -172,7 +172,9 @@
       const selectElement = createSelectElement(Object.keys(LESSONS), 'elmId_categorySelect',
         newSelectedValue => {
           console.log("selected:"+newSelectedValue);
-          const lessonMatrix = convertOneLessonToMatrix(LESSONS[newSelectedValue]);
+          const realLessonId = parseInt(newSelectedValue) + 1;
+          const lesson = LESSONS[realLessonId];
+          const lessonMatrix = convertOneLessonToMatrix(lesson);
           updateTableElement(tableElement, lessonMatrix, setTableRowOnclickCustom);
         });
       appendChildToById('#elmId_divSelectContainer', selectElement);
