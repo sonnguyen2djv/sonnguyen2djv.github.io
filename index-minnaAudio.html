@@ -288,8 +288,15 @@ function onclickLoadPdf() {
   const defaultPdfUrl = './pdf/MinnaNoNihongoI_Honsatsu.pdf';
   const customPdfUrl = document.querySelector('#elmId_inputPdfFileUrl').value;
   const finalUrl = customPdfUrl ? customPdfUrl : defaultPdfUrl;
+
+  const windowHeight = window.innerHeight;
+  const controlPanelHeight = document.querySelector('#elmId_controlPanel').getBoundingClientRect().height;
+  const divButtonsLoadPdfHeight = document.querySelector('#elmId_divButtonsLoadPdf').getBoundingClientRect().height;
+
+  const pdfIframeWantedHeight = Math.round(windowHeight - (controlPanelHeight + divButtonsLoadPdfHeight)) - 20;
+  const innerHtml = `<embed src="${finalUrl}" width="1000" height="${pdfIframeWantedHeight}">`;
   document.querySelector('#elmId_divPdfContainer').innerHTML
-    = `<embed src="${finalUrl}" width="1000" height="450">`;
+    = innerHtml;
 }
 </script>
 <script>
@@ -362,11 +369,14 @@ function controlPlayAudio(commandOption) {
 <div id="elmId_root" style="height: 95vh;">
 
 <div id="elmId_controlPanel">
-  <!--
-  <div id="elmId_admin"></div>
-  <hr>
-  -->
+  <div id="elmId_admin">
+    <button onclick="(function(){
+      const divInputContainer = document.querySelector('#elmId_divInputContainer');
+      divInputContainer.style.display = (divInputContainer.style.display !== 'none') ? 'none' : 'block';
+    })();return false;">Show/Hide panel</button>
+  </div>
   <div id="elmId_divInputContainer">
+    <hr>
     <div>
       <div id="elmId_checkbox_IsPlayAudioLoop_Container" style="display: inline"></div>
     </div>
@@ -385,16 +395,16 @@ function controlPlayAudio(commandOption) {
       <input id="elmId_inputAudioChangeSec" type="number" style="width: 40px;" value="3">
       <label for="elmId_inputAudioChangeSec">Secs</label>
     </div>
+    <hr>
   </div>
-  <hr>
   <div id="elmId_audio" style="width: 90vw;"></div>
 </div>
 
-<div>
-  <div id="elmId_audioList" style="height: calc(95vh - 150px); width: 200px; overflow-y: scroll; display: inline-block"></div>
+<div id="elmId_divAudioAndPdf">
+  <div id="elmId_audioList" style="height: calc(95vh - 180px); width: 200px; overflow-y: scroll; display: inline-block"></div>
   <div id="elmId_divPdfContainer" style="display: inline-block"></div>
 </div>
-<div>
+<div id="elmId_divButtonsLoadPdf">
   <button id="elmId_btnShowPdf" onclick="onclickLoadPdf();">Load PDF</button>
   <input id="elmId_inputPdfFileUrl" type="text">
   <input id="elmId_inputPdfFileUpload" type="file">
