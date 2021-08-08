@@ -148,6 +148,98 @@ const dataLinks = `
 15 - 7 - Renshuu C3.mp3
 15 - 8 - Mondai 1.mp3
 15 - 9 - Mondai 2.mp3
+16 - 1 - Kotoba.mp3
+16 - 2 - Bunkei.mp3
+16 - 3 - Reibun.mp3
+16 - 4 - Kaiwa.mp3
+16 - 5 - Renshuu C1.mp3
+16 - 6 - Renshuu C2.mp3
+16 - 7 - Renshuu C3.mp3
+16 - 8 - Mondai 1.mp3
+16 - 9 - Mondai 2.mp3
+16 - 10 - Mondai 3.mp3
+17 - 1 - Kotoba.mp3
+17 - 2 - Bunkei.mp3
+17 - 3 - Reibun.mp3
+17 - 4 - Kaiwa.mp3
+17 - 5 - Renshuu C1.mp3
+17 - 6 - Renshuu C2.mp3
+17 - 7 - Renshuu C3.mp3
+17 - 8 - Mondai 1.mp3
+17 - 9 - Mondai 2.mp3
+18 - 1 - Kotoba.mp3
+18 - 2 - Bunkei.mp3
+18 - 3 - Reibun.mp3
+18 - 4 - Kaiwa.mp3
+18 - 5 - Renshuu C1.mp3
+18 - 6 - Renshuu C2.mp3
+18 - 7 - Renshuu C3.mp3
+18 - 8 - Mondai 1.mp3
+18 - 9 - Mondai 2.mp3
+19 - 1 - Kotoba.mp3
+19 - 2 - Bunkei.mp3
+19 - 3 - Reibun.mp3
+19 - 4 - Kaiwa.mp3
+19 - 5 - Renshuu C1.mp3
+19 - 6 - Renshuu C2.mp3
+19 - 7 - Renshuu C3.mp3
+19 - 8 - Mondai 1.mp3
+19 - 9 - Mondai 2.mp3
+20 - 1 - Kotoba.mp3
+20 - 2 - Bunkei.mp3
+20 - 3 - Reibun.mp3
+20 - 4 - Kaiwa.mp3
+20 - 5 - Renshuu C1.mp3
+20 - 6 - Renshuu C2.mp3
+20 - 7 - Renshuu C3.mp3
+20 - 8 - Mondai 1.mp3
+20 - 9 - Mondai 2.mp3
+21 - 1 - Kotoba.mp3
+21 - 2 - Bunkei.mp3
+21 - 3 - Reibun.mp3
+21 - 4 - Kaiwa.mp3
+21 - 5 - Renshuu C1.mp3
+21 - 6 - Renshuu C2.mp3
+21 - 7 - Renshuu C3.mp3
+21 - 8 - Mondai 1.mp3
+21 - 9 - Mondai 2.mp3
+22 - 1 - Kotoba.mp3
+22 - 2 - Bunkei.mp3
+22 - 3 - Reibun.mp3
+22 - 4 - Kaiwa.mp3
+22 - 5 - Renshuu C1.mp3
+22 - 6 - Renshuu C2.mp3
+22 - 7 - Renshuu C3.mp3
+22 - 8 - Mondai 1.mp3
+22 - 9 - Mondai 2.mp3
+23 - 1 - Kotoba.mp3
+23 - 2 - Bunkei.mp3
+23 - 3 - Reibun.mp3
+23 - 4 - Kaiwa.mp3
+23 - 5 - Renshuu C1.mp3
+23 - 6 - Renshuu C2.mp3
+23 - 7 - Renshuu C3.mp3
+23 - 8 - Mondai 1.mp3
+23 - 9 - Mondai 2.mp3
+23 - 10 - Mondai 3.mp3
+24 - 1 - Kotoba.mp3
+24 - 2 - Bunkei.mp3
+24 - 3 - Reibun.mp3
+24 - 5 - Kaiwa.mp3
+24 - 5 - Renshuu C1.mp3
+24 - 6 - Renshuu C2.mp3
+24 - 7 - Renshuu C3.mp3
+24 - 8 - Mondai 1.mp3
+24 - 9 - Mondai 2.mp3
+25 - 1 - Kotoba.mp3
+25 - 2 - Bunkei.mp3
+25 - 3 - Reibun.mp3
+25 - 5 - Kaiwa.mp3
+25 - 6 - Renshuu C1.mp3
+25 - 7 - Renshuu C2.mp3
+25 - 8 - Renshuu C3.mp3
+25 - 9 - Mondai 1.mp3
+25 - 10 - Mondai 2.mp3
 `;
 </script>
 <script src="dom.nts.js"></script>
@@ -155,7 +247,7 @@ const dataLinks = `
 var CURRENT_AUDIO = new Audio();
 CURRENT_AUDIO.setAttribute('controls', true);
 CURRENT_AUDIO.style.height = '30px';
-CURRENT_AUDIO.style.width = '600px';
+CURRENT_AUDIO.style.width = '100%';
 var AUDIO_CONFIG = {
   loop: false,
   setLoop(value) {
@@ -197,7 +289,7 @@ function onclickLoadPdf() {
   const customPdfUrl = document.querySelector('#elmId_inputPdfFileUrl').value;
   const finalUrl = customPdfUrl ? customPdfUrl : defaultPdfUrl;
   document.querySelector('#elmId_divPdfContainer').innerHTML
-    = `<embed src="${finalUrl}" width="1000" height="500">`;
+    = `<embed src="${finalUrl}" width="1000" height="450">`;
 }
 </script>
 <script>
@@ -215,7 +307,7 @@ window.onload = () => {
     AUDIO_CONFIG.setLoop(isChecked);
   }, AUDIO_CONFIG.loop);
   const labelElement = createLabelElement(checkboxId, 'Loop audio?');
-  appendChildToById('#elmId_divCheckBoxContainer', checkboxElement, labelElement);
+  appendChildToById('#elmId_checkbox_IsPlayAudioLoop_Container', checkboxElement, labelElement);
 
   document.querySelector('#elmId_inputPdfFileUpload').onchange = (event) => {
     const file = event.target.files[0];
@@ -229,58 +321,85 @@ window.onload = () => {
     if (!isUseKeyboardForControllingAudio) {
       return;
     }
-    const sec = parseInt(document.querySelector('#elmId_inputAudioChangeSec').value);
-    if (sec <= 0) {
-      return;
-    }
     switch(keyboardEvent.keyCode) {
       case 37: {
-        CURRENT_AUDIO.currentTime -= sec;
+        controlPlayAudio({command: 'backward'});
       } break;
       case 39: {
-        CURRENT_AUDIO.currentTime += sec;
+        controlPlayAudio({command: 'forward'});
       } break;
       case 32: {
         keyboardEvent.preventDefault();
-        if (CURRENT_AUDIO.paused) {
-          CURRENT_AUDIO.play();
-        } else {
-          CURRENT_AUDIO.pause();
-        }
+        controlPlayAudio({command: 'playOrPause'});
       }
     }
   };
-
 };
+function controlPlayAudio(commandOption) {
+  const sec = parseInt(document.querySelector('#elmId_inputAudioChangeSec').value);
+  if (!sec || sec < 0) {
+    return;
+  }
+  switch(commandOption.command) {
+    case 'backward': {
+      CURRENT_AUDIO.currentTime -= sec;
+    } break;
+    case 'forward': {
+      CURRENT_AUDIO.currentTime += sec;
+    } break;
+    case 'playOrPause': {
+      if (CURRENT_AUDIO.paused) {
+        CURRENT_AUDIO.play();
+      } else {
+        CURRENT_AUDIO.pause();
+      }
+    }
+  }
+}
 </script>
 </head>
 <body>
-<div>
-  <div id="elmId_divCheckBoxContainer" style="display: inline"></div>
-  <div id="elmId_divInputContainer" style="display: inline">
-    <label for="elmId_ctrlAudioSpeed">Speed</label>
-    <input id="elmId_ctrlAudioSpeed" type="range" value="100" onchange="onchangeAudioSpeedInput(this.value)">
-    <button onclick="onclickBtnResetAudioSpeed()">Reset speed</button>
-    <label for="elmId_checkboxUseArrowKeyForAudio">UseArrows</label>
-    <input id="elmId_checkboxUseArrowKeyForAudio" type="checkbox" checked>
-    <input id="elmId_inputAudioChangeSec" type="number" style="width: 40px;" value="3">
-    <label for="elmId_inputAudioChangeSec">Secs</label>
+<div id="elmId_root" style="height: 95vh;">
+
+<div id="elmId_controlPanel">
+  <!--
+  <div id="elmId_admin"></div>
+  <hr>
+  -->
+  <div id="elmId_divInputContainer">
+    <div>
+      <div id="elmId_checkbox_IsPlayAudioLoop_Container" style="display: inline"></div>
+    </div>
+    <div>
+      <label for="elmId_ctrlAudioSpeed">Speed</label>
+      <input id="elmId_ctrlAudioSpeed" type="range" value="100" onchange="onchangeAudioSpeedInput(this.value)">
+      <button onclick="onclickBtnResetAudioSpeed()">Reset speed</button>
+    </div>
+    <div>
+      <label for="elmId_checkboxUseArrowKeyForAudio">UseKeyboards</label>
+      <input id="elmId_checkboxUseArrowKeyForAudio" type="checkbox">
+    </div>
+    <div>
+      <button onclick="controlPlayAudio({command: 'backward'});">&lt&lt</button>
+      <button onclick="controlPlayAudio({command: 'forward'});">&gt&gt</button>
+      <input id="elmId_inputAudioChangeSec" type="number" style="width: 40px;" value="3">
+      <label for="elmId_inputAudioChangeSec">Secs</label>
+    </div>
   </div>
-  <div id="elmId_audio" style="display: inline"></div>
+  <hr>
+  <div id="elmId_audio" style="width: 90vw;"></div>
 </div>
 
-<!--
-<div id="elmId_audioList" style="height: calc(100vh - 100px); width: 200px; overflow-y: scroll"></div>
--->
-
 <div>
-  <div id="elmId_audioList" style="height: calc(100vh - 100px); width: 200px; overflow-y: scroll; display: inline-block"></div>
+  <div id="elmId_audioList" style="height: calc(95vh - 150px); width: 200px; overflow-y: scroll; display: inline-block"></div>
   <div id="elmId_divPdfContainer" style="display: inline-block"></div>
 </div>
 <div>
   <button id="elmId_btnShowPdf" onclick="onclickLoadPdf();">Load PDF</button>
   <input id="elmId_inputPdfFileUrl" type="text">
   <input id="elmId_inputPdfFileUpload" type="file">
+</div>
+
 </div>
 
 </body>

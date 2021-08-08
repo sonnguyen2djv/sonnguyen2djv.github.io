@@ -213,11 +213,13 @@
     };
   </script>
 </head>
-<body style="overflow-y: hidden">
+<body style="">
 <div id="elmId_mainDiv" class="">
-  <div id="elmId_divCheckBoxContainer"></div>
-  <div id="elmId_divSelectContainer"></div>
-  <div id="elmId_divTableContainer"></div>
+  <div id="elmId_divCheckBoxContainer" class="position-fixed-polyfill" style="top: 0; left: 0;"></div>
+  <div class="position-fixed-polyfill" style="top: 40px;">
+    <div id="elmId_divSelectContainer" style=""></div>
+    <div id="elmId_divTableContainer"></div>
+  </div>
 </div>
 </body>
 </html>
