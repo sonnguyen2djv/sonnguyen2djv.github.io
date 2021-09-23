@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My first Vue app</title>
+  <style>
+.beautiful-table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.beautiful-table td {
+  border-color: #8c8c8c; /*table cell border color*/
+  border-style: solid;
+  border-width: 1px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  overflow: hidden;
+  padding: 10px 5px;
+  word-break: normal;
+}
+
+.beautiful-table th {
+  border-color: #8c8c8c; /*table cell border color*/
+  border-style: solid;
+  border-width: 1px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  overflow: hidden;
+  padding: 10px 5px;
+  word-break: normal;
+}
+  </style>
+  <script src="tts.service.nts.js"></script>
+  <!--
+  <script src="https://unpkg.com/vue"></script>
+  -->
+  <script src="vue.js"></script>
+  <script>
+window.ntsonx = {name:'Son',age:25};
+/**@typedef {
+{
+  lessonId: string | null
+  englishRawText: string
+  japaneseRawText: string
+  englishAudioFileName: string
+  japaneseAudioFileName: string
+  japaneseRepresentativeText: string | null
+}
+} TypeEnJa*/
+/**@type TypeEnJa[]*/
+window.ENJA = null;
+async function fetchEnJaJson() {
+  try {
+    const res = await fetch('/enjasentences.json');
+    const jsonObj = await res.json();
+    console.log(jsonObj);
+    window.ENJA = jsonObj;
+  } catch (e) {
+    console.error(e);
+  }
+}
+window.onload = () => {
+  fetchEnJaJson();
+}
+  </script>
+</head>
+<body>
+  <div id="app">
+    <div>{{helloWorldMessage}}</div>
+    <div>{{ntson?.name}}-{{ntson?.age}}</div>
+    <table class="beautiful-table">
+      <tr v-for="enJaItem of ENJA">
+        <td>{{enJaItem.lessonId}}</td>
+        <td v-on:click="onclickJapaneseText">{{enJaItem.japaneseRepresentativeText || enJaItem.japaneseRawText}}</td>
+        <td v-on:click="onclickEnglishText">{{enJaItem.englishRawText}}</td>
+      </tr>
+    </table>
+  </div>
+
+  <script>
+    const app = new Vue({
+      el: '#app',
+      data: {
+        helloWorldMessage: 'Hello Vue2!',
+        ntson: window.ntsonx
+      },
+      method: {
+        /**@param {TypeEnJa} enJaItem*/
+        onclickEnglishText(enJaItem) {
+          playAudioFromUrl(enJaItem.englishAudioFileName);
+        },
+        /**@param {TypeEnJa} enJaItem*/
+        onclickJapaneseText(enJaItem) {
+          playAudioFromUrl(enJaItem.japaneseAudioFileName);
+        },
+      }
+    });
+  </script>
+</body>
+</html>

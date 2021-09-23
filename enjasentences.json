@@ -1,0 +1,2944 @@
+[
+  {
+    "englishRawText": "There are 4 things in the box.",
+    "japaneseRawText": "箱の中に 4つの物 が あります。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/There_are_4_things_in_the_box^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/箱の中に4つの物があります。.ogg"
+  },
+  {
+    "lessonId": "x",
+    "englishRawText": "I've been here for 66 minutes.",
+    "japaneseRawText": "私は  66分間  ここに  います。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/I've_been_here_for_66_minutes^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/私は66分間ここにいます。.ogg"
+  },
+  {
+    "englishRawText": "His room number is 77.",
+    "japaneseRawText": "彼の  部屋番号は ７７です。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/His_room_number_is_77^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/彼の部屋番号は７７です。.ogg"
+  },
+  {
+    "englishRawText": "The company has 88 employees.",
+    "japaneseRawText": "同社には  88人の従業員が  います。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/The_company_has_88_employees^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/同社には88人の従業員がいます。.ogg"
+  },
+  {
+    "englishRawText": "His grandfather is 99 years old.",
+    "japaneseRawText": "彼の  祖父は  99歳です。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/His_grandfather_is_99_years_old^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/彼の祖父は99歳です。.ogg"
+  },
+  {
+    "englishRawText": "I'm running this afternoon.",
+    "japaneseRawText": "私は  今日の午後  走っています。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/I'm_running_this_afternoon^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/私は今日の午後走っています。.ogg"
+  },
+  {
+    "englishRawText": "That store opens at 9AM everyday.",
+    "japaneseRawText": "その店は  毎日  午前9時に  開く。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/That_store_opens_at_9AM_everyday^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/その店は毎日午前9時に開く。.ogg"
+  },
+  {
+    "englishRawText": "I love watching movies, especially romantic movies.",
+    "japaneseRawText": "私は  映画、特に  ロマンチックな 映画を  見る のが 大好きです。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/I_love_watching_movies`_especially_romantic_movies^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/私は映画、特にロマンチックな映画を見るのが大好きです。.ogg"
+  },
+  {
+    "englishRawText": "I am an economic researcher.",
+    "japaneseRawText": "私は  経済研究者です。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/I_am_an_economic_researcher^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/私は経済研究者です。.ogg"
+  },
+  {
+    "englishRawText": "Yes. Thank you very much.",
+    "japaneseRawText": "はい。 どうも ありがとう ございました。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Yes^_Thank_you_very_much^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/はい。どうもありがとうございました。.ogg"
+  },
+  {
+    "englishRawText": "I've got a fever.",
+    "japaneseRawText": "熱があります。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/I've_got_a_fever^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/熱があります。.ogg"
+  },
+  {
+    "englishRawText": "What's wrong?",
+    "japaneseRawText": "どう しましたか。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/What's_wrong~.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/どうしましたか。.ogg"
+  },
+  {
+    "englishRawText": "I hope you get well.",
+    "japaneseRawText": "お大事に。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/I_hope_you_get_well^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/お大事に。.ogg"
+  },
+  {
+    "englishRawText": "He is a handsome boy.",
+    "japaneseRawText": "彼は ハンサムな 男の子です。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/He_is_a_handsome_boy^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/彼はハンサムな男の子です。.ogg"
+  },
+  {
+    "englishRawText": "I don't know how to ride a bicycle.",
+    "japaneseRawText": "自転車の 乗り方 が わかりません。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/I_don't_know_how_to_ride_a_bicycle^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/自転車の乗り方がわかりません。.ogg"
+  },
+  {
+    "englishRawText": "It is not interesting.",
+    "japaneseRawText": "面白くないです。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/It_is_not_interesting^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/面白くないです。.ogg"
+  },
+  {
+    "englishRawText": "It was not interesting.",
+    "japaneseRawText": "面白くなかったです。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/It_was_not_interesting^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/面白くなかったです。.ogg"
+  },
+  {
+    "englishRawText": "I have to go to school 5 times each 2 weeks.",
+    "japaneseRawText": "私は 2週間に 5回 学校に 行かな ければ なりません。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/I_have_to_go_to_school_5_times_each_2_weeks^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/私は2週間に5回学校に行かなければなりません。.ogg"
+  },
+  {
+    "englishRawText": "Take this medicine only in the morning.",
+    "japaneseRawText": "この薬 は 朝 だけ 飲みます。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Take_this_medicine_only_in_the_morning^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/この薬は朝だけ飲みます。.ogg"
+  },
+  {
+    "englishRawText": "I love cooking delicious food on my own.",
+    "japaneseRawText": "私は 自分で おいしい料理を 作るの が 好きです。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/I_love_cooking_delicious_food_on_my_own^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/私は自分でおいしい料理を作るのが好きです。.ogg"
+  },
+  {
+    "englishRawText": "Drive me to the airport please.",
+    "japaneseRawText": "私を 空港まで 運転してください。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Drive_me_to_the_airport_please^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/私を空港まで運転してください。.ogg"
+  },
+  {
+    "englishRawText": "When will you finish your work?",
+    "japaneseRawText": "いつ 仕事を 終えますか。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/When_will_you_finish_your_work~.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/いつ仕事を終えますか。.ogg"
+  },
+  {
+    "englishRawText": "I will buy a present for him before his 17th birthday.",
+    "japaneseRawText": "私は 彼の17歳の誕生日の 前に 彼への プレゼントを 買います。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/I_will_buy_a_present_for_him_before_his_17th_birthday^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/私は彼の17歳の誕生日の前に彼へのプレゼントを買います。.ogg"
+  },
+  {
+    "englishRawText": "I will buy a present for him for his 17th birthday.",
+    "japaneseRawText": "私は 彼の17歳の誕生日に プレゼントを 買います。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/I_will_buy_a_present_for_him_for_his_17th_birthday^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/私は彼の17歳の誕生日にプレゼントを買います。.ogg"
+  },
+  {
+    "englishRawText": "This present is from my parents.",
+    "japaneseRawText": "このプレゼントは 私の両親からです。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/This_present_is_from_my_parents^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/このプレゼントは私の両親からです。.ogg"
+  },
+  {
+    "englishRawText": "Can you speak Japanese?\nYes, I can.\nCan you write Hiragana or read Kanji?\nNo, I can't.",
+    "japaneseRawText": "日本語で 話す ことが できますか。\nはい、できます。\nひらがなを 書いたり、漢字を 読んだり できますか。\nいいえ、できません。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Can_you_speak_Japanese~{xn}Yes`_I_can^{xn}Can_you_write_Hiragana_or_read_Kanji~{xn}No`_I_can't^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/日本語で話すことができますか。{xn}はい、できます。{xn}ひらがなを書いたり、漢字を読んだりできますか。{xn}いいえ、できません。.ogg"
+  },
+  {
+    "englishRawText": "Not only can she draw, but she can also sing.",
+    "japaneseRawText": "彼女は 描く ことが できる だけでなく、歌う ことも できます。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Not_only_can_she_draw`_but_she_can_also_sing^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/彼女は描くことができるだけでなく、歌うこともできます。.ogg"
+  },
+  {
+    "englishRawText": "Where were you? I was not able to get into the house.",
+    "japaneseRawText": "あなたは どこに いた？私は 家に 入る ことが できませんでした。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Where_were_you~_I_was_not_able_to_get_into_the_house^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/あなたはどこにいた？私は家に入ることができませんでした。.ogg"
+  },
+  {
+    "englishRawText": "I will learn German and Dutch the next semester.",
+    "japaneseRawText": "次の学期に ドイツ語 と オランダ語を 学びます。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/I_will_learn_German_and_Dutch_the_next_semester^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/次の学期にドイツ語とオランダ語を学びます。.ogg"
+  },
+  {
+    "lessonId": "6.0",
+    "englishRawText": "I always buy bread at this store.",
+    "japaneseRawText": "いつも この店で パンを 買います。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/I_always_buy_bread_at_this_store^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/いつもこの店でパンを買います。.ogg"
+  },
+  {
+    "lessonId": "6.0",
+    "englishRawText": "I met a Japanese teacher at the station yesterday.",
+    "japaneseRawText": "昨日 駅で 日本語の先生に 会いました。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/I_met_a_Japanese_teacher_at_the_station_yesterday^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/昨日駅で日本語の先生に会いました。.ogg"
+  },
+  {
+    "lessonId": "6.0",
+    "englishRawText": "I read English books at the library every morning.",
+    "japaneseRawText": "毎朝 図書館で 英語の本 を 読みます。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/I_read_English_books_at_the_library_every_morning^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/毎朝図書館で英語の本を読みます。.ogg"
+  },
+  {
+    "lessonId": "6.0",
+    "englishRawText": "See you tomorrow at 2:00 pm at Sakura University.",
+    "japaneseRawText": "明日の午後 ２時に 桜大学で 会いましょう。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/See_you_tomorrow_at_2{cl}00_pm_at_Sakura_University^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/明日の午後２時に桜大学で会いましょう。.ogg"
+  },
+  {
+    "lessonId": "6.0",
+    "englishRawText": "What are you going to do this Saturday afternoon?\nI will study English. Then I play tennis with my friends.",
+    "japaneseRawText": "今週の土曜日の午後 何をしますか。\n英語を勉強をします。それから、友達と テニスをします。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/What_are_you_going_to_do_this_Saturday_afternoon~{xn}I_will_study_English^_Then_I_play_tennis_with_my_friends^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/今週の土曜日の午後何をしますか。{xn}英語を勉強をします。それから、友達とテニスをします。.ogg"
+  },
+  {
+    "lessonId": "6.0",
+    "englishRawText": "I met a French teacher at the station yesterday.\nI also meet him at the station sometimes.",
+    "japaneseRawText": "昨日 駅で フランス語の先生 に 会いましたよ。\n私も 時々 駅で 彼に 会います。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/I_met_a_French_teacher_at_the_station_yesterday^{xn}I_also_meet_him_at_the_station_sometimes^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/昨日駅でフランス語の先生に会いましたよ。{xn}私も時々駅で彼に会います。.ogg"
+  },
+  {
+    "lessonId": "6.0",
+    "englishRawText": "Where are you going on Sunday?\nI don't go anywhere. I will study Japanese at home.",
+    "japaneseRawText": "日曜日 どこへ 行きますか。\nどこも 行きません。家で 日本語を 勉強します。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Where_are_you_going_on_Sunday~{xn}I_don't_go_anywhere^_I_will_study_Japanese_at_home^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/日曜日どこへ行きますか。{xn}どこも行きません。家で日本語を勉強します。.ogg"
+  },
+  {
+    "lessonId": "6.0",
+    "englishRawText": "Would you like to drink beer with us at 5 pm?\nYeah, let's drink in the afternoon.",
+    "japaneseRawText": "午後５時に 一緒に 私達と ビールを飲みませんか。\nええ、午後 飲みましょ。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Would_you_like_to_drink_beer_with_us_at_5_pm~{xn}Yeah`_let's_drink_in_the_afternoon^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/午後５時に一緒に私達とビールを飲みませんか。{xn}ええ、午後飲みましょ。.ogg"
+  },
+  {
+    "lessonId": "6.0",
+    "englishRawText": "I bought a Korean book and a magazine at the ABC store.",
+    "japaneseRawText": "ABC店で 韓国語の本 と 雑誌 を 買いました。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/I_bought_a_Korean_book_and_a_magazine_at_the_ABC_store^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/ABC店で韓国語の本と雑誌を買いました。.ogg"
+  },
+  {
+    "lessonId": "6.0",
+    "englishRawText": "Where did you take this picture?\nI took it in the garden of my house.",
+    "japaneseRawText": "この写真 は どこで 取りましたか。\n私の家の庭 で 取りました。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Where_did_you_take_this_picture~{xn}I_took_it_in_the_garden_of_my_house^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/この写真はどこで取りましたか。{xn}私の家の庭で取りました。.ogg"
+  },
+  {
+    "lessonId": "6.0",
+    "englishRawText": "I study Japanese at home every night from 8pm to 11pm.",
+    "japaneseRawText": "毎晩 ８時から 11時まで 家で 日本語を 勉強します。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/I_study_Japanese_at_home_every_night_from_8pm_to_11pm^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/毎晩８時から11時まで家で日本語を勉強します。.ogg"
+  },
+  {
+    "lessonId": "6.0",
+    "englishRawText": "Do you often buy fruit at AEON supermarket?",
+    "japaneseRawText": "あなた は いつも イオンスーパー で 果物を 買いますか。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Do_you_often_buy_fruit_at_AEON_supermarket~.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/あなたはいつもイオンスーパーで果物を買いますか。.ogg"
+  },
+  {
+    "lessonId": "6.0",
+    "englishRawText": "Would you like to have dinner with us at Momiji Restaurant tonight?",
+    "japaneseRawText": "今晩 一緒にモミジレストラン で 晩ご飯 を 食べませんか。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Would_you_like_to_have_dinner_with_us_at_Momiji_Restaurant_tonight~.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/今晩一緒にモミジレストランで晩ご飯を食べませんか。.ogg"
+  },
+  {
+    "lessonId": "6.0",
+    "englishRawText": "See you at the Aoi Museum tomorrow morning at 10am.",
+    "japaneseRawText": "明日の朝10時に アオイ美術館で 会いましょう。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/See_you_at_the_Aoi_Museum_tomorrow_morning_at_10am^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/明日の朝10時にアオイ美術館で会いましょう。.ogg"
+  },
+  {
+    "lessonId": "6.0",
+    "englishRawText": "Where did you buy this English dictionary?",
+    "japaneseRawText": "この英語の辞書 は どこで 買いましたか。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Where_did_you_buy_this_English_dictionary~.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/この英語の辞書はどこで買いましたか。.ogg"
+  },
+  {
+    "lessonId": "7.0",
+    "englishRawText": "I write a letter with a word processor.",
+    "japaneseRawText": "私は ワープロで 手紙を 書きます。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/I_write_a_letter_with_a_word_processor^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/私はワープロで手紙を書きます。.ogg"
+  },
+  {
+    "lessonId": "7.0",
+    "englishRawText": "I will give Kimura a flower.",
+    "japaneseRawText": "私は 木村さんに 花を あげます。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/I_will_give_Kimura_a_flower^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/私は木村さんに花をあげます。.ogg"
+  },
+  {
+    "lessonId": "7.0",
+    "englishRawText": "I got her chocolate from her Karina-san.",
+    "japaneseRawText": "私は カリナさんに チョコレートを もらいました。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/I_got_her_chocolate_from_her_Karina-san^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/私はカリナさんにチョコレートをもらいました。.ogg"
+  },
+  {
+    "lessonId": "7.0",
+    "englishRawText": "What is this called in French ?",
+    "japaneseRawText": "これは フランスで 何ですか。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/What_is_this_called_in_French_~.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/これはフランスで何ですか。.ogg"
+  },
+  {
+    "lessonId": "7.0",
+    "englishRawText": "Who will you give that bag and flowers?",
+    "japaneseRawText": "誰に かばん と 花 を あげますか。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Who_will_you_give_that_bag_and_flowers~.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/誰にかばんと花をあげますか。.ogg"
+  },
+  {
+    "lessonId": "7.0",
+    "englishRawText": "Yesterday Mai lent her money to Hoa.",
+    "japaneseRawText": "昨日 マイさん は ホアさんに お金 を 貸しました。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Yesterday_Mai_lent_her_money_to_Hoa^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/昨日マイさんはホアさんにお金を貸しました。.ogg"
+  },
+  {
+    "lessonId": "7.0",
+    "englishRawText": "At college I learned dancing from teacher Ly.",
+    "japaneseRawText": "大学で リ先生に ダンス を 習いました。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/At_college_I_learned_dancing_from_teacher_Ly^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/大学でリ先生にダンスを習いました。.ogg"
+  },
+  {
+    "lessonId": "7.0",
+    "englishRawText": "Vietnamese eat rice with chopsticks.\nJapanese people also eat with chopsticks.",
+    "japaneseRawText": "ベトナム人 は 箸で ご飯を 食べます。\n日本人 も 箸で 食べます。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Vietnamese_eat_rice_with_chopsticks^{xn}Japanese_people_also_eat_with_chopsticks^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/ベトナム人は箸でご飯を食べます。{xn}日本人も箸で食べます。.ogg"
+  },
+  {
+    "lessonId": "7.0",
+    "englishRawText": "What did you get for last year's birthday?\nI got a shirt and a watch from my father.",
+    "japaneseRawText": "去年 の 誕生日 に 何を 貰いましたか。\n父に シャツ と 時計 を 貰いました。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/What_did_you_get_for_last_year's_birthday~{xn}I_got_a_shirt_and_a_watch_from_my_father^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/去年の誕生日に何を貰いましたか。{xn}父にシャツと時計を貰いました。.ogg"
+  },
+  {
+    "lessonId": "7.0",
+    "englishRawText": "What is \"Nice to meet you\" in English?\nNice to meet you.",
+    "japaneseRawText": "「始めまして」は 英語で 何ですか。\n「Nice to meet you」 です。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/What_is_{qo}Nice_to_meet_you{qo}_in_English~{xn}Nice_to_meet_you^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/「始めまして」は英語で何ですか。{xn}「Nicetomeetyou」です。.ogg"
+  },
+  {
+    "lessonId": "7.0",
+    "englishRawText": "From whom did you get chocolate yesterday?\nI got it from Mr. Suzuki.",
+    "japaneseRawText": "昨日 誰に チョコレートを 貰いましたか。\n鈴木さんに 貰いました。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/From_whom_did_you_get_chocolate_yesterday~{xn}I_got_it_from_Mr^_Suzuki^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/昨日誰にチョコレートを貰いましたか。{xn}鈴木さんに貰いました。.ogg"
+  },
+  {
+    "lessonId": "7.0",
+    "englishRawText": "When did you make a phone call with him?\nI called yesterday evening.",
+    "japaneseRawText": "いつ 彼に 電話を かけましたか。\n昨日の晩  かけました。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/When_did_you_make_a_phone_call_with_him~{xn}I_called_yesterday_evening^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/いつ彼に電話をかけましたか。{xn}昨日の晩かけました。.ogg"
+  },
+  {
+    "lessonId": "7.0",
+    "englishRawText": "Where and from whom did you learn Chinese?\nI learned from my mother at home.",
+    "japaneseRawText": "どこで 誰に 中国語を 習いましたか。\n家で 母に 習いました。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Where_and_from_whom_did_you_learn_Chinese~{xn}I_learned_from_my_mother_at_home^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/どこで誰に中国語を習いましたか。{xn}家で母に習いました。.ogg"
+  },
+  {
+    "lessonId": "7.0",
+    "englishRawText": "Who did you send the letter to?",
+    "japaneseRawText": "誰に 手紙を 贈りましたか。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Who_did_you_send_the_letter_to~.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/誰に手紙を贈りましたか。.ogg"
+  },
+  {
+    "lessonId": "7.0",
+    "englishRawText": "What is \"Sorry\" in Japan?",
+    "japaneseRawText": "日本で「Sorry」は 何ですか。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/What_is_{qo}Sorry{qo}_in_Japan~.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/日本で「Sorry」は何ですか。.ogg"
+  },
+  {
+    "lessonId": "7.0",
+    "englishRawText": "Tomorrow I will call Lee's company.",
+    "japaneseRawText": "明日 リーさんの会社 に 電話をかけます。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Tomorrow_I_will_call_Lee's_company^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/明日リーさんの会社に電話をかけます。.ogg"
+  },
+  {
+    "lessonId": "7.0",
+    "englishRawText": "Who did you lend Nam's camera to?",
+    "japaneseRawText": "誰に ナムさんのカメラを 貸しましたか。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Who_did_you_lend_Nam's_camera_to~.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/誰にナムさんのカメラを貸しましたか。.ogg"
+  },
+  {
+    "lessonId": "7.0",
+    "englishRawText": "This morning I got a call from your mother.",
+    "japaneseRawText": "今朝 私は 貴方のお母さんに 電話を 貰いました。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/This_morning_I_got_a_call_from_your_mother^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/今朝私は貴方のお母さんに電話を貰いました。.ogg"
+  },
+  {
+    "lessonId": "8.0",
+    "englishRawText": "昨日 彼と 面白い 映画 を 見ました。",
+    "japaneseRawText": "I saw an interesting movie with him yesterday.",
+    "englishAudioFileName": "audio/FEMALE/EN_US/昨日_彼と_面白い_映画_を_見ました。.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/Isawaninterestingmoviewithhimyesterday^.ogg"
+  },
+  {
+    "lessonId": "8.0",
+    "englishRawText": "彼は 良い 日本語の先生 じゃありません。",
+    "japaneseRawText": "He is not a good Japanese teacher.",
+    "englishAudioFileName": "audio/FEMALE/EN_US/彼は_良い_日本語の先生_じゃありません。.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/HeisnotagoodJapaneseteacher^.ogg"
+  },
+  {
+    "lessonId": "8.0",
+    "englishRawText": "IMC は あまり 大きくない ですが、良い 会社 です。",
+    "japaneseRawText": "IMC is a good company, although it is not very big.",
+    "englishAudioFileName": "audio/FEMALE/EN_US/IMC_は_あまり_大きくない_ですが、良い_会社_です。.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/IMCisagoodcompany`althoughitisnotverybig^.ogg"
+  },
+  {
+    "lessonId": "8.0",
+    "englishRawText": "彼女は きれい ではありませんが、親切な人です。",
+    "japaneseRawText": "She is not pretty, but she is a kind person.",
+    "englishAudioFileName": "audio/FEMALE/EN_US/彼女は_きれい_ではありませんが、親切な人です。.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/Sheisnotpretty`butsheisakindperson^.ogg"
+  },
+  {
+    "lessonId": "11.0",
+    "englishRawText": "How many people in your family?",
+    "japaneseRawText": "家族は 何人ですか 。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/How_many_people_in_your_family~.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/家族は何人ですか。.ogg"
+  },
+  {
+    "lessonId": "11.0",
+    "englishRawText": "How many rooms in your house ?",
+    "japaneseRawText": "あなたの うちに 部屋が いくつ ありますか 。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/How_many_rooms_in_your_house_~.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/あなたのうちに部屋がいくつありますか。.ogg"
+  },
+  {
+    "lessonId": "11.0",
+    "englishRawText": "How long does it take to fly from your country to Japan? ",
+    "japaneseRawText": "あなたの 国から 日本まで 飛行機で 何時間 かかりますか 。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/How_long_does_it_take_to_fly_from_your_country_to_Japan~.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/あなたの国から日本まで飛行機で何時間かかりますか。.ogg"
+  },
+  {
+    "lessonId": "11.0",
+    "englishRawText": "How long have you studied Japanese so far? ",
+    "japaneseRawText": "今まで どのくらい 日本語を 勉強しましたか？",
+    "englishAudioFileName": "audio/FEMALE/EN_US/How_long_have_you_studied_Japanese_so_far~.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/今までどのくらい日本語を勉強しましたか？.ogg"
+  },
+  {
+    "lessonId": "11.0",
+    "englishRawText": "How many times about a month do you watch movies?\nI watch movies about once a month.\nI watch movies about 4 hours a month.",
+    "japaneseRawText": "１か月に 何回 ぐらい 映画を 見ますか。\n私は 月に一度 くらい 映画を 見ます。\n私は 月に 4時間 くらい 映画を 見ます。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/How_many_times_about_a_month_do_you_watch_movies~{xn}I_watch_movies_about_once_a_month^{xn}I_watch_movies_about_4_hours_a_month^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/１か月に何回ぐらい映画を見ますか。{xn}私は月に一度くらい映画を見ます。{xn}私は月に4時間くらい映画を見ます。.ogg"
+  },
+  {
+    "lessonId": "11.0",
+    "englishRawText": "I study for 9 hours every day.",
+    "japaneseRawText": "私は 毎日 9時間 くらい 勉強しています。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/I_study_for_9_hours_every_day^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/私は毎日9時間くらい勉強しています。.ogg"
+  },
+  {
+    "lessonId": "12.0",
+    "englishRawText": "Was it raining yesterday?\nYes. It has been raining since the morning of the day before yesterday.",
+    "japaneseRawText": "昨日は雨でしたか？\nはい。一昨日の朝から雨が降っていました。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Was_it_raining_yesterday~{xn}Yes^_It_has_been_raining_since_the_morning_of_the_day_before_yesterday^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/昨日は雨でしたか？{xn}はい。一昨日の朝から雨が降っていました。.ogg"
+  },
+  {
+    "englishRawText": "It's cold today.\nIt's cool today.\nIt's hot today.",
+    "japaneseRawText": "今日は 寒いです。\n今日は 涼しいです。\n今日は 暑いです。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/It's_cold_today^{xn}It's_cool_today^{xn}It's_hot_today^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/今日は寒いです。{xn}今日は涼しいです。{xn}今日は暑いです。.ogg"
+  },
+  {
+    "englishRawText": "It was cold yesterday.\nIt was cool yesterday.\nIt was hot yesterday.",
+    "japaneseRawText": "昨日は 寒かったです。\n昨日は 涼しかったです。\n昨日は 暑かったです。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/It_was_cold_yesterday^{xn}It_was_cool_yesterday^{xn}It_was_hot_yesterday^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/昨日は寒かったです。{xn}昨日は涼しかったです。{xn}昨日は暑かったです。.ogg"
+  },
+  {
+    "lessonId": "12.0",
+    "englishRawText": "The weather yesterday was good.",
+    "japaneseRawText": "昨日は いい 天気でした。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/The_weather_yesterday_was_good^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/昨日はいい天気でした。.ogg"
+  },
+  {
+    "lessonId": "12.0",
+    "englishRawText": "Hokkaido is larger than Kyushu.",
+    "japaneseRawText": "北海道は 九州より 大きいです。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Hokkaido_is_larger_than_Kyushu^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/北海道は九州より大きいです。.ogg"
+  },
+  {
+    "lessonId": "12.0",
+    "englishRawText": "I like summer the best in a year.",
+    "japaneseRawText": "私は 1年で 夏が いちばん 好きです。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/I_like_summer_the_best_in_a_year^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/私は1年で夏がいちばん好きです。.ogg"
+  },
+  {
+    "lessonId": "12.0",
+    "englishRawText": "Was Kyoto quiet?\nNo, it wasn't quiet.",
+    "japaneseRawText": "京都は 静かでしたか。\nいいえ、静かじゃ ありませんでした。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Was_Kyoto_quiet~{xn}No`_it_wasn't_quiet^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/京都は静かでしたか。{xn}いいえ、静かじゃありませんでした。.ogg"
+  },
+  {
+    "lessonId": "12.0",
+    "englishRawText": "Did you enjoy your trip?\nYes, it was a lot of fun.",
+    "japaneseRawText": "旅行は 楽しかったですか。\nはい、とても 楽しかったです。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Did_you_enjoy_your_trip~{xn}Yes`_it_was_a_lot_of_fun^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/旅行は楽しかったですか。{xn}はい、とても楽しかったです。.ogg"
+  },
+  {
+    "lessonId": "12.0",
+    "englishRawText": "Was the weather good?\nNo, it wasn't very good.",
+    "japaneseRawText": "天気は よかったですか。\nいいえ、あまり よくなかったです。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Was_the_weather_good~{xn}No`_it_wasn't_very_good^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/天気はよかったですか。{xn}いいえ、あまりよくなかったです。.ogg"
+  },
+  {
+    "lessonId": "12.0",
+    "englishRawText": "How was your party yesterday?\nIt was very lively. I met various people.",
+    "japaneseRawText": "昨日の パーティーは どうでしたか。\nとても 賑やかでした。 色々な 人に 会いました。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/How_was_your_party_yesterday~{xn}It_was_very_lively^_I_met_various_people^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/昨日のパーティーはどうでしたか。{xn}とても賑やかでした。色々な人に会いました。.ogg"
+  },
+  {
+    "lessonId": "12.0",
+    "englishRawText": "Is there more people in Tokyo than in New York?\nYes, there are many.",
+    "japaneseRawText": "東京は ニューヨークより 人が 多いですか。\nはい、ずっと 多いです。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Is_there_more_people_in_Tokyo_than_in_New_York~{xn}Yes`_there_are_many^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/東京はニューヨークより人が多いですか。{xn}はい、ずっと多いです。.ogg"
+  },
+  {
+    "lessonId": "12.0",
+    "englishRawText": "Which is faster, bus or train to the airport?\nThe train is faster.",
+    "japaneseRawText": "空港まで バスと 電車と どちらが 速いですか。\n電車の ほうが 速いです。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Which_is_faster`_bus_or_train_to_the_airport~{xn}The_train_is_faster^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/空港までバスと電車とどちらが速いですか。{xn}電車のほうが速いです。.ogg"
+  },
+  {
+    "lessonId": "12.0",
+    "englishRawText": "Which do you like better, the sea or the mountains?\nI like both.",
+    "japaneseRawText": "海と 山と どちらが 好きですか。\nどちらも 好きです。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Which_do_you_like_better`_the_sea_or_the_mountains~{xn}I_like_both^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/海と山とどちらが好きですか。{xn}どちらも好きです。.ogg"
+  },
+  {
+    "lessonId": "12.0",
+    "englishRawText": "What do you like most about Japanese food?\nI like tempura the most.",
+    "japaneseRawText": "日本料理の中 で 何が いちばん 好きですか。\nてんぷらが いちばん 好きです。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/What_do_you_like_most_about_Japanese_food~{xn}I_like_tempura_the_most^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/日本料理の中で何がいちばん好きですか。{xn}てんぷらがいちばん好きです。.ogg"
+  },
+  {
+    "lessonId": "12.0",
+    "englishRawText": "I'm home.\nWelcome back.",
+    "japaneseRawText": "ただいま。\nお帰りなさい。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/I'm_home^{xn}Welcome_back^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/ただいま。{xn}お帰りなさい。.ogg"
+  },
+  {
+    "lessonId": "12.0",
+    "englishRawText": "This is a souvenir from Kyoto.\nThanks.",
+    "japaneseRawText": "これ、京都の お土産です。\nどうも すみません。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/This_is_a_souvenir_from_Kyoto^{xn}Thanks^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/これ、京都のお土産です。{xn}どうもすみません。.ogg"
+  },
+  {
+    "lessonId": "12.0",
+    "englishRawText": "How was the Gion Festival?\nIt was very interesting.",
+    "japaneseRawText": "祇園祭は どうでしたか。\nとても 面白かったです。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/How_was_the_Gion_Festival~{xn}It_was_very_interesting^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/祇園祭はどうでしたか。{xn}とても面白かったです。.ogg"
+  },
+  {
+    "lessonId": "12.0",
+    "englishRawText": "There were also many foreigners.\nGion is the most famous festival in Kyoto.",
+    "japaneseRawText": "外国人も 多かったですよ。\n祇園祭は 京都の 祭りで いちばん 有名ですからね。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/There_were_also_many_foreigners^{xn}Gion_is_the_most_famous_festival_in_Kyoto^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/外国人も多かったですよ。{xn}祇園祭は京都の祭りでいちばん有名ですからね。.ogg"
+  },
+  {
+    "lessonId": "12.0",
+    "englishRawText": "Did you take a picture?\nYes, I took about 100 photos.",
+    "japaneseRawText": "写真を 撮りましたか。\nええ、100枚くらい 撮りました。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Did_you_take_a_picture~{xn}Yes`_I_took_about_100_photos^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/写真を撮りましたか。{xn}ええ、100枚くらい撮りました。.ogg"
+  },
+  {
+    "lessonId": "12.0",
+    "englishRawText": "It's amazing.\nYes. But I'm a little tired.",
+    "japaneseRawText": "すごいですね。\nええ。 でも、ちょっと 疲れました。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/It's_amazing^{xn}Yes^_But_I'm_a_little_tired^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/すごいですね。{xn}ええ。でも、ちょっと疲れました。.ogg"
+  },
+  {
+    "lessonId": "12.0",
+    "englishRawText": "Did you enjoy the party?\nNo, it wasn't fun.",
+    "japaneseRawText": "パーティーは 楽しかったですか。\nいいえ、楽しくなかったです。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Did_you_enjoy_the_party~{xn}No`_it_wasn't_fun^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/パーティーは楽しかったですか。{xn}いいえ、楽しくなかったです。.ogg"
+  },
+  {
+    "lessonId": "12.0",
+    "englishRawText": "How was Santos?\nYes, he was fine.",
+    "japaneseRawText": "サントスさんは 元気 でしたか。\nはい、彼は元気でした。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/How_was_Santos~{xn}Yes`_he_was_fine^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/サントスさんは元気でしたか。{xn}はい、彼は元気でした。.ogg"
+  },
+  {
+    "lessonId": "12.0",
+    "englishRawText": "How was Kyoto?\nIt was very beautiful.",
+    "japaneseRawText": "京都は どうでしたか。\nとても きれいでした。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/How_was_Kyoto~{xn}It_was_very_beautiful^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/京都はどうでしたか。{xn}とてもきれいでした。.ogg"
+  },
+  {
+    "lessonId": "12.0",
+    "englishRawText": "Hokkaido is cooler than Osaka.",
+    "japaneseRawText": "北海道は 大阪より 涼しいです。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Hokkaido_is_cooler_than_Osaka^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/北海道は大阪より涼しいです。.ogg"
+  },
+  {
+    "lessonId": "12.0",
+    "englishRawText": "Which is your free time, this week or next week?\nI have more free time next week.",
+    "japaneseRawText": "今週と 来週と どちらが 暇ですか。\n来週の ほうが 暇です。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Which_is_your_free_time`_this_week_or_next_week~{xn}I_have_more_free_time_next_week^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/今週と来週とどちらが暇ですか。{xn}来週のほうが暇です。.ogg"
+  },
+  {
+    "lessonId": "12.0",
+    "englishRawText": "Which season do you like most?\nI like autumn the most.",
+    "japaneseRawText": "季節で いつが 一番 好きですか。\n秋が 一番 好きです。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Which_season_do_you_like_most~{xn}I_like_autumn_the_most^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/季節でいつが一番好きですか。{xn}秋が一番好きです。.ogg"
+  },
+  {
+    "lessonId": "12.0",
+    "englishRawText": "I ate sushi for the first time yesterday.\nHow was it?\nIt was very delicious.",
+    "japaneseRawText": "昨日 初めて 寿司を 食べました。\nどうでしたか。\nとても 美味しかったです。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/I_ate_sushi_for_the_first_time_yesterday^{xn}How_was_it~{xn}It_was_very_delicious^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/昨日初めて寿司を食べました。{xn}どうでしたか。{xn}とても美味しかったです。.ogg"
+  },
+  {
+    "lessonId": "12.0",
+    "englishRawText": "How about a drink?",
+    "japaneseRawText": "飲み物は いかがですか。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/How_about_a_drink~.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/飲み物はいかがですか。.ogg"
+  },
+  {
+    "lessonId": "12.0",
+    "englishRawText": "Which is better, coffee or tea?\nI'd like coffee.",
+    "japaneseRawText": "コーヒーと 紅茶と どちらが いいですか。\nコーヒーを お願いします。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Which_is_better`_coffee_or_tea~{xn}I'd_like_coffee^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/コーヒーと紅茶とどちらがいいですか。{xn}コーヒーをお願いします。.ogg"
+  },
+  {
+    "lessonId": "12.0",
+    "englishRawText": "Which time is the best in Hokkaido?\nOctober is the best.",
+    "japaneseRawText": "北海道は いつが いちばん いいですか。\n10月が いちばん いいですよ。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Which_time_is_the_best_in_Hokkaido~{xn}October_is_the_best^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/北海道はいつがいちばんいいですか。{xn}10月がいちばんいいですよ。.ogg"
+  },
+  {
+    "lessonId": "12.0",
+    "englishRawText": "It's the season of autumn leaves.",
+    "japaneseRawText": "紅葉の 季節ですから。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/It's_the_season_of_autumn_leaves^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/紅葉の季節ですから。.ogg"
+  },
+  {
+    "lessonId": "12.0",
+    "englishRawText": "There are many beautiful flowers.",
+    "japaneseRawText": "きれいな 花が たくさん あります。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/There_are_many_beautiful_flowers^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/きれいな花がたくさんあります。.ogg"
+  },
+  {
+    "lessonId": "12.0",
+    "englishRawText": "Summer in Hokkaido is cool.",
+    "japaneseRawText": "北海道の 夏は 涼しいです。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Summer_in_Hokkaido_is_cool^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/北海道の夏は涼しいです。.ogg"
+  },
+  {
+    "lessonId": "12.0",
+    "englishRawText": "Winter fish are delicious.",
+    "japaneseRawText": "冬の 魚は おいしいです。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Winter_fish_are_delicious^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/冬の魚はおいしいです。.ogg"
+  },
+  {
+    "lessonId": "12.0",
+    "englishRawText": "Is this egg new?",
+    "japaneseRawText": "この 卵は 新しいですか。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Is_this_egg_new~.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/この卵は新しいですか。.ogg"
+  },
+  {
+    "lessonId": "12.0",
+    "englishRawText": "Is your house close to the station?",
+    "japaneseRawText": "あなたの 家は 駅から 近いですか。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Is_your_house_close_to_the_station~.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/あなたの家は駅から近いですか。.ogg"
+  },
+  {
+    "lessonId": "12.0",
+    "englishRawText": "Are there many cars on Sunday?",
+    "japaneseRawText": "日曜日は 車が 多いですか。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Are_there_many_cars_on_Sunday~.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/日曜日は車が多いですか。.ogg"
+  },
+  {
+    "lessonId": "12.0",
+    "englishRawText": "Is that camera light?",
+    "japaneseRawText": "その カメラは 軽いですか。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Is_that_camera_light~.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/そのカメラは軽いですか。.ogg"
+  },
+  {
+    "lessonId": "12.0",
+    "englishRawText": "Do you like baseball?",
+    "japaneseRawText": "野球が 好きですか。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Do_you_like_baseball~.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/野球が好きですか。.ogg"
+  },
+  {
+    "lessonId": "12.0",
+    "englishRawText": "Was the sea beautiful?\nNo, it wasn't beautiful.",
+    "japaneseRawText": "海は きれいでしたか。\nいいえ、きれいじゃ ありませんでした 。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Was_the_sea_beautiful~{xn}No`_it_wasn't_beautiful^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/海はきれいでしたか。{xn}いいえ、きれいじゃありませんでした。.ogg"
+  },
+  {
+    "lessonId": "12.0",
+    "englishRawText": "Was the weather nice?\nNo, it wasn't good.",
+    "japaneseRawText": "天気は よかったですか。\nいいえ、 よくなかったです 。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Was_the_weather_nice~{xn}No`_it_wasn't_good^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/天気はよかったですか。{xn}いいえ、よくなかったです。.ogg"
+  },
+  {
+    "lessonId": "12.0",
+    "englishRawText": "Was it raining yesterday?\nNo, it wasn't rain.",
+    "japaneseRawText": "昨日は 雨でしたか。\nいいえ、 雨じゃありませんでした 。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Was_it_raining_yesterday~{xn}No`_it_wasn't_rain^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/昨日は雨でしたか。{xn}いいえ、雨じゃありませんでした。.ogg"
+  },
+  {
+    "lessonId": "12.0",
+    "englishRawText": "Was the movie interesting?\nNo, it wasn't very interesting.",
+    "japaneseRawText": "映画は 面白かったですか。\nいいえ、あまり 面白くなかったです。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Was_the_movie_interesting~{xn}No`_it_wasn't_very_interesting^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/映画は面白かったですか。{xn}いいえ、あまり面白くなかったです。.ogg"
+  },
+  {
+    "lessonId": "12.0",
+    "englishRawText": "Was the exam easy?\nNo, it wasn't very easy.",
+    "japaneseRawText": "試験は 簡単でしたか。\nいいえ、あまり 簡単じゃありませんでした 。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Was_the_exam_easy~{xn}No`_it_wasn't_very_easy^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/試験は簡単でしたか。{xn}いいえ、あまり簡単じゃありませんでした。.ogg"
+  },
+  {
+    "lessonId": "12.0",
+    "englishRawText": "Were you busy last week?\nNo, I wasn't busy.",
+    "japaneseRawText": "先週は 忙しかったですか。\nいいえ、 忙しくなかったです。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Were_you_busy_last_week~{xn}No`_I_wasn't_busy^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/先週は忙しかったですか。{xn}いいえ、忙しくなかったです。.ogg"
+  },
+  {
+    "lessonId": "12.0",
+    "englishRawText": "Which do you prefer, summer or winter?\nI prefer winter.",
+    "japaneseRawText": "夏と 冬と どちら が 好きですか。\n冬の ほうが 好きです。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Which_do_you_prefer`_summer_or_winter~{xn}I_prefer_winter^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/夏と冬とどちらが好きですか。{xn}冬のほうが好きです。.ogg"
+  },
+  {
+    "lessonId": "12.0",
+    "englishRawText": "Who is the best cook in the family?\nMy father is the best.",
+    "japaneseRawText": "家族で 誰 が 一番 料理が 上手ですか。\n父が 一番 上手です。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Who_is_the_best_cook_in_the_family~{xn}My_father_is_the_best^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/家族で誰が一番料理が上手ですか。{xn}父が一番上手です。.ogg"
+  },
+  {
+    "lessonId": "12.0",
+    "englishRawText": "Which sport is the most interesting?\nSoccer is the most interesting.",
+    "japaneseRawText": "スポーツ で  何が 一番 面白いですか。\nサッカーが 一番 面白いです。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Which_sport_is_the_most_interesting~{xn}Soccer_is_the_most_interesting^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/スポーツで何が一番面白いですか。{xn}サッカーが一番面白いです。.ogg"
+  },
+  {
+    "lessonId": "12.0",
+    "englishRawText": "In Japan, which place is the most populous?\nTokyo is the most populous.",
+    "japaneseRawText": "日本で  どこ が 一番 人が 多いですか。\n東京が いちばん 多いです。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/In_Japan`_which_place_is_the_most_populous~{xn}Tokyo_is_the_most_populous^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/日本でどこが一番人が多いですか。{xn}東京がいちばん多いです。.ogg"
+  },
+  {
+    "lessonId": "12.0",
+    "englishRawText": "Which day of the week is your busiest day?\nMonday is my busiest day.",
+    "japaneseRawText": "1週間で 何曜日 が 一番 忙しいですか。\n月曜日が 一番 忙しいです。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Which_day_of_the_week_is_your_busiest_day~{xn}Monday_is_my_busiest_day^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/1週間で何曜日が一番忙しいですか。{xn}月曜日が一番忙しいです。.ogg"
+  },
+  {
+    "lessonId": "12.0",
+    "englishRawText": "There are 3 supermarkets near my house.\nThey are \"Mainichiya\", \"ABC Store\" and \"Japan\".",
+    "japaneseRawText": "私の 家の 近くに スーパーが 3つ あります。\n「毎日屋」と「ABCストア」と 「ジャパン」です。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/There_are_3_supermarkets_near_my_house^{xn}They_are_{qo}Mainichiya{qo}`_{qo}ABC_Store{qo}_and_{qo}Japan{qo}^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/私の家の近くにスーパーが3つあります。{xn}「毎日屋」と「ABCストア」と「ジャパン」です。.ogg"
+  },
+  {
+    "lessonId": "12.0",
+    "englishRawText": "The black camera is lighter than the white camera.",
+    "japaneseRawText": "黒いカメラは 白いカメラ より 軽いです。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/The_black_camera_is_lighter_than_the_white_camera^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/黒いカメラは白いカメラより軽いです。.ogg"
+  },
+  {
+    "lessonId": "12.0",
+    "englishRawText": "Comparing with Mr. Lee, Mr. Yamada is better at hand-writing.",
+    "japaneseRawText": "リーさんより 山田さんのほうが 字 が 上手です。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Comparing_with_Mr^_Lee`_Mr^_Yamada_is_better_at_hand-writing^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/リーさんより山田さんのほうが字が上手です。.ogg"
+  },
+  {
+    "lessonId": "12.0",
+    "englishRawText": "Among the supermarkets near my house, Sakura supermarket is the cheapest.",
+    "japaneseRawText": "うちの近くのスーパーで さくらスーパーが 一番 安いです。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Among_the_supermarkets_near_my_house`_Sakura_supermarket_is_the_cheapest^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/うちの近くのスーパーでさくらスーパーが一番安いです。.ogg"
+  },
+  {
+    "lessonId": "12.0",
+    "englishRawText": "Nha Trang sea is the most beautiful among Vietnamese seas.",
+    "japaneseRawText": "ニャチャンの海 は ベトナムの海で 一番 きれいです。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Nha_Trang_sea_is_the_most_beautiful_among_Vietnamese_seas^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/ニャチャンの海はベトナムの海で一番きれいです。.ogg"
+  },
+  {
+    "lessonId": "12.0",
+    "englishRawText": "Spicy food and sweet food, which do you like ?",
+    "japaneseRawText": "辛い料理と 甘い料理と どちらが 好きですか。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Spicy_food_and_sweet_food`_which_do_you_like_~.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/辛い料理と甘い料理とどちらが好きですか。.ogg"
+  },
+  {
+    "lessonId": "12.0",
+    "englishRawText": "Your dad and your mom, who is taller ?",
+    "japaneseRawText": "お父さんと お母さんと どちら が 背が高いですか。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Your_dad_and_your_mom`_who_is_taller_~.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/お父さんとお母さんとどちらが背が高いですか。.ogg"
+  },
+  {
+    "lessonId": "13.0",
+    "englishRawText": "What do you want most now?\nI want a house.",
+    "japaneseRawText": "今 何が 一番 欲しいですか。\n家が 欲しいです。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/What_do_you_want_most_now~{xn}I_want_a_house^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/今何が一番欲しいですか。{xn}家が欲しいです。.ogg"
+  },
+  {
+    "lessonId": "13.0",
+    "englishRawText": "Where do you want to go during the summer vacation?\nI want to go to Okinawa.",
+    "japaneseRawText": "夏休みに どこへ 行きたいですか。\n沖縄へ 行きたいです。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Where_do_you_want_to_go_during_the_summer_vacation~{xn}I_want_to_go_to_Okinawa^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/夏休みにどこへ行きたいですか。{xn}沖縄へ行きたいです。.ogg"
+  },
+  {
+    "lessonId": "13.0",
+    "englishRawText": "I'm tired today, so I don't want to do anything.\nI agree. Today's meeting was tough.",
+    "japaneseRawText": "今日は 疲れましたから、何も したくないです。\nそうですね。 今日の 会議は 大変でしたね。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/I'm_tired_today`_so_I_don't_want_to_do_anything^{xn}I_agree^_Today's_meeting_was_tough^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/今日は疲れましたから、何もしたくないです。{xn}そうですね。今日の会議は大変でしたね。.ogg"
+  },
+  {
+    "lessonId": "13.0",
+    "englishRawText": "What are you going to do this weekend?\nI'm going to Kobe with my child to see the ship.",
+    "japaneseRawText": "この 週末は 何を しますか。\n子どもと 神戸へ 船を 見に 行きます。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/What_are_you_going_to_do_this_weekend~{xn}I'm_going_to_Kobe_with_my_child_to_see_the_ship^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/この週末は何をしますか。{xn}子どもと神戸へ船を見に行きます。.ogg"
+  },
+  {
+    "lessonId": "13.0",
+    "englishRawText": "What did you come to Japan to study?\nI came to study the economy.",
+    "japaneseRawText": "日本へ 何の 勉強に 来ましたか。\n経済の 勉強に 来ました。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/What_did_you_come_to_Japan_to_study~{xn}I_came_to_study_the_economy^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/日本へ何の勉強に来ましたか。{xn}経済の勉強に来ました。.ogg"
+  },
+  {
+    "lessonId": "13.0",
+    "englishRawText": "Where did you go during the winter vacation?\nI went skiing in Hokkaido.",
+    "japaneseRawText": "冬休みは どこか 行きましたか。\n北海道へ スキーに 行きました。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Where_did_you_go_during_the_winter_vacation~{xn}I_went_skiing_in_Hokkaido^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/冬休みはどこか行きましたか。{xn}北海道へスキーに行きました。.ogg"
+  },
+  {
+    "lessonId": "13.0",
+    "englishRawText": "It's already 12 o'clock. Would you like to go out for lunch?\nYes.",
+    "japaneseRawText": "もう 12時ですよ。 昼ごはんを 食べに 行きませんか。\nええ。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/It's_already_12_o'clock^_Would_you_like_to_go_out_for_lunch~{xn}Yes^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/もう12時ですよ。昼ごはんを食べに行きませんか。{xn}ええ。.ogg"
+  },
+  {
+    "lessonId": "13.0",
+    "englishRawText": "Where will we go?\nAlright. I want to eat Japanese food today.\nLet's go to Tsuruya.",
+    "japaneseRawText": "どこへ 行きますか。\nそうですね。 きょうは 日本料理が 食べたいですね。\nじゃ、ツルヤ へ 行きましょう。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Where_will_we_go~{xn}Alright^_I_want_to_eat_Japanese_food_today^{xn}Let's_go_to_Tsuruya^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/どこへ行きますか。{xn}そうですね。きょうは日本料理が食べたいですね。{xn}じゃ、ツルヤへ行きましょう。.ogg"
+  },
+  {
+    "lessonId": "13.0",
+    "englishRawText": "What is your order?\nA tempura set meal for me.\nA beef bowl for me.",
+    "japaneseRawText": "ご注文は？\n私は 天ぷら定食。\n私は 牛丼。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/What_is_your_order~{xn}A_tempura_set_meal_for_me^{xn}A_beef_bowl_for_me^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/ご注文は？{xn}私は天ぷら定食。{xn}私は牛丼。.ogg"
+  },
+  {
+    "lessonId": "13.0",
+    "englishRawText": "A tempura set meal and a beef bowl.\nPlease wait a little bit.",
+    "japaneseRawText": "天ぷら定食と 牛丼ですね。\n少々 お待ちください。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/A_tempura_set_meal_and_a_beef_bowl^{xn}Please_wait_a_little_bit^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/天ぷら定食と牛丼ですね。{xn}少々お待ちください。.ogg"
+  },
+  {
+    "lessonId": "13.0",
+    "englishRawText": "It's 1,680 yen.\nExcuse me. Separately please.\nThe tempura set meal is 980 yen, and the beef bowl is 700 yen.",
+    "japaneseRawText": "1,680円で ございます。\nすみません。 別々に お願いします。\n天ぷら定食は 980円、牛丼は 700円です。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/It's_1`680_yen^{xn}Excuse_me^_Separately_please^{xn}The_tempura_set_meal_is_980_yen`_and_the_beef_bowl_is_700_yen^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/1`680円でございます。{xn}すみません。別々にお願いします。{xn}天ぷら定食は980円、牛丼は700円です。.ogg"
+  },
+  {
+    "lessonId": "13.0",
+    "englishRawText": "What kind of camera do you want?\nI want a small camera.",
+    "japaneseRawText": "どんな カメラが 欲しいですか。\n小さい カメラが 欲しいです。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/What_kind_of_camera_do_you_want~{xn}I_want_a_small_camera^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/どんなカメラが欲しいですか。{xn}小さいカメラが欲しいです。.ogg"
+  },
+  {
+    "lessonId": "13.0",
+    "englishRawText": "What do you want to buy\nI want to buy a video.",
+    "japaneseRawText": "何を 買いたいですか。\nビデオを 買いたいです。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/What_do_you_want_to_buy{xn}I_want_to_buy_a_video^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/何を買いたいですか。{xn}ビデオを買いたいです。.ogg"
+  },
+  {
+    "lessonId": "13.0",
+    "englishRawText": "When do you want to go to Hokkaido?\nI want to go in February.",
+    "japaneseRawText": "いつ　北海道へ　行きたいですか。\n２月に　行きたいです。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/When_do_you_want_to_go_to_Hokkaido~{xn}I_want_to_go_in_February^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/いつ北海道へ行きたいですか。{xn}２月に行きたいです。.ogg"
+  },
+  {
+    "lessonId": "13.0",
+    "englishRawText": "What do you want to learn?\nI want to learn ikebana.",
+    "japaneseRawText": "何を　習いたいですか。\n生け花を　習いたいです。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/What_do_you_want_to_learn~{xn}I_want_to_learn_ikebana^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/何を習いたいですか。{xn}生け花を習いたいです。.ogg"
+  },
+  {
+    "lessonId": "13.0",
+    "englishRawText": "Who do you want to meet?\nI want to meet my parents.",
+    "japaneseRawText": "誰に　会いたいですか。\n両親に　会いたいです。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Who_do_you_want_to_meet~{xn}I_want_to_meet_my_parents^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/誰に会いたいですか。{xn}両親に会いたいです。.ogg"
+  },
+  {
+    "lessonId": "13.0",
+    "englishRawText": "What do you want to eat.\nI don't want to eat anything.",
+    "japaneseRawText": "何を　食べたいですか。\n何も　食べたくないです。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/What_do_you_want_to_eat^{xn}I_don't_want_to_eat_anything^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/何を食べたいですか。{xn}何も食べたくないです。.ogg"
+  },
+  {
+    "lessonId": "13.0",
+    "englishRawText": "What kind of book do you want to read?\nI want to read a travel book.",
+    "japaneseRawText": "どんな　本を　読みたいですか。\n旅行の　本を　読みたいです。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/What_kind_of_book_do_you_want_to_read~{xn}I_want_to_read_a_travel_book^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/どんな本を読みたいですか。{xn}旅行の本を読みたいです。.ogg"
+  },
+  {
+    "lessonId": "13.0",
+    "englishRawText": "Where do you want to go on Sunday?\nI don't want to go anywhere.",
+    "japaneseRawText": "日曜日　どこへ　行きたいですか。\nどこも　行きたくないです。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Where_do_you_want_to_go_on_Sunday~{xn}I_don't_want_to_go_anywhere^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/日曜日どこへ行きたいですか。{xn}どこも行きたくないです。.ogg"
+  },
+  {
+    "lessonId": "13.0",
+    "englishRawText": "I will go to Hong Kong for shopping.",
+    "japaneseRawText": "ホンコンへ　買い物に　行きます。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/I_will_go_to_Hong_Kong_for_shopping^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/ホンコンへ買い物に行きます。.ogg"
+  },
+  {
+    "lessonId": "13.0",
+    "englishRawText": "I will go to the hotel for a meal.",
+    "japaneseRawText": "ホテルへ　食事に　行きます。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/I_will_go_to_the_hotel_for_a_meal^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/ホテルへ食事に行きます。.ogg"
+  },
+  {
+    "lessonId": "13.0",
+    "englishRawText": "I will go to the river for fishing.",
+    "japaneseRawText": "川へ　釣りに　行きます。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/I_will_go_to_the_river_for_fishing^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/川へ釣りに行きます。.ogg"
+  },
+  {
+    "lessonId": "13.0",
+    "englishRawText": "I will go to the city hall for alien registration.",
+    "japaneseRawText": "市役所へ　外国人登録に　行きます。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/I_will_go_to_the_city_hall_for_alien_registration^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/市役所へ外国人登録に行きます。.ogg"
+  },
+  {
+    "lessonId": "13.0",
+    "englishRawText": "I will go to the department store to buy souvenirs.",
+    "japaneseRawText": "デパートへ　お土産を　買いに　行きます。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/I_will_go_to_the_department_store_to_buy_souvenirs^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/デパートへお土産を買いに行きます。.ogg"
+  },
+  {
+    "lessonId": "13.0",
+    "englishRawText": "I will go to the post office for express delivery.",
+    "japaneseRawText": "郵便局へ　速達を　出しに　行きます。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/I_will_go_to_the_post_office_for_express_delivery^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/郵便局へ速達を出しに行きます。.ogg"
+  },
+  {
+    "lessonId": "13.0",
+    "englishRawText": "I will go to the library to borrow a book.",
+    "japaneseRawText": "図書館へ　本を　借りに　行きます。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/I_will_go_to_the_library_to_borrow_a_book^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/図書館へ本を借りに行きます。.ogg"
+  },
+  {
+    "lessonId": "13.0",
+    "englishRawText": "I will go to the station to pick up my friend.",
+    "japaneseRawText": "駅へ　友達を　迎えに　行きます。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/I_will_go_to_the_station_to_pick_up_my_friend^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/駅へ友達を迎えに行きます。.ogg"
+  },
+  {
+    "lessonId": "13.0",
+    "englishRawText": "Where are you going to swim?\nI will go swimming in the hotel's pool.",
+    "japaneseRawText": "どこへ　泳ぎに　行きますか。\nホテルの　プールへ　泳ぎに　行きます。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Where_are_you_going_to_swim~{xn}I_will_go_swimming_in_the_hotel's_pool^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/どこへ泳ぎに行きますか。{xn}ホテルのプールへ泳ぎに行きます。.ogg"
+  },
+  {
+    "lessonId": "13.0",
+    "englishRawText": "Where are you going to eat?\nI will go to an Indian restaurant for eating.",
+    "japaneseRawText": "どこへ　食事に　行きますか。\nインド料理の　レストランへ　食事に　行きます。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Where_are_you_going_to_eat~{xn}I_will_go_to_an_Indian_restaurant_for_eating^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/どこへ食事に行きますか。{xn}インド料理のレストランへ食事に行きます。.ogg"
+  },
+  {
+    "lessonId": "13.0",
+    "englishRawText": "What time do you go to pick up your child?\nI will go at about 2 o'clock.",
+    "japaneseRawText": "何時ごろ　子どもを　迎えに　行きますか。\n２時ごろに　行きます。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/What_time_do_you_go_to_pick_up_your_child~{xn}I_will_go_at_about_2_o'clock^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/何時ごろ子どもを迎えに行きますか。{xn}２時ごろに行きます。.ogg"
+  },
+  {
+    "lessonId": "13.0",
+    "englishRawText": "Who do you go to play tennis with?\nThe company guy and he go to tennis.",
+    "japaneseRawText": "誰と　テニスに　行きますか。\n会社の　人と　テニスに　行きます。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Who_do_you_go_to_play_tennis_with~{xn}The_company_guy_and_he_go_to_tennis^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/誰とテニスに行きますか。{xn}会社の人とテニスに行きます。.ogg"
+  },
+  {
+    "lessonId": "13.0",
+    "englishRawText": "You're thirsty.\nYeah, I want to drink something.",
+    "japaneseRawText": "喉が 渇きましたね。\nええ、何か 飲みたいですね。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/You're_thirsty^{xn}Yeah`_I_want_to_drink_something^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/喉が渇きましたね。{xn}ええ、何か飲みたいですね。.ogg"
+  },
+  {
+    "lessonId": "13.0",
+    "englishRawText": "What did you do on the weekend?\nI went to Osaka to play.",
+    "japaneseRawText": "週末は 何を しましたか。\n大阪へ 遊びに 行きました。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/What_did_you_do_on_the_weekend~{xn}I_went_to_Osaka_to_play^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/週末は何をしましたか。{xn}大阪へ遊びに行きました。.ogg"
+  },
+  {
+    "lessonId": "13.0",
+    "englishRawText": "I'm hungry, so I want to eat something.",
+    "japaneseRawText": "お腹が すきましたから、何か 食べたいです。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/I'm_hungry`_so_I_want_to_eat_something^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/お腹がすきましたから、何か食べたいです。.ogg",
+    "japaneseRepresentativeText": "お腹が 空きましたから、何か 食べたい です。"
+  },
+  {
+    "lessonId": "13.0",
+    "englishRawText": "I have something to do, so I want to go home at 5 o'clock.",
+    "japaneseRawText": "用事が ありますから、5時に うちへ 帰りたいです。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/I_have_something_to_do`_so_I_want_to_go_home_at_5_o'clock^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/用事がありますから、5時にうちへ帰りたいです。.ogg"
+  },
+  {
+    "lessonId": "13.0",
+    "englishRawText": "Tomorrow is a day off, so I want to sleep until noon.",
+    "japaneseRawText": "明日は 休みですから、昼まで 寝たいです。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Tomorrow_is_a_day_off`_so_I_want_to_sleep_until_noon^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/明日は休みですから、昼まで寝たいです。.ogg"
+  },
+  {
+    "lessonId": "13.0",
+    "englishRawText": "I'm thirsty, so I want to drink something.",
+    "japaneseRawText": "喉が 渇きましたから、何か 飲みたいです。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/I'm_thirsty`_so_I_want_to_drink_something^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/喉が渇きましたから、何か飲みたいです。.ogg"
+  },
+  {
+    "lessonId": "13.0",
+    "englishRawText": "I'm tired, so I don't want to do anything.",
+    "japaneseRawText": "疲れましたから、何も したくないです。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/I'm_tired`_so_I_don't_want_to_do_anything^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/疲れましたから、何もしたくないです。.ogg"
+  },
+  {
+    "lessonId": "13.0",
+    "englishRawText": "It's hot, so I don't want to go anywhere.",
+    "japaneseRawText": "暑いですから、どこも 行きたくないです。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/It's_hot`_so_I_don't_want_to_go_anywhere^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/暑いですから、どこも行きたくないです。.ogg"
+  },
+  {
+    "lessonId": "13.0",
+    "englishRawText": "I'm full, so I don't want to eat anything.",
+    "japaneseRawText": "おなか が いっぱいですから、何も 食べたくないです。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/I'm_full`_so_I_don't_want_to_eat_anything^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/おなかがいっぱいですから、何も食べたくないです。.ogg",
+    "japaneseRepresentativeText": "お腹 が 一杯ですから、何も 食べたくないです。"
+  },
+  {
+    "lessonId": "13.0",
+    "englishRawText": "I want a big house.",
+    "japaneseRawText": "私は 大きい 家 が 欲しいです。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/I_want_a_big_house^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/私は大きい家が欲しいです。.ogg"
+  },
+  {
+    "lessonId": "13.0",
+    "englishRawText": "I will study art at a university in Kyoto.",
+    "japaneseRawText": "京都の大学で 美術 を 勉強します。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/I_will_study_art_at_a_university_in_Kyoto^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/京都の大学で美術を勉強します。.ogg"
+  },
+  {
+    "lessonId": "13.0",
+    "englishRawText": "I came to Japan to study the economy.",
+    "japaneseRawText": "日本へ 経済の勉強に 来ました。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/I_came_to_Japan_to_study_the_economy^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/日本へ経済の勉強に来ました。.ogg"
+  },
+  {
+    "lessonId": "13.0",
+    "englishRawText": "Would you like to enter that coffee shop?",
+    "japaneseRawText": "あの喫茶店に 入りませんか。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Would_you_like_to_enter_that_coffee_shop~.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/あの喫茶店に入りませんか。.ogg"
+  },
+  {
+    "lessonId": "13.0",
+    "englishRawText": "It's hot, so let's go swimming in the pool.",
+    "japaneseRawText": "暑いですから、プールへ 泳ぎ に 行きましょう。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/It's_hot`_so_let's_go_swimming_in_the_pool^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/暑いですから、プールへ泳ぎに行きましょう。.ogg"
+  },
+  {
+    "lessonId": "13.0",
+    "englishRawText": "I have been in Japan for a year, so I will go to the city hall for alien registration.",
+    "japaneseRawText": "日本に 1年 いますから、市役所へ 外国人登録に 行きます。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/I_have_been_in_Japan_for_a_year`_so_I_will_go_to_the_city_hall_for_alien_registration^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/日本に1年いますから、市役所へ外国人登録に行きます。.ogg"
+  },
+  {
+    "lessonId": "13.0",
+    "englishRawText": "Do you need a lover ?\nYes, I need.\nNo, I don't really need.",
+    "japaneseRawText": "恋人 が ほしいですか。\nはい、ほしいです。\nいいえ、あまり ほしくないです。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Do_you_need_a_lover_~{xn}Yes`_I_need^{xn}No`_I_don't_really_need^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/恋人がほしいですか。{xn}はい、ほしいです。{xn}いいえ、あまりほしくないです。.ogg"
+  },
+  {
+    "lessonId": "13.0",
+    "englishRawText": "Do you want a car?\nNo, I don't want.\nYes, I want.",
+    "japaneseRawText": "車が 欲しいですか。\nいいえ、欲しくないです。\nはい、欲しいです。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Do_you_want_a_car~{xn}No`_I_don't_want^{xn}Yes`_I_want^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/車が欲しいですか。{xn}いいえ、欲しくないです。{xn}はい、欲しいです。.ogg"
+  },
+  {
+    "lessonId": "13.0",
+    "englishRawText": "What do you want most now ?\nI want a house.",
+    "japaneseRawText": "今 何が 一番 ほしいですか。\nうちが ほしいです。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/What_do_you_want_most_now_~{xn}I_want_a_house^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/今何が一番ほしいですか。{xn}うちがほしいです。.ogg"
+  },
+  {
+    "lessonId": "13.0",
+    "englishRawText": "Which kind of house do you want ?\nI want a big house. Because my house now is small.",
+    "japaneseRawText": "どんな うちが ほしいですか。\n広い うちがほしいです。今の うちは 狭いですから。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Which_kind_of_house_do_you_want_~{xn}I_want_a_big_house^_Because_my_house_now_is_small^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/どんなうちがほしいですか。{xn}広いうちがほしいです。今のうちは狭いですから。.ogg"
+  },
+  {
+    "lessonId": "13.0",
+    "englishRawText": "I want money. Because I will get married next year.",
+    "japaneseRawText": "お金が ほしいです。来年 結婚しますから。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/I_want_money^_Because_I_will_get_married_next_year^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/お金がほしいです。来年結婚しますから。.ogg"
+  },
+  {
+    "lessonId": "13.0",
+    "englishRawText": "Because I'm busy every day, I want a day-off.",
+    "japaneseRawText": "毎日 忙しいですから、休みが ほしいです。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Because_I'm_busy_every_day`_I_want_a_day-off^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/毎日忙しいですから、休みがほしいです。.ogg"
+  },
+  {
+    "lessonId": "13.0",
+    "englishRawText": "I want to marry a handsome person.",
+    "japaneseRawText": "ハンサムな人と 結婚したいです。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/I_want_to_marry_a_handsome_person^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/ハンサムな人と結婚したいです。.ogg"
+  },
+  {
+    "lessonId": "13.0",
+    "englishRawText": "I want to take a walk in the park for a while.",
+    "japaneseRawText": "ちょっと 公園を 散歩したいです。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/I_want_to_take_a_walk_in_the_park_for_a_while^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/ちょっと公園を散歩したいです。.ogg"
+  },
+  {
+    "lessonId": "13.0",
+    "englishRawText": "I'm thirsty, so I want to drink juice.",
+    "japaneseRawText": "喉が 渇きますから、ジュースを 飲みたいです。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/I'm_thirsty`_so_I_want_to_drink_juice^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/喉が渇きますから、ジュースを飲みたいです。.ogg"
+  },
+  {
+    "lessonId": "13.0",
+    "englishRawText": "I'm hungry, so I want to eat rice.",
+    "japaneseRawText": "お腹が すきましたから、ご飯を 食べたいです。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/I'm_hungry`_so_I_want_to_eat_rice^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/お腹がすきましたから、ご飯を食べたいです。.ogg"
+  },
+  {
+    "lessonId": "13.0",
+    "englishRawText": "I'm full, so I don't want to eat anything.",
+    "japaneseRawText": "お腹が いっぱいですから、何も食べたくないです。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/I'm_full`_so_I_don't_want_to_eat_anything^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/お腹がいっぱいですから、何も食べたくないです。.ogg"
+  },
+  {
+    "lessonId": "13.0",
+    "englishRawText": "I'm tired, so I don't want to do anything.",
+    "japaneseRawText": "疲れましたから、何も したくないです。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/I'm_tired`_so_I_don't_want_to_do_anything^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/疲れましたから、何もしたくないです。.ogg"
+  },
+  {
+    "lessonId": "13.0",
+    "englishRawText": "I don't have money, so I don't want to go anywhere.",
+    "japaneseRawText": "お金が ありませんから、どこも 行きたくないです。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/I_don't_have_money`_so_I_don't_want_to_go_anywhere^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/お金がありませんから、どこも行きたくないです。.ogg"
+  },
+  {
+    "lessonId": "13.0",
+    "englishRawText": "I don't want to meet anyone.",
+    "japaneseRawText": "誰も 会いたくないです。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/I_don't_want_to_meet_anyone^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/誰も会いたくないです。.ogg"
+  },
+  {
+    "lessonId": "13.0",
+    "englishRawText": "What kind of company do you want to work for?",
+    "japaneseRawText": "どんな会社で 働きたいですか。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/What_kind_of_company_do_you_want_to_work_for~.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/どんな会社で働きたいですか。.ogg"
+  },
+  {
+    "lessonId": "13.0",
+    "englishRawText": "What kind of person do you want to marry?",
+    "japaneseRawText": "どんな人と 結婚したいですか。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/What_kind_of_person_do_you_want_to_marry~.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/どんな人と結婚したいですか。.ogg"
+  },
+  {
+    "lessonId": "14.0",
+    "englishRawText": "Wait a minute.",
+    "japaneseRawText": "ちょっと 待って ください。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Wait_a_minute^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/ちょっと待ってください。.ogg"
+  },
+  {
+    "lessonId": "14.0",
+    "englishRawText": "Miller is calling now.",
+    "japaneseRawText": "ミラーさんは 今 電話を かけて います。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Miller_is_calling_now^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/ミラーさんは今電話をかけています。.ogg"
+  },
+  {
+    "lessonId": "14.0",
+    "englishRawText": "Please write your address and name here.\nYes, I understand.",
+    "japaneseRawText": "ここに 住所と 名前を 書いて ください。\nはい、わかりました。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Please_write_your_address_and_name_here^{xn}Yes`_I_understand^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/ここに住所と名前を書いてください。{xn}はい、わかりました。.ogg"
+  },
+  {
+    "lessonId": "14.0",
+    "englishRawText": "Please show me that shirt.\nYes, here you are.",
+    "japaneseRawText": "あの シャツを 見せて ください。\nはい、どうぞ。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Please_show_me_that_shirt^{xn}Yes`_here_you_are^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/あのシャツを見せてください。{xn}はい、どうぞ。.ogg"
+  },
+  {
+    "lessonId": "14.0",
+    "englishRawText": "Is there a slightly larger one?\nYes. How about this shirt?",
+    "japaneseRawText": "もう 少し 大きいのは ありませんか。\nはい。この シャツは いかがですか。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Is_there_a_slightly_larger_one~{xn}Yes^_How_about_this_shirt~.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/もう少し大きいのはありませんか。{xn}はい。このシャツはいかがですか。.ogg"
+  },
+  {
+    "lessonId": "14.0",
+    "englishRawText": "Excuse me, but please tell me how to read this kanji.",
+    "japaneseRawText": "すみませんが、この 漢字の 読み方を 教えて ください。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Excuse_me`_but_please_tell_me_how_to_read_this_kanji^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/すみませんが、この漢字の読み方を教えてください。.ogg"
+  },
+  {
+    "lessonId": "14.0",
+    "englishRawText": "It's hot. Shall I open the window?\nYes. Please.",
+    "japaneseRawText": "暑いですね。 窓を 開けましょうか。\nすみません。 お願いします。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/It's_hot^_Shall_I_open_the_window~{xn}Yes^_Please^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/暑いですね。窓を開けましょうか。{xn}すみません。お願いします。.ogg"
+  },
+  {
+    "lessonId": "14.0",
+    "englishRawText": "Shall we pick you up at the station?\nNo, thanks. I'm going by taxi.",
+    "japaneseRawText": "駅まで 迎えに 行きましょうか。\nいいえ、結構です。 タクシーで 行きますから。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Shall_we_pick_you_up_at_the_station~{xn}No`_thanks^_I'm_going_by_taxi^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/駅まで迎えに行きましょうか。{xn}いいえ、結構です。タクシーで行きますから。.ogg"
+  },
+  {
+    "lessonId": "14.0",
+    "englishRawText": "Where is Mr. Sato?\nHe is talking to Mr. Matsumoto in the conference room now.\nOK, I'll come back later.",
+    "japaneseRawText": "佐藤さんは どこですか。\n今 会議室で 松本さんと 話して います。\nじゃ、また 後で 来ます。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Where_is_Mr^_Sato~{xn}He_is_talking_to_Mr^_Matsumoto_in_the_conference_room_now^{xn}OK`_I'll_come_back_later^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/佐藤さんはどこですか。{xn}今会議室で松本さんと話しています。{xn}じゃ、また後で来ます。.ogg"
+  },
+  {
+    "lessonId": "14.0",
+    "englishRawText": "Is it straight?\nYes, please go straight.",
+    "japaneseRawText": "真っ直ぐですか。\nええ、真っ直ぐ 行ってください。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Is_it_straight~{xn}Yes`_please_go_straight^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/真っ直ぐですか。{xn}ええ、真っ直ぐ行ってください。.ogg"
+  },
+  {
+    "lessonId": "14.0",
+    "englishRawText": "Turn right at that traffic light.",
+    "japaneseRawText": "あの 信号を 右へ 曲がって ください。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Turn_right_at_that_traffic_light^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/あの信号を右へ曲がってください。.ogg"
+  },
+  {
+    "lessonId": "14.0",
+    "englishRawText": "Please go hurry to the left.",
+    "japaneseRawText": "左へ 急いで ください。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Please_go_hurry_to_the_left^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/左へ急いでください。.ogg"
+  },
+  {
+    "lessonId": "14.0",
+    "englishRawText": "Please stop in front of that flower shop.",
+    "japaneseRawText": "あの 花屋の前で 止めてください。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Please_stop_in_front_of_that_flower_shop^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/あの花屋の前で止めてください。.ogg"
+  },
+  {
+    "lessonId": "14.0",
+    "englishRawText": "It is a change of 3,200 yen.",
+    "japaneseRawText": "3,200円の お釣りです。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/It_is_a_change_of_3`200_yen^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/3`200円のお釣りです。.ogg"
+  },
+  {
+    "lessonId": "14.0",
+    "englishRawText": "Please tell me the phone number.",
+    "japaneseRawText": "電話番号を 教えてください。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Please_tell_me_the_phone_number^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/電話番号を教えてください。.ogg"
+  },
+  {
+    "lessonId": "14.0",
+    "englishRawText": "Would you like to help picking you up?",
+    "japaneseRawText": "迎えに 手伝いましょうか。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Would_you_like_to_help_picking_you_up~.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/迎えに手伝いましょうか。.ogg"
+  },
+  {
+    "lessonId": "14.0",
+    "englishRawText": "Shall I take sugar?",
+    "japaneseRawText": "砂糖を取りましょうか。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Shall_I_take_sugar~.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/砂糖を取りましょうか。.ogg"
+  },
+  {
+    "lessonId": "14.0",
+    "englishRawText": "Mother, would you like me to help you with cooking?\nYes, please help me a little.",
+    "japaneseRawText": "母さん、料理を手伝いましょうか。\nはい、ちょっと 手伝ってください。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Mother`_would_you_like_me_to_help_you_with_cooking~{xn}Yes`_please_help_me_a_little^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/母さん、料理を手伝いましょうか。{xn}はい、ちょっと手伝ってください。.ogg"
+  },
+  {
+    "lessonId": "14.0",
+    "englishRawText": "Miller is reading the report now.",
+    "japaneseRawText": "ミラーさんは 今 レポートを 読んでいます。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Miller_is_reading_the_report_now^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/ミラーさんは今レポートを読んでいます。.ogg"
+  },
+  {
+    "lessonId": "14.0",
+    "englishRawText": "Miller is watching the video now.",
+    "japaneseRawText": "ミラーさんは 今 ビデオを 見ています。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Miller_is_watching_the_video_now^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/ミラーさんは今ビデオを見ています。.ogg"
+  },
+  {
+    "lessonId": "14.0",
+    "englishRawText": "What is Miller doing now?",
+    "japaneseRawText": "ミラーさんは 今 何を していますか。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/What_is_Miller_doing_now~.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/ミラーさんは今何をしていますか。.ogg"
+  },
+  {
+    "lessonId": "14.0",
+    "englishRawText": "Please turn on the air conditioner.",
+    "japaneseRawText": "エアコンを　つけてください。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Please_turn_on_the_air_conditioner^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/エアコンをつけてください。.ogg"
+  },
+  {
+    "lessonId": "14.0",
+    "englishRawText": "Please close the door.",
+    "japaneseRawText": "ドアを　閉めてください。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Please_close_the_door^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/ドアを閉めてください。.ogg"
+  },
+  {
+    "lessonId": "14.0",
+    "englishRawText": "Please speak a little more slowly.",
+    "japaneseRawText": "もう　少し　ゆっくり　話してください。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Please_speak_a_little_more_slowly^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/もう少しゆっくり話してください。.ogg"
+  },
+  {
+    "lessonId": "14.0",
+    "englishRawText": "Please take another photo.",
+    "japaneseRawText": "写真を　もう　一枚　撮ってください。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Please_take_another_photo^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/写真をもう一枚撮ってください。.ogg"
+  },
+  {
+    "lessonId": "14.0",
+    "englishRawText": "Shall I copy this?\nYes, please copy 5 copies.",
+    "japaneseRawText": "これを　コピーしましょうか。\nええ、５枚　コピーしてください。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Shall_I_copy_this~{xn}Yes`_please_copy_5_copies^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/これをコピーしましょうか。{xn}ええ、５枚コピーしてください。.ogg"
+  },
+  {
+    "lessonId": "14.0",
+    "englishRawText": "Shall I send you a report?\nYes, please send it immediately.",
+    "japaneseRawText": "レポートを　送りましょうか。\nええ、すぐ　送ってください。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Shall_I_send_you_a_report~{xn}Yes`_please_send_it_immediately^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/レポートを送りましょうか。{xn}ええ、すぐ送ってください。.ogg"
+  },
+  {
+    "lessonId": "14.0",
+    "englishRawText": "Shall I call a taxi?\nYes, please call two.",
+    "japaneseRawText": "タクシーを　呼びましょうか。\nええ、２台　呼んでください。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Shall_I_call_a_taxi~{xn}Yes`_please_call_two^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/タクシーを呼びましょうか。{xn}ええ、２台呼んでください。.ogg"
+  },
+  {
+    "lessonId": "14.0",
+    "englishRawText": "Shall I come tomorrow?\nYes, please come at 10 o'clock.",
+    "japaneseRawText": "明日も　来ましょうか。\nええ、１０時に　来てください。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Shall_I_come_tomorrow~{xn}Yes`_please_come_at_10_o'clock^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/明日も来ましょうか。{xn}ええ、１０時に来てください。.ogg"
+  },
+  {
+    "lessonId": "14.0",
+    "englishRawText": "Shall I turn off the light?",
+    "japaneseRawText": "電気を　消しましょうか。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Shall_I_turn_off_the_light~.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/電気を消しましょうか。.ogg"
+  },
+  {
+    "lessonId": "14.0",
+    "englishRawText": "Shall I help you ?",
+    "japaneseRawText": "手伝いましょうか。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Shall_I_help_you_~.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/手伝いましょうか。.ogg"
+  },
+  {
+    "lessonId": "14.0",
+    "englishRawText": "Shall I draw a map?",
+    "japaneseRawText": "地図を　描きましょうか。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Shall_I_draw_a_map~.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/地図を描きましょうか。.ogg"
+  },
+  {
+    "lessonId": "14.0",
+    "englishRawText": "Shall I bring your luggage?",
+    "japaneseRawText": "荷物を　持ちましょうか。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Shall_I_bring_your_luggage~.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/荷物を持ちましょうか。.ogg"
+  },
+  {
+    "lessonId": "14.0",
+    "englishRawText": "Who is Mr. Yamada playing with?\nHe's playing with his child.",
+    "japaneseRawText": "山田さんは　誰と　遊んでいますか。\n子どもと　遊んでいます。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Who_is_Mr^_Yamada_playing_with~{xn}He's_playing_with_his_child^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/山田さんは誰と遊んでいますか。{xn}子どもと遊んでいます。.ogg"
+  },
+  {
+    "lessonId": "14.0",
+    "englishRawText": "What is Karina drawing?\nShe's drawing flowers.",
+    "japaneseRawText": "カリナさんは　何を　書いていますすか。\n花を　書いています。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/What_is_Karina_drawing~{xn}She's_drawing_flowers^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/カリナさんは何を書いていますすか。{xn}花を書いています。.ogg"
+  },
+  {
+    "lessonId": "14.0",
+    "englishRawText": "Where is Santos sleeping?\nHe's sleeping under a tree.",
+    "japaneseRawText": "サントスさんは　どこで　寝ていますか。\n木の下で　寝ています。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Where_is_Santos_sleeping~{xn}He's_sleeping_under_a_tree^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/サントスさんはどこで寝ていますか。{xn}木の下で寝ています。.ogg"
+  },
+  {
+    "lessonId": "14.0",
+    "englishRawText": "What is Mr. Wang reading?\nHe's reading the newspaper.",
+    "japaneseRawText": "ワンさんは　何を　読んでいますか。\n新聞を　読んでいます。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/What_is_Mr^_Wang_reading~{xn}He's_reading_the_newspaper^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/ワンさんは何を読んでいますか。{xn}新聞を読んでいます。.ogg"
+  },
+  {
+    "lessonId": "14.0",
+    "englishRawText": "Who is Mr. Miller talking to?\nHe's talking to Mr. Schmidt.",
+    "japaneseRawText": "ミラーさんは　誰と　話していますか。\nシュミットさんと　話しています。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Who_is_Mr^_Miller_talking_to~{xn}He's_talking_to_Mr^_Schmidt^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/ミラーさんは誰と話していますか。{xn}シュミットさんと話しています。.ogg"
+  },
+  {
+    "lessonId": "15.0",
+    "englishRawText": "Can I get in?",
+    "japaneseRawText": "入ってもいいですか？",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Can_I_get_in~.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/入ってもいいですか？.ogg"
+  },
+  {
+    "lessonId": "15.0",
+    "englishRawText": "Can I take a picture?",
+    "japaneseRawText": "写真を 撮っても いいですか。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Can_I_take_a_picture~.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/写真を撮ってもいいですか。.ogg"
+  },
+  {
+    "lessonId": "15.0",
+    "englishRawText": "Santos has a personal computer.",
+    "japaneseRawText": "サントスさんは パソコンを 持っています。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Santos_has_a_personal_computer^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/サントスさんはパソコンを持っています。.ogg"
+  },
+  {
+    "lessonId": "15.0",
+    "englishRawText": "May I get this catalog?\nYes, that's fine. Please.",
+    "japaneseRawText": "この カタログを 貰っても いいですか。\nええ、いいですよ。 どうぞ。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/May_I_get_this_catalog~{xn}Yes`_that's_fine^_Please^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/このカタログを貰ってもいいですか。{xn}ええ、いいですよ。どうぞ。.ogg"
+  },
+  {
+    "lessonId": "15.0",
+    "englishRawText": "Can I borrow this dictionary?\nI'm sorry, but…. I'm using it now.",
+    "japaneseRawText": "この 辞書を 借りても いいですか。\nすみません、ちょっと…。 今 使っています。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Can_I_borrow_this_dictionary~{xn}I'm_sorry`_but…^_I'm_using_it_now^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/この辞書を借りてもいいですか。{xn}すみません、ちょっと…。今使っています。.ogg"
+  },
+  {
+    "lessonId": "15.0",
+    "englishRawText": "Don't play here.",
+    "japaneseRawText": "ここで 遊んでは いけません。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Don't_play_here^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/ここで遊んではいけません。.ogg"
+  },
+  {
+    "lessonId": "15.0",
+    "englishRawText": "Do you know the phone number of the city hall?\nNo, I don't know.",
+    "japaneseRawText": "市役所の 電話番号を 知っていますか。\nいいえ、知りません。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Do_you_know_the_phone_number_of_the_city_hall~{xn}No`_I_don't_know^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/市役所の電話番号を知っていますか。{xn}いいえ、知りません。.ogg"
+  },
+  {
+    "lessonId": "15.0",
+    "englishRawText": "Where does Maria live?\nShe lives in Osaka.",
+    "japaneseRawText": "マリアさんは どこに 住んでいますか。\n大阪に 住んでいます。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Where_does_Maria_live~{xn}She_lives_in_Osaka^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/マリアさんはどこに住んでいますか。{xn}大阪に住んでいます。.ogg"
+  },
+  {
+    "lessonId": "15.0",
+    "englishRawText": "Is Wang single?\nNo, he's married.",
+    "japaneseRawText": "ワンさんは 独身ですか。\nいいえ、 結婚しています。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Is_Wang_single~{xn}No`_he's_married^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/ワンさんは独身ですか。{xn}いいえ、結婚しています。.ogg"
+  },
+  {
+    "lessonId": "15.0",
+    "englishRawText": "What is your job?\nI'm a teacher. I teach at Fuji University.\nWhat is your specialty?\nJapanese Art.",
+    "japaneseRawText": "お仕事は 何ですか。\n教師です。富士大学で 教えています。\n専門は？\n日本の美術です。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/What_is_your_job~{xn}I'm_a_teacher^_I_teach_at_Fuji_University^{xn}What_is_your_specialty~{xn}Japanese_Art^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/お仕事は何ですか。{xn}教師です。富士大学で教えています。{xn}専門は？{xn}日本の美術です。.ogg"
+  },
+  {
+    "lessonId": "15.0",
+    "englishRawText": "I missed my family.",
+    "japaneseRawText": "私は 家族を 思い出しました。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/I_missed_my_family^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/私は家族を思い出しました。.ogg"
+  },
+  {
+    "lessonId": "15.0",
+    "englishRawText": "What about your family?\nI have one parent and one sister.",
+    "japaneseRawText": "あなたの ご家族は？\n両親と 姉が 1人 います。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/What_about_your_family~{xn}I_have_one_parent_and_one_sister^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/あなたのご家族は？{xn}両親と姉が1人います。.ogg"
+  },
+  {
+    "lessonId": "15.0",
+    "englishRawText": "Where are your parents now?\nMy parents live near New York.",
+    "japaneseRawText": "ご両親は どこに いらっしゃいますか。\n両親は ニューヨークの 近くに 住んでいます。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Where_are_your_parents_now~{xn}My_parents_live_near_New_York^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/ご両親はどこにいらっしゃいますか。{xn}両親はニューヨークの近くに住んでいます。.ogg"
+  },
+  {
+    "lessonId": "15.0",
+    "englishRawText": "My mother teaches English in high school.",
+    "japaneseRawText": "母は 高校で 英語を 教えています。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/My_mother_teaches_English_in_high_school^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/母は高校で英語を教えています。.ogg"
+  },
+  {
+    "lessonId": "15.0",
+    "englishRawText": "Can I write with a pencil?",
+    "japaneseRawText": "鉛筆で 書いても いいですか。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Can_I_write_with_a_pencil~.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/鉛筆で書いてもいいですか。.ogg"
+  },
+  {
+    "lessonId": "15.0",
+    "englishRawText": "Can I use this computer?",
+    "japaneseRawText": "この コンピュターを 使っても いいですか。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Can_I_use_this_computer~.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/このコンピュターを使ってもいいですか。.ogg"
+  },
+  {
+    "lessonId": "15.0",
+    "englishRawText": "Can I sit here?",
+    "japaneseRawText": "ここに 座っても いいですか。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Can_I_sit_here~.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/ここに座ってもいいですか。.ogg"
+  },
+  {
+    "lessonId": "15.0",
+    "englishRawText": "Do not drink alcohol.",
+    "japaneseRawText": "お酒を 飲んでは いけません。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Do_not_drink_alcohol^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/お酒を飲んではいけません。.ogg"
+  },
+  {
+    "lessonId": "15.0",
+    "englishRawText": "Do not take pictures here.",
+    "japaneseRawText": "ここで 写真を 撮っては いけません。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Do_not_take_pictures_here^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/ここで写真を撮ってはいけません。.ogg"
+  },
+  {
+    "lessonId": "15.0",
+    "englishRawText": "Do not park your car here.",
+    "japaneseRawText": "ここに 車を 停めては いけません。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Do_not_park_your_car_here^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/ここに車を停めてはいけません。.ogg"
+  },
+  {
+    "lessonId": "15.0",
+    "englishRawText": "I live in Kyoto.",
+    "japaneseRawText": "私は 京都に 住んでいます",
+    "englishAudioFileName": "audio/FEMALE/EN_US/I_live_in_Kyoto^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/私は京都に住んでいます.ogg"
+  },
+  {
+    "lessonId": "15.0",
+    "englishRawText": "I know Maria.",
+    "japaneseRawText": "私は マリアさんを 知っています。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/I_know_Maria^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/私はマリアさんを知っています。.ogg"
+  },
+  {
+    "lessonId": "15.0",
+    "englishRawText": "I am married.",
+    "japaneseRawText": "私は 結婚しています。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/I_am_married^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/私は結婚しています。.ogg"
+  },
+  {
+    "lessonId": "15.0",
+    "englishRawText": "Miller works at BBC.",
+    "japaneseRawText": "ミラーさんは BBCで 働いて います。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Miller_works_at_BBC^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/ミラーさんはBBCで働いています。.ogg"
+  },
+  {
+    "lessonId": "15.0",
+    "englishRawText": "Can I turn off the TV?",
+    "japaneseRawText": "テレビを　消しても　いいですか。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Can_I_turn_off_the_TV~.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/テレビを消してもいいですか。.ogg"
+  },
+  {
+    "lessonId": "15.0",
+    "englishRawText": "Can I smoke?",
+    "japaneseRawText": "たばこを　吸っても　いいですか。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Can_I_smoke~.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/たばこを吸ってもいいですか。.ogg"
+  },
+  {
+    "lessonId": "15.0",
+    "englishRawText": "Can I place my luggage here?",
+    "japaneseRawText": "ここに　荷物を　置いても　いいですか。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Can_I_place_my_luggage_here~.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/ここに荷物を置いてもいいですか。.ogg"
+  },
+  {
+    "lessonId": "15.0",
+    "englishRawText": "What is IMC making?\nMaking computer software.",
+    "japaneseRawText": "ＩＭＣは　何を　作っていますか。\nコンピューターソフトを　作っています。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/What_is_IMC_making~{xn}Making_computer_software^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/ＩＭＣは何を作っていますか。{xn}コンピューターソフトを作っています。.ogg"
+  },
+  {
+    "lessonId": "15.0",
+    "englishRawText": "What are being sold at that store?\nSelling old clothes.",
+    "japaneseRawText": "あの　店で　何を　売っていますか。\n古い　服を　売っています。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/What_are_being_sold_at_that_store~{xn}Selling_old_clothes^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/あの店で何を売っていますか。{xn}古い服を売っています。.ogg"
+  },
+  {
+    "lessonId": "15.0",
+    "englishRawText": "Which brand does the computers Meio University using from?\nThey are using computer from Pa-wa electricity company.",
+    "japaneseRawText": "桜大学は　どこの　コンピューターを　使っていますか。\nパワー電気の　コンピューターを　使っています。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Which_brand_does_the_computers_Meio_University_using_from~{xn}They_are_using_computer_from_Pa-wa_electricity_company^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/桜大学はどこのコンピューターを使っていますか。{xn}パワー電気のコンピューターを使っています。.ogg"
+  },
+  {
+    "lessonId": "15.0",
+    "englishRawText": "Where are concert tickets sold?\nThey are sold at the play-guide.",
+    "japaneseRawText": "どこで　コンサートの　チケットを　売っていますか。\nプレイガイドで　売っています。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Where_are_concert_tickets_sold~{xn}They_are_sold_at_the_play-guide^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/どこでコンサートのチケットを売っていますか。{xn}プレイガイドで売っています。.ogg"
+  },
+  {
+    "lessonId": "15.0",
+    "englishRawText": "I work at Techcom Bank.",
+    "japaneseRawText": "テクコムバンクで　働いています。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/I_work_at_Techcom_Bank^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/テクコムバンクで働いています。.ogg"
+  },
+  {
+    "lessonId": "15.0",
+    "englishRawText": "Do you know Mr. Miller?\nYes, I know.\nDoes Miller know that?",
+    "japaneseRawText": "ミラーさんを　知っていますか。\nはい、知っています。\nミラーさんは　それを　知っていますか？",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Do_you_know_Mr^_Miller~{xn}Yes`_I_know^{xn}Does_Miller_know_that~.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/ミラーさんを知っていますか。{xn}はい、知っています。{xn}ミラーさんはそれを知っていますか？.ogg"
+  },
+  {
+    "lessonId": "16.0",
+    "englishRawText": "I go jogging in the morning, take a shower, then go to work.",
+    "japaneseRawText": "朝 ジョギングを して、シャワーを 浴びて、会社へ 行きます。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/I_go_jogging_in_the_morning`_take_a_shower`_then_go_to_work^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/朝ジョギングをして、シャワーを浴びて、会社へ行きます。.ogg"
+  },
+  {
+    "lessonId": "16.0",
+    "englishRawText": "After the concert, I ate at the restaurant.",
+    "japaneseRawText": "コンサートが 終わってから、レストランで 食事を しました。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/After_the_concert`_I_ate_at_the_restaurant^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/コンサートが終わってから、レストランで食事をしました。.ogg"
+  },
+  {
+    "lessonId": "16.0",
+    "englishRawText": "I went to the library, borrowed a book, and then met my friend.",
+    "japaneseRawText": "図書館へ 行って、本を 借りて、それから 友達に 会いました。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/I_went_to_the_library`_borrowed_a_book`_and_then_met_my_friend^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/図書館へ行って、本を借りて、それから友達に会いました。.ogg"
+  },
+  {
+    "lessonId": "16.0",
+    "englishRawText": "This computer is light and convenient.",
+    "japaneseRawText": "この パソコンは 軽くて、便利です。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/This_computer_is_light_and_convenient^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/このパソコンは軽くて、便利です。.ogg"
+  },
+  {
+    "lessonId": "16.0",
+    "englishRawText": "Food is delicious in Osaka.",
+    "japaneseRawText": "大阪は 食べ物が おいしいです。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Food_is_delicious_in_Osaka^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/大阪は食べ物がおいしいです。.ogg"
+  },
+  {
+    "lessonId": "16.0",
+    "englishRawText": "How do you go to school?\nI take bus number 16 from Kyoto station and get off in front of the school.",
+    "japaneseRawText": "学校まで どうやって 行きますか。\n私は 京都駅から 16番の バスに 乗って、学校前で 降ります。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/How_do_you_go_to_school~{xn}I_take_bus_number_16_from_Kyoto_station_and_get_off_in_front_of_the_school^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/学校までどうやって行きますか。{xn}私は京都駅から16番のバスに乗って、学校前で降ります。.ogg"
+  },
+  {
+    "lessonId": "16.0",
+    "englishRawText": "What do you do after returning to your country?\nI work for my father's company.",
+    "japaneseRawText": "国へ 帰ってから、何を しますか。\n父の 会社で 働きます。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/What_do_you_do_after_returning_to_your_country~{xn}I_work_for_my_father's_company^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/国へ帰ってから、何をしますか。{xn}父の会社で働きます。.ogg"
+  },
+  {
+    "lessonId": "16.0",
+    "englishRawText": "Who is Santos?\nHe is that tall man with dark hair.",
+    "japaneseRawText": "サントスさんは どの 人ですか。\nあの 背が 高くて、髪が 黒い 人です。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Who_is_Santos~{xn}He_is_that_tall_man_with_dark_hair^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/サントスさんはどの人ですか。{xn}あの背が高くて、髪が黒い人です。.ogg"
+  },
+  {
+    "lessonId": "16.0",
+    "englishRawText": "What kind of town is Nara?\nIt's a big, quiet and beautiful town.",
+    "japaneseRawText": "奈良は どんな 町ですか。\n大きくて、静かで、きれいな 町です。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/What_kind_of_town_is_Nara~{xn}It's_a_big`_quiet_and_beautiful_town^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/奈良はどんな町ですか。{xn}大きくて、静かで、きれいな町です。.ogg"
+  },
+  {
+    "lessonId": "16.0",
+    "englishRawText": "What kind of place is Hokkaido?\nIt is a beautiful and delicious-food place.",
+    "japaneseRawText": "北海道は どんな 所ですか。\nきれいで 食べ物が 美味しい 所です。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/What_kind_of_place_is_Hokkaido~{xn}It_is_a_beautiful_and_delicious-food_place^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/北海道はどんな所ですか。{xn}きれいで食べ物が美味しい所です。.ogg"
+  },
+  {
+    "lessonId": "16.0",
+    "englishRawText": "Is Hanoi a quiet, green city?\nNo, it's not. There are many cars and few green trees.",
+    "japaneseRawText": "ハノイは 静かで、緑が 多い 都市ですか。\nいいえ、そうではありません。車が 多くて、緑が 少ないです。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Is_Hanoi_a_quiet`_green_city~{xn}No`_it's_not^_There_are_many_cars_and_few_green_trees^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/ハノイは静かで、緑が多い都市ですか。{xn}いいえ、そうではありません。車が多くて、緑が少ないです。.ogg"
+  },
+  {
+    "lessonId": "16.0",
+    "englishRawText": "How about the dormitory?\nThe room is clean and bright.",
+    "japaneseRawText": "寮は どうですか。\n部屋が きれいで、明るいです。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/How_about_the_dormitory~{xn}The_room_is_clean_and_bright^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/寮はどうですか。{xn}部屋がきれいで、明るいです。.ogg"
+  },
+  {
+    "lessonId": "16.0",
+    "englishRawText": "Karina is an Indonesian and an international student at Fuji University.",
+    "japaneseRawText": "カリナさんは インドネシア人で、富士大学の 留学生です",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Karina_is_an_Indonesian_and_an_international_student_at_Fuji_University^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/カリナさんはインドネシア人で、富士大学の留学生です.ogg"
+  },
+  {
+    "lessonId": "16.0",
+    "englishRawText": "Please teach me how to use it.",
+    "japaneseRawText": "使い方を 教えてください。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Please_teach_me_how_to_use_it^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/使い方を教えてください。.ogg"
+  },
+  {
+    "lessonId": "16.0",
+    "englishRawText": "Would you like to make a withdrawal.",
+    "japaneseRawText": "お引き出しですか。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Would_you_like_to_make_a_withdrawal^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/お引き出しですか。.ogg"
+  },
+  {
+    "lessonId": "16.0",
+    "englishRawText": "Please press here first.",
+    "japaneseRawText": "まず ここを 押してください。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Please_press_here_first^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/まずここを押してください。.ogg"
+  },
+  {
+    "lessonId": "16.0",
+    "englishRawText": "Do you have a cash card?",
+    "japaneseRawText": "キャッシュカードは ありますか。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Do_you_have_a_cash_card~.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/キャッシュカードはありますか。.ogg"
+  },
+  {
+    "lessonId": "16.0",
+    "englishRawText": "Put it here, then press your PIN.",
+    "japaneseRawText": "それを ここに 入れて、暗証番号を 押してください。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Put_it_here`_then_press_your_PIN^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/それをここに入れて、暗証番号を押してください。.ogg"
+  },
+  {
+    "lessonId": "16.0",
+    "englishRawText": "Then please press the amount.",
+    "japaneseRawText": "次に 金額を 押してください。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Then_please_press_the_amount^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/次に金額を押してください。.ogg"
+  },
+  {
+    "lessonId": "16.0",
+    "englishRawText": "It's 50,000 yen.",
+    "japaneseRawText": "5万円ですが。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/It's_50`000_yen^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/5万円ですが。.ogg"
+  },
+  {
+    "lessonId": "16.0",
+    "englishRawText": "Then press this confirmation button.",
+    "japaneseRawText": "それから この 確認ボタンを 押してください。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Then_press_this_confirmation_button^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/それからこの確認ボタンを押してください。.ogg"
+  },
+  {
+    "lessonId": "16.0",
+    "englishRawText": "Please put in the money and then press the button.",
+    "japaneseRawText": "お金を 入れてから、ボタンを 押して ください。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Please_put_in_the_money_and_then_press_the_button^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/お金を入れてから、ボタンを押してください。.ogg"
+  },
+  {
+    "lessonId": "16.0",
+    "englishRawText": "Yesterday I read a book, wrote a letter, and went to bed.",
+    "japaneseRawText": "昨日 本を 読んで、 手紙を 書いて、 寝ました。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Yesterday_I_read_a_book`_wrote_a_letter`_and_went_to_bed^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/昨日本を読んで、手紙を書いて、寝ました。.ogg"
+  },
+  {
+    "lessonId": "16.0",
+    "englishRawText": "On Sunday I get up around 10 o'clock, take a walk, and have a meal.",
+    "japaneseRawText": "日曜日 10時ごろ 起きて、 散歩して、 食事します。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/On_Sunday_I_get_up_around_10_o'clock`_take_a_walk`_and_have_a_meal^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/日曜日10時ごろ起きて、散歩して、食事します。.ogg"
+  },
+  {
+    "lessonId": "16.0",
+    "englishRawText": "After finishing work, I will swim.",
+    "japaneseRawText": "仕事が 終わって から、泳ぎます。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/After_finishing_work`_I_will_swim^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/仕事が終わってから、泳ぎます。.ogg"
+  },
+  {
+    "lessonId": "16.0",
+    "englishRawText": "After returning home, I ate dinner.",
+    "japaneseRawText": "うちへ 帰って から、晩ごはんを 食べました。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/After_returning_home`_I_ate_dinner^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/うちへ帰ってから、晩ごはんを食べました。.ogg"
+  },
+  {
+    "lessonId": "16.0",
+    "englishRawText": "Mr. Son is tall.\nMr. Son has big eyes.\nMr. Son has short hair.",
+    "japaneseRawText": "ソンさんは 背が 高い です。\nソンさんは 目が 大きい です。\nソンさんは 髪が 短い です。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Mr^_Son_is_tall^{xn}Mr^_Son_has_big_eyes^{xn}Mr^_Son_has_short_hair^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/ソンさんは背が高いです。{xn}ソンさんは目が大きいです。{xn}ソンさんは髪が短いです。.ogg"
+  },
+  {
+    "lessonId": "16.0",
+    "englishRawText": "Mr. Son is young and energetic.\nMr. Son is smart and interesting.\nMr. Son is handsome and kind.\nMr. Son is 28 years old, and she is single.",
+    "japaneseRawText": "ソンさんは 若くて、元気です。\nソンさんは 頭が 良くて、面白いです。\nソンさんは ハンサムで、親切です。\nソンさんは 28歳で、独身です。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Mr^_Son_is_young_and_energetic^{xn}Mr^_Son_is_smart_and_interesting^{xn}Mr^_Son_is_handsome_and_kind^{xn}Mr^_Son_is_28_years_old`_and_she_is_single^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/ソンさんは若くて、元気です。{xn}ソンさんは頭が良くて、面白いです。{xn}ソンさんはハンサムで、親切です。{xn}ソンさんは28歳で、独身です。.ogg"
+  },
+  {
+    "lessonId": "16.0",
+    "englishRawText": "I rest for an hour at noon and work until 5:30 pm.",
+    "japaneseRawText": "昼 １時間 休んで、午後 5時半まで 働きます。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/I_rest_for_an_hour_at_noon_and_work_until_5{cl}30_pm^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/昼１時間休んで、午後5時半まで働きます。.ogg"
+  },
+  {
+    "lessonId": "16.0",
+    "englishRawText": "Take the JR train from Kyoto Station and transfer to the subway in Osaka.",
+    "japaneseRawText": "京都駅から JRに 乗って、大阪で 地下鉄に 乗り換えます。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Take_the_JR_train_from_Kyoto_Station_and_transfer_to_the_subway_in_Osaka^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/京都駅からJRに乗って、大阪で地下鉄に乗り換えます。.ogg"
+  },
+  {
+    "lessonId": "16.0",
+    "englishRawText": "I bought a sandwich and ate it at Osaka Castle Park.",
+    "japaneseRawText": "サンドイッチを 買って、大阪城公園で 食べました。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/I_bought_a_sandwich_and_ate_it_at_Osaka_Castle_Park^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/サンドイッチを買って、大阪城公園で食べました。.ogg"
+  },
+  {
+    "lessonId": "16.0",
+    "englishRawText": "I got up at 6 o'clock, took a walk, and then ate breakfast.",
+    "japaneseRawText": "６時に 起きて、散歩して、それから 朝ごはんを 食べました。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/I_got_up_at_6_o'clock`_took_a_walk`_and_then_ate_breakfast^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/６時に起きて、散歩して、それから朝ごはんを食べました。.ogg"
+  },
+  {
+    "lessonId": "16.0",
+    "englishRawText": "I read newspaper, drink coffee, and then go to work.",
+    "japaneseRawText": "新聞を 読んで、コーヒーを 飲んで、それから 会社へ 行きます。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/I_read_newspaper`_drink_coffee`_and_then_go_to_work^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/新聞を読んで、コーヒーを飲んで、それから会社へ行きます。.ogg"
+  },
+  {
+    "lessonId": "16.0",
+    "englishRawText": "I go home, eat rice, and then study Japanese.",
+    "japaneseRawText": "家へ 帰って、ご飯を 食べて、それから 日本語を 勉強します。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/I_go_home`_eat_rice`_and_then_study_Japanese^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/家へ帰って、ご飯を食べて、それから日本語を勉強します。.ogg"
+  },
+  {
+    "lessonId": "16.0",
+    "englishRawText": "I take a shower, read a book, and then go to bed.",
+    "japaneseRawText": "シャワーを 浴びて、本を 読んで、それから 寝ます。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/I_take_a_shower`_read_a_book`_and_then_go_to_bed^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/シャワーを浴びて、本を読んで、それから寝ます。.ogg"
+  },
+  {
+    "lessonId": "16.0",
+    "englishRawText": "I withdraw money at the bank and then go shopping.",
+    "japaneseRawText": "銀行で お金を 引き出してから、買い物に 行きます。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/I_withdraw_money_at_the_bank_and_then_go_shopping^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/銀行でお金を引き出してから、買い物に行きます。.ogg"
+  },
+  {
+    "lessonId": "16.0",
+    "englishRawText": "Let's go drinking beer after finishing the work.",
+    "japaneseRawText": "仕事が 終わってから、ビールを 飲みに 行きませんか。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Let's_go_drinking_beer_after_finishing_the_work^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/仕事が終わってから、ビールを飲みに行きませんか。.ogg"
+  },
+  {
+    "lessonId": "16.0",
+    "englishRawText": "What will you do after graduating from college?\nI will go abroad and work.",
+    "japaneseRawText": "大学を 出てから、何を しますか。\n外国へ 行って、働きます。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/What_will_you_do_after_graduating_from_college~{xn}I_will_go_abroad_and_work^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/大学を出てから、何をしますか。{xn}外国へ行って、働きます。.ogg"
+  },
+  {
+    "lessonId": "16.0",
+    "englishRawText": "What will you do after visiting the temple?\nI will go to Nara Park and then go home.",
+    "japaneseRawText": "お寺を 見て から、何を しますか。\n奈良公園へ 行って、うちに帰ります。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/What_will_you_do_after_visiting_the_temple~{xn}I_will_go_to_Nara_Park_and_then_go_home^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/お寺を見てから、何をしますか。{xn}奈良公園へ行って、うちに帰ります。.ogg"
+  },
+  {
+    "lessonId": "16.0",
+    "englishRawText": "What will you do after quiting the company?\nI will travel to Asia and write books.",
+    "japaneseRawText": "会社を 辞めて から、何を しますか。\nアジアを 旅行して、本を 書きます。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/What_will_you_do_after_quiting_the_company~{xn}I_will_travel_to_Asia_and_write_books^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/会社を辞めてから、何をしますか。{xn}アジアを旅行して、本を書きます。.ogg"
+  },
+  {
+    "lessonId": "16.0",
+    "englishRawText": "What will you do after returning to your country?\nI will enter an university and study national economics.",
+    "japaneseRawText": "国へ 帰って から、何を しますか。\n大学に 入って、国の経済を 勉強します。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/What_will_you_do_after_returning_to_your_country~{xn}I_will_enter_an_university_and_study_national_economics^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/国へ帰ってから、何をしますか。{xn}大学に入って、国の経済を勉強します。.ogg"
+  },
+  {
+    "lessonId": "16.0",
+    "englishRawText": "What will you do after your research is over?\nI will return to the United States and work at university.",
+    "japaneseRawText": "研究が 終わって から、何を しますか。\nアメリカへ 帰って、大学で 働きます。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/What_will_you_do_after_your_research_is_over~{xn}I_will_return_to_the_United_States_and_work_at_university^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/研究が終わってから、何をしますか。{xn}アメリカへ帰って、大学で働きます。.ogg"
+  },
+  {
+    "lessonId": "16.0",
+    "englishRawText": "This camera is big and heavy.",
+    "japaneseRawText": "この カメラは 大きくて、重いです。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/This_camera_is_big_and_heavy^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/このカメラは大きくて、重いです。.ogg"
+  },
+  {
+    "lessonId": "16.0",
+    "englishRawText": "My room is small and dark.",
+    "japaneseRawText": "私の 部屋は 狭くて、暗いです。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/My_room_is_small_and_dark^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/私の部屋は狭くて、暗いです。.ogg"
+  },
+  {
+    "lessonId": "16.0",
+    "englishRawText": "Okinawa sea is blue and beautiful.",
+    "japaneseRawText": "沖縄の 海は 青くて、きれいです。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Okinawa_sea_is_blue_and_beautiful^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/沖縄の海は青くて、きれいです。.ogg"
+  },
+  {
+    "lessonId": "16.0",
+    "englishRawText": "Tokyo is lively and interesting.",
+    "japaneseRawText": "東京は 賑やかで、面白いです。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Tokyo_is_lively_and_interesting^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/東京は賑やかで、面白いです。.ogg"
+  },
+  {
+    "lessonId": "16.0",
+    "englishRawText": "Who is Maria?\nIt's that person who has long hair and is pretty.",
+    "japaneseRawText": "マリアさんは どの 人ですか。\nあの 髪が 長くて、きれいな 人です。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Who_is_Maria~{xn}It's_that_person_who_has_long_hair_and_is_pretty^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/マリアさんはどの人ですか。{xn}あの髪が長くて、きれいな人です。.ogg"
+  },
+  {
+    "lessonId": "16.0",
+    "englishRawText": "It's the person who has black hair and big eyes.",
+    "japaneseRawText": "髪が 黒くて、目が 大きい 人です。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/It's_the_person_who_has_black_hair_and_big_eyes^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/髪が黒くて、目が大きい人です。.ogg"
+  },
+  {
+    "lessonId": "16.0",
+    "englishRawText": "It's the person who is tall and nice.",
+    "japaneseRawText": "背が 高くて、すてきな 人です。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/It's_the_person_who_is_tall_and_nice^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/背が高くて、すてきな人です。.ogg"
+  },
+  {
+    "lessonId": "17.0",
+    "englishRawText": "How many times a day do you have to take the medicine?\nI have to take three times.",
+    "japaneseRawText": "１日に 何回 薬を 飲まな ければ なりませんか。\n３回 飲まな ければ なりません。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/How_many_times_a_day_do_you_have_to_take_the_medicine~{xn}I_have_to_take_three_times^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/１日に何回薬を飲まなければなりませんか。{xn}３回飲まなければなりません。.ogg"
+  },
+  {
+    "lessonId": "17.0",
+    "englishRawText": "How many problems do you have to do every day?\nI have to do 10 problems.",
+    "japaneseRawText": "毎日 いくつ 問題を しな ければ なりませんか。\n１０題 しな ければ なりません。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/How_many_problems_do_you_have_to_do_every_day~{xn}I_have_to_do_10_problems^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/毎日いくつ問題をしなければなりませんか。{xn}１０題しなければなりません。.ogg"
+  },
+  {
+    "lessonId": "17.0",
+    "englishRawText": "How many reports do I have to write?\nYou have to write 15 sheets.",
+    "japaneseRawText": "何枚 レポートを 書かな ければ なりませんか。\nあなたは １５枚 書かな ければ なりません。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/How_many_reports_do_I_have_to_write~{xn}You_have_to_write_15_sheets^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/何枚レポートを書かなければなりませんか。{xn}あなたは１５枚書かなければなりません。.ogg"
+  },
+  {
+    "lessonId": "17.0",
+    "englishRawText": "By what day do I have to return the book?\nYou have to return by Wednesday.",
+    "japaneseRawText": "何曜日までに その 本を 返さな ければ なりませんか。\nあなたは 水曜日までに 返さな ければ なりません。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/By_what_day_do_I_have_to_return_the_book~{xn}You_have_to_return_by_Wednesday^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/何曜日までにその本を返さなければなりませんか。{xn}あなたは水曜日までに返さなければなりません。.ogg"
+  },
+  {
+    "lessonId": "17.0",
+    "englishRawText": "By what time do I have to return to the dormitory?\nYou have to return by 12 o'clock.",
+    "japaneseRawText": "何時までに 寮へ 帰らな ければ なりませんか。\nあなたは １２時までに 帰らな ければ なりません。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/By_what_time_do_I_have_to_return_to_the_dormitory~{xn}You_have_to_return_by_12_o'clock^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/何時までに寮へ帰らなければなりませんか。{xn}あなたは１２時までに帰らなければなりません。.ogg"
+  },
+  {
+    "lessonId": "17.0",
+    "englishRawText": "By what day do I have to return the book?\nYou must return by Wednesday.",
+    "japaneseRawText": "何曜日までに その 本を 返さなければ なりませんか。\nあなたは 水曜日までに 返さなければ なりません。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/By_what_day_do_I_have_to_return_the_book~{xn}You_must_return_by_Wednesday^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/何曜日までにその本を返さなければなりませんか。{xn}あなたは水曜日までに返さなければなりません。.ogg"
+  },
+  {
+    "lessonId": "17.0",
+    "englishRawText": "I have to learn 6 kanji every day.",
+    "japaneseRawText": "私は 毎日 6つの漢字 を 学ばな ければ なりません。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/I_have_to_learn_6_kanji_every_day^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/私は毎日6つの漢字を学ばなければなりません。.ogg"
+  },
+  {
+    "lessonId": "17.0",
+    "englishRawText": "I have to remember 6 kanji every day.",
+    "japaneseRawText": "私は 毎日 漢字を ６つ 覚えなければ なりません。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/I_have_to_remember_6_kanji_every_day^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/私は毎日漢字を６つ覚えなければなりません。.ogg"
+  },
+  {
+    "lessonId": "17.0",
+    "englishRawText": "You don't have to bring an umbrella with you.",
+    "japaneseRawText": "傘を 持って 行かなくても いいです。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/You_don't_have_to_bring_an_umbrella_with_you^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/傘を持って行かなくてもいいです。.ogg"
+  },
+  {
+    "lessonId": "17.0",
+    "englishRawText": "You don't have to come to the hospital tomorrow.",
+    "japaneseRawText": "明日は 病院へ 来なくても いいです。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/You_don't_have_to_come_to_the_hospital_tomorrow^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/明日は病院へ来なくてもいいです。.ogg"
+  },
+  {
+    "lessonId": "17.0",
+    "englishRawText": "You don't have to cook a meal today.",
+    "japaneseRawText": "今日は 食事を 作らなくても いいです。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/You_don't_have_to_cook_a_meal_today^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/今日は食事を作らなくてもいいです。.ogg"
+  },
+  {
+    "lessonId": "17.0",
+    "englishRawText": "It's a library book, so please don't write anything.",
+    "japaneseRawText": "図書館の 本ですから、何も 書かないでください。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/It's_a_library_book`_so_please_don't_write_anything^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/図書館の本ですから、何も書かないでください。.ogg"
+  },
+  {
+    "lessonId": "17.0",
+    "englishRawText": "It's an important document, so please don't lose it.",
+    "japaneseRawText": "大切な 資料ですから、無くさないでください。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/It's_an_important_document`_so_please_don't_lose_it^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/大切な資料ですから、無くさないでください。.ogg"
+  },
+  {
+    "lessonId": "17.0",
+    "englishRawText": "I'm fine, so please don't be worried.",
+    "japaneseRawText": "大丈夫ですから、心配しないでください。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/I'm_fine`_so_please_don't_be_worried^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/大丈夫ですから、心配しないでください。.ogg"
+  },
+  {
+    "lessonId": "17.0",
+    "englishRawText": "It's dangerous, so please don't press it.",
+    "japaneseRawText": "危ないですから、押さないでください。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/It's_dangerous`_so_please_don't_press_it^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/危ないですから、押さないでください。.ogg"
+  },
+  {
+    "lessonId": "17.0",
+    "englishRawText": "It's no-smoking, so please don't smoke.",
+    "japaneseRawText": "禁煙ですから、たばこを 吸わないでください。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/It's_no-smoking`_so_please_don't_smoke^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/禁煙ですから、たばこを吸わないでください。.ogg"
+  },
+  {
+    "lessonId": "17.0",
+    "englishRawText": "Please don't smoke here.",
+    "japaneseRawText": "ここで たばこを 吸わない でください。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Please_don't_smoke_here^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/ここでたばこを吸わないでください。.ogg"
+  },
+  {
+    "lessonId": "17.0",
+    "englishRawText": "Please don't take pictures here.",
+    "japaneseRawText": "ここで 写真を 撮らない でください。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Please_don't_take_pictures_here^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/ここで写真を撮らないでください。.ogg"
+  },
+  {
+    "lessonId": "17.0",
+    "englishRawText": "Please don't put your bicycle here.",
+    "japaneseRawText": "ここに 自転車を 置かない でください。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Please_don't_put_your_bicycle_here^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/ここに自転車を置かないでください。.ogg"
+  },
+  {
+    "lessonId": "17.0",
+    "englishRawText": "Please don't park your car there.",
+    "japaneseRawText": "そこに 車を 止めないで ください。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Please_don't_park_your_car_there^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/そこに車を止めないでください。.ogg"
+  },
+  {
+    "lessonId": "17.0",
+    "englishRawText": "Please don't use a ballpoint pen.",
+    "japaneseRawText": "ボールペンを 使わないでください。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Please_don't_use_a_ballpoint_pen^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/ボールペンを使わないでください。.ogg"
+  },
+  {
+    "lessonId": "17.0",
+    "englishRawText": "Please don't forget your umbrella.",
+    "japaneseRawText": "傘を 忘れない でください。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Please_don't_forget_your_umbrella^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/傘を忘れないでください。.ogg"
+  },
+  {
+    "lessonId": "17.0",
+    "englishRawText": "Please don't lose your passport.",
+    "japaneseRawText": "パスポートを 無くさない でください。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Please_don't_lose_your_passport^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/パスポートを無くさないでください。.ogg"
+  },
+  {
+    "lessonId": "17.0",
+    "englishRawText": "You must show the passport.",
+    "japaneseRawText": "パスポートを 見せなければ なりません。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/You_must_show_the_passport^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/パスポートを見せなければなりません。.ogg"
+  },
+  {
+    "lessonId": "17.0",
+    "englishRawText": "You must show the passport.",
+    "japaneseRawText": "パスポートを 見せないと いけません 。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/You_must_show_the_passport^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/パスポートを見せないといけません。.ogg"
+  },
+  {
+    "lessonId": "17.0",
+    "englishRawText": "You don't have to submit a report.",
+    "japaneseRawText": "レポートは 出さなくても いいです。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/You_don't_have_to_submit_a_report^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/レポートは出さなくてもいいです。.ogg"
+  },
+  {
+    "lessonId": "17.0",
+    "englishRawText": "Please write the answer here.",
+    "japaneseRawText": "答えは ここに 書いてください。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Please_write_the_answer_here^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/答えはここに書いてください。.ogg"
+  },
+  {
+    "lessonId": "17.0",
+    "englishRawText": "Please smoke outside.",
+    "japaneseRawText": "タバコは 外で 吸ってください。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Please_smoke_outside^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/タバコは外で吸ってください。.ogg"
+  },
+  {
+    "lessonId": "17.0",
+    "englishRawText": "Can I drink alcohol?\nNo, she shouldn't drink for a couple of days.",
+    "japaneseRawText": "お酒を 飲んでも いいですか。\nいいえ、2、3日 飲まないで ください。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Can_I_drink_alcohol~{xn}No`_she_shouldn't_drink_for_a_couple_of_days^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/お酒を飲んでもいいですか。{xn}いいえ、2、3日飲まないでください。.ogg"
+  },
+  {
+    "lessonId": "17.0",
+    "englishRawText": "Would you like to go out for a drink tonight?\nI have an arrangement with my wife today.\nTherefore I have to go home early.",
+    "japaneseRawText": "今晩 飲みに 行きませんか。\n今日は 妻と 約束が あります。\nですから、早く 帰らなければ なりません。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Would_you_like_to_go_out_for_a_drink_tonight~{xn}I_have_an_arrangement_with_my_wife_today^{xn}Therefore_I_have_to_go_home_early^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/今晩飲みに行きませんか。{xn}今日は妻と約束があります。{xn}ですから、早く帰らなければなりません。.ogg"
+  },
+  {
+    "lessonId": "17.0",
+    "englishRawText": "I have to go home early.",
+    "japaneseRawText": "早く うちへ 帰らなければ なりません。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/I_have_to_go_home_early^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/早くうちへ帰らなければなりません。.ogg"
+  },
+  {
+    "lessonId": "17.0",
+    "englishRawText": "When do I have to submit the report?\nPlease submit by Friday.",
+    "japaneseRawText": "レポートは いつまでに 出さなければ なりませんか。\n金曜日までに 出して ください。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/When_do_I_have_to_submit_the_report~{xn}Please_submit_by_Friday^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/レポートはいつまでに出さなければなりませんか。{xn}金曜日までに出してください。.ogg"
+  },
+  {
+    "lessonId": "17.0",
+    "englishRawText": "Do I have to pay for the children also?\nNo, you don't have to pay.",
+    "japaneseRawText": "子どもも お金を 払わなければ なりませんか。\nいいえ、払わなくても いいです。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Do_I_have_to_pay_for_the_children_also~{xn}No`_you_don't_have_to_pay^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/子どももお金を払わなければなりませんか。{xn}いいえ、払わなくてもいいです。.ogg"
+  },
+  {
+    "lessonId": "17.0",
+    "englishRawText": "Since yesterday, I have a sore throat and also a little fever.",
+    "japaneseRawText": "昨日から 喉が 痛くて、熱も 少し あります。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Since_yesterday`_I_have_a_sore_throat_and_also_a_little_fever^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/昨日から喉が痛くて、熱も少しあります。.ogg"
+  },
+  {
+    "lessonId": "17.0",
+    "englishRawText": "Please open your mouth a little.",
+    "japaneseRawText": "ちょっと 口を 開けてください。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Please_open_your_mouth_a_little^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/ちょっと口を開けてください。.ogg"
+  },
+  {
+    "lessonId": "17.0",
+    "englishRawText": "It's a flu.\nPlease rest at ease.",
+    "japaneseRawText": "風邪ですね。\nゆっくり 休んでください。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/It's_a_flu^{xn}Please_rest_at_ease^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/風邪ですね。{xn}ゆっくり休んでください。.ogg"
+  },
+  {
+    "lessonId": "17.0",
+    "englishRawText": "Take the medicine, and please go to bed early today.",
+    "japaneseRawText": "薬を 飲んで、今日は 早く 寝てください。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Take_the_medicine`_and_please_go_to_bed_early_today^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/薬を飲んで、今日は早く寝てください。.ogg"
+  },
+  {
+    "lessonId": "17.0",
+    "englishRawText": "Please don't take a bath tonight.",
+    "japaneseRawText": "今晩は お風呂に 入らないで ください。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Please_don't_take_a_bath_tonight^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/今晩はお風呂に入らないでください。.ogg"
+  },
+  {
+    "lessonId": "17.0",
+    "englishRawText": "I have to return the book.",
+    "japaneseRawText": "本を 返さな ければなりません。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/I_have_to_return_the_book^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/本を返さなければなりません。.ogg"
+  },
+  {
+    "lessonId": "17.0",
+    "englishRawText": "I have to take medicine.",
+    "japaneseRawText": "薬を 飲まな ければなりません。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/I_have_to_take_medicine^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/薬を飲まなければなりません。.ogg"
+  },
+  {
+    "lessonId": "17.0",
+    "englishRawText": "I have to study.",
+    "japaneseRawText": "勉強しな ければ なりません。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/I_have_to_study^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/勉強しなければなりません。.ogg"
+  },
+  {
+    "lessonId": "17.0",
+    "englishRawText": "You don't have to write your name.",
+    "japaneseRawText": "名前を 書かなくて も いいです。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/You_don't_have_to_write_your_name^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/名前を書かなくてもいいです。.ogg"
+  },
+  {
+    "lessonId": "17.0",
+    "englishRawText": "You don't have to take off your shoes.",
+    "japaneseRawText": "靴を 脱がなくても いいです。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/You_don't_have_to_take_off_your_shoes^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/靴を脱がなくてもいいです。.ogg"
+  },
+  {
+    "lessonId": "17.0",
+    "englishRawText": "You don't have to come tomorrow.",
+    "japaneseRawText": "明日 こなくても いいです。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/You_don't_have_to_come_tomorrow^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/明日こなくてもいいです。.ogg",
+    "japaneseRepresentativeText": "明日 来なくても いいです。"
+  },
+  {
+    "lessonId": "17.0",
+    "englishRawText": "You don't have to eat what you don't like.",
+    "japaneseRawText": "嫌いな物 は 食べなくても いいです。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/You_don't_have_to_eat_what_you_don't_like^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/嫌いな物は食べなくてもいいです。.ogg"
+  },
+  {
+    "lessonId": "17.0",
+    "englishRawText": "You don't have to call a taxi.",
+    "japaneseRawText": "タクシーを 呼ばなくても いいです。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/You_don't_have_to_call_a_taxi^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/タクシーを呼ばなくてもいいです。.ogg"
+  },
+  {
+    "lessonId": "17.0",
+    "englishRawText": "It's not a bad illness, so you don't have to worry.",
+    "japaneseRawText": "悪い 病気 じゃ ありません から、心配しなくても いいです。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/It's_not_a_bad_illness`_so_you_don't_have_to_worry^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/悪い病気じゃありませんから、心配しなくてもいいです。.ogg"
+  },
+  {
+    "lessonId": "17.0",
+    "englishRawText": "I have a fever, so I have to go to the hospital.",
+    "japaneseRawText": "熱が あります から、病院へ 行かな ければ なりません。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/I_have_a_fever`_so_I_have_to_go_to_the_hospital^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/熱がありますから、病院へ行かなければなりません。.ogg"
+  },
+  {
+    "lessonId": "17.0",
+    "englishRawText": "The people at the company don't understand English, so we have to speak Japanese.",
+    "japaneseRawText": "会社の人 は 英語 が 分かりませんから、日本語で 話さな ければ なりません。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/The_people_at_the_company_don't_understand_English`_so_we_have_to_speak_Japanese^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/会社の人は英語が分かりませんから、日本語で話さなければなりません。.ogg"
+  },
+  {
+    "lessonId": "17.0",
+    "englishRawText": "Tomorrow is a holiday, so you don't have to get up early.",
+    "japaneseRawText": "明日は 休みですから、早く 起きなくても いいです。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Tomorrow_is_a_holiday`_so_you_don't_have_to_get_up_early^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/明日は休みですから、早く起きなくてもいいです。.ogg"
+  },
+  {
+    "lessonId": "17.0",
+    "englishRawText": "It's not too hot, so you don't have to turn on the air conditioner.",
+    "japaneseRawText": "あまり 暑くないです から、エアコンを 付けなくても いいです。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/It's_not_too_hot`_so_you_don't_have_to_turn_on_the_air_conditioner^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/あまり暑くないですから、エアコンを付けなくてもいいです。.ogg"
+  },
+  {
+    "lessonId": "17.0",
+    "englishRawText": "Please send the document by fax.",
+    "japaneseRawText": "資料 は ファクスで 送って ください。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Please_send_the_document_by_fax^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/資料はファクスで送ってください。.ogg"
+  },
+  {
+    "lessonId": "17.0",
+    "englishRawText": "The copy must be shown to Mr. Matsumoto.",
+    "japaneseRawText": "コピー は 松本さんに 見せな ければ なりません。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/The_copy_must_be_shown_to_Mr^_Matsumoto^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/コピーは松本さんに見せなければなりません。.ogg"
+  },
+  {
+    "lessonId": "17.0",
+    "englishRawText": "Do you have to go on a business trip next week?\nYes, I have to go on a business trip.",
+    "japaneseRawText": "来週 出張しな ければ なりませんか。\nはい、出張しな ければ なりません。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Do_you_have_to_go_on_a_business_trip_next_week~{xn}Yes`_I_have_to_go_on_a_business_trip^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/来週出張しなければなりませんか。{xn}はい、出張しなければなりません。.ogg"
+  },
+  {
+    "lessonId": "17.0",
+    "englishRawText": "Do I have to submit a report?\nNo, you don't have to submit.",
+    "japaneseRawText": "レポートを 出さな ければ なりませんか。\nいいえ、出さなくても いいです。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Do_I_have_to_submit_a_report~{xn}No`_you_don't_have_to_submit^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/レポートを出さなければなりませんか。{xn}いいえ、出さなくてもいいです。.ogg"
+  },
+  {
+    "lessonId": "17.0",
+    "englishRawText": "Do I have to pay?\nNo, you don't have to pay.",
+    "japaneseRawText": "お金を 払わな ければ なりませんか。\nいいえ、払わなくても いいです。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Do_I_have_to_pay~{xn}No`_you_don't_have_to_pay^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/お金を払わなければなりませんか。{xn}いいえ、払わなくてもいいです。.ogg"
+  },
+  {
+    "lessonId": "17.0",
+    "englishRawText": "Do I have to work overtime tonight?\nYes, you have to.",
+    "japaneseRawText": "今晩 残業しな ければ なりませんか。\nはい、しな ければ なりません。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Do_I_have_to_work_overtime_tonight~{xn}Yes`_you_have_to^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/今晩残業しなければなりませんか。{xn}はい、しなければなりません。.ogg"
+  },
+  {
+    "lessonId": "17.0",
+    "englishRawText": "Please take off your jacket.\nYou don't have to take off your underwear.",
+    "japaneseRawText": "上着 を 脱いで ください。\n下着 を 脱がなくて も いいです。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Please_take_off_your_jacket^{xn}You_don't_have_to_take_off_your_underwear^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/上着を脱いでください。{xn}下着を脱がなくてもいいです。.ogg"
+  },
+  {
+    "lessonId": "18.0",
+    "englishRawText": "Miller can read Kanji.",
+    "japaneseRawText": "ミラーさんは 漢字を 読む こと が できます。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Miller_can_read_Kanji^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/ミラーさんは漢字を読むことができます。.ogg"
+  },
+  {
+    "lessonId": "18.0",
+    "englishRawText": "My hobby is watching movies.",
+    "japaneseRawText": "私の趣味 は 映画を 見ること です。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/My_hobby_is_watching_movies^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/私の趣味は映画を見ることです。.ogg"
+  },
+  {
+    "lessonId": "18.0",
+    "englishRawText": "I write a diary before going to bed.",
+    "japaneseRawText": "寝る 前に、日記を 書きます。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/I_write_a_diary_before_going_to_bed^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/寝る前に、日記を書きます。.ogg"
+  },
+  {
+    "lessonId": "18.0",
+    "englishRawText": "Can you ski?\nYes, I can. But I'm not very good at it.",
+    "japaneseRawText": "スキーが できますか。\nはい、できます。でも、あまり 上手じゃ ありません。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Can_you_ski~{xn}Yes`_I_can^_But_I'm_not_very_good_at_it^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/スキーができますか。{xn}はい、できます。でも、あまり上手じゃありません。.ogg"
+  },
+  {
+    "lessonId": "18.0",
+    "englishRawText": "Can Maria use a personal computer?\nNo, she can not.",
+    "japaneseRawText": "マリアさんは パソコンを 使う ことが できますか。\nいいえ、できません。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Can_Maria_use_a_personal_computer~{xn}No`_she_can_not^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/マリアさんはパソコンを使うことができますか。{xn}いいえ、できません。.ogg"
+  },
+  {
+    "lessonId": "18.0",
+    "englishRawText": "Until what time that I can still visit Osaka Castle?\nUntil 5 o'clock.",
+    "japaneseRawText": "大阪城は 何時まで 見学が できますか。\n5時までです。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Until_what_time_that_I_can_still_visit_Osaka_Castle~{xn}Until_5_o'clock^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/大阪城は何時まで見学ができますか。{xn}5時までです。.ogg"
+  },
+  {
+    "lessonId": "18.0",
+    "englishRawText": "Is paying by card possible?\nI'm sorry, but please use cash.",
+    "japaneseRawText": "カードで 払う ことが できますか。\nすみませんが、現金で お願いします。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Is_paying_by_card_possible~{xn}I'm_sorry`_but_please_use_cash^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/カードで払うことができますか。{xn}すみませんが、現金でお願いします。.ogg"
+  },
+  {
+    "lessonId": "18.0",
+    "englishRawText": "What is your hobby?\nCollecting old watches.",
+    "japaneseRawText": "趣味は 何ですか。\n古い 時計を 集める ことです。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/What_is_your_hobby~{xn}Collecting_old_watches^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/趣味は何ですか。{xn}古い時計を集めることです。.ogg"
+  },
+  {
+    "lessonId": "18.0",
+    "englishRawText": "Do Japanese children have to learn hiragana before going to school?\nNo, they don't have to remember.",
+    "japaneseRawText": "日本の子ども は 学校に 入る 前に、ひらがなを 覚えな ければ なりませんか。\nいいえ、覚えなくても いいです。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Do_Japanese_children_have_to_learn_hiragana_before_going_to_school~{xn}No`_they_don't_have_to_remember^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/日本の子どもは学校に入る前に、ひらがなを覚えなければなりませんか。{xn}いいえ、覚えなくてもいいです。.ogg"
+  },
+  {
+    "lessonId": "18.0",
+    "englishRawText": "Before meals, please take this medicine.\nYes, I understand.",
+    "japaneseRawText": "食事の前に、この 薬を 飲んで ください。\nはい、わかりました。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Before_meals`_please_take_this_medicine^{xn}Yes`_I_understand^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/食事の前に、この薬を飲んでください。{xn}はい、わかりました。.ogg"
+  },
+  {
+    "lessonId": "18.0",
+    "englishRawText": "When did you get married?\nI got married three years ago.",
+    "japaneseRawText": "いつ 結婚しましたか。\n3年前に、結婚しました。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/When_did_you_get_married~{xn}I_got_married_three_years_ago^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/いつ結婚しましたか。{xn}3年前に、結婚しました。.ogg"
+  },
+  {
+    "lessonId": "18.0",
+    "englishRawText": "What kind of photo do you take?\nAnimal pictures. I especially like horses.",
+    "japaneseRawText": "どんな 写真を 撮りますか。\n動物の写真です。特に 馬が 好きです。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/What_kind_of_photo_do_you_take~{xn}Animal_pictures^_I_especially_like_horses^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/どんな写真を撮りますか。{xn}動物の写真です。特に馬が好きです。.ogg"
+  },
+  {
+    "lessonId": "18.0",
+    "englishRawText": "Have you taken any picture of horses since you came to Japan?\nNo. In Japan it's quite not possible to see a horse.",
+    "japaneseRawText": "日本へ 来てから、馬の 写真を 撮りましたか。\nいいえ。日本では なかなか 馬を 見る ことが できません。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Have_you_taken_any_picture_of_horses_since_you_came_to_Japan~{xn}No^_In_Japan_it's_quite_not_possible_to_see_a_horse^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/日本へ来てから、馬の写真を撮りましたか。{xn}いいえ。日本ではなかなか馬を見ることができません。.ogg"
+  },
+  {
+    "lessonId": "18.0",
+    "englishRawText": "There are many horse farms in Hokkaido.\nReally? Yeah, I definitely want to go during the summer vacation.",
+    "japaneseRawText": "北海道に 馬の 牧場が たくさん ありますよ。\n本当ですか。じゃ、夏休みに ぜひ 行きたいです。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/There_are_many_horse_farms_in_Hokkaido^{xn}Really~_Yeah`_I_definitely_want_to_go_during_the_summer_vacation^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/北海道に馬の牧場がたくさんありますよ。{xn}本当ですか。じゃ、夏休みにぜひ行きたいです。.ogg"
+  },
+  {
+    "lessonId": "18.0",
+    "englishRawText": "I really like your coat.\nI definitely want to buy it.",
+    "japaneseRawText": "私は あなた の コート が 本当に 好きです。\n私は それを ぜひ 買いたいです。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/I_really_like_your_coat^{xn}I_definitely_want_to_buy_it^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/私はあなたのコートが本当に好きです。{xn}私はそれをぜひ買いたいです。.ogg"
+  },
+  {
+    "lessonId": "18.0",
+    "englishRawText": "Mr. Miller can play the piano.",
+    "japaneseRawText": "ミラーさんは ピアノを ひくことが できます。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Mr^_Miller_can_play_the_piano^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/ミラーさんはピアノをひくことができます。.ogg",
+    "japaneseRepresentativeText": "ビーンさんは ピアノを 弾くことが できます。"
+  },
+  {
+    "lessonId": "18.0",
+    "englishRawText": "Mr. Miller can drive a car.",
+    "japaneseRawText": "ミラーさんは 車の運転 が できます。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Mr^_Miller_can_drive_a_car^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/ミラーさんは車の運転ができます。.ogg"
+  },
+  {
+    "lessonId": "18.0",
+    "englishRawText": "Miller can speak Japanese.",
+    "japaneseRawText": "ミラーさんは 日本語 が できます。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Miller_can_speak_Japanese^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/ミラーさんは日本語ができます。.ogg"
+  },
+  {
+    "lessonId": "18.0",
+    "englishRawText": "You can copy it here.",
+    "japaneseRawText": "ここで コピー が できます。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/You_can_copy_it_here^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/ここでコピーができます。.ogg"
+  },
+  {
+    "lessonId": "18.0",
+    "englishRawText": "You can book your hotel here.",
+    "japaneseRawText": "ここで ホテルの予約 が できます。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/You_can_book_your_hotel_here^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/ここでホテルの予約ができます。.ogg"
+  },
+  {
+    "lessonId": "18.0",
+    "englishRawText": "You can buy a ticket here.",
+    "japaneseRawText": "ここで 切符を 買う こと が できます。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/You_can_buy_a_ticket_here^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/ここで切符を買うことができます。.ogg"
+  },
+  {
+    "lessonId": "18.0",
+    "englishRawText": "You can change your money here.",
+    "japaneseRawText": "ここで お金を 変える こと が できます。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/You_can_change_your_money_here^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/ここでお金を変えることができます。.ogg"
+  },
+  {
+    "lessonId": "18.0",
+    "englishRawText": "My hobby is sports.",
+    "japaneseRawText": "私の 趣味は スポーツ です。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/My_hobby_is_sports^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/私の趣味はスポーツです。.ogg"
+  },
+  {
+    "lessonId": "18.0",
+    "englishRawText": "My hobby is taking pictures.",
+    "japaneseRawText": "私の 趣味は 写真を 撮る こと です。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/My_hobby_is_taking_pictures^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/私の趣味は写真を撮ることです。.ogg"
+  },
+  {
+    "lessonId": "18.0",
+    "englishRawText": "I read a book before sleeping.",
+    "japaneseRawText": "私は 寝る 前に 本を 読みます。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/I_read_a_book_before_sleeping^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/私は寝る前に本を読みます。.ogg"
+  },
+  {
+    "lessonId": "18.0",
+    "englishRawText": "I studied Japanese at school before coming to Japan.",
+    "japaneseRawText": "私は 日本へ 来る前に 学校で 日本語を 勉強しました。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/I_studied_Japanese_at_school_before_coming_to_Japan^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/私は日本へ来る前に学校で日本語を勉強しました。.ogg"
+  },
+  {
+    "lessonId": "18.0",
+    "englishRawText": "Please wash your hands before meals.\nYes, I will wash my hand.",
+    "japaneseRawText": "食事の前に 手を 洗ってください。\nはい、手を 洗います。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Please_wash_your_hands_before_meals^{xn}Yes`_I_will_wash_my_hand^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/食事の前に手を洗ってください。{xn}はい、手を洗います。.ogg"
+  },
+  {
+    "lessonId": "18.0",
+    "englishRawText": "I will buy a present before Christmas.",
+    "japaneseRawText": "クリスマスの 前に プレゼントを 買います。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/I_will_buy_a_present_before_Christmas^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/クリスマスの前にプレゼントを買います。.ogg"
+  },
+  {
+    "lessonId": "18.0",
+    "englishRawText": "When did you come to Japan?\nI came to Japan 5 years ago.",
+    "japaneseRawText": "いつ 日本へ 来ましたか。\n5年 前に 日本へ 来ました。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/When_did_you_come_to_Japan~{xn}I_came_to_Japan_5_years_ago^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/いつ日本へ来ましたか。{xn}5年前に日本へ来ました。.ogg"
+  },
+  {
+    "lessonId": "18.0",
+    "englishRawText": "Mr. Miller can play tennis.",
+    "japaneseRawText": "ミラーさんは テニスが できます。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Mr^_Miller_can_play_tennis^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/ミラーさんはテニスができます。.ogg"
+  },
+  {
+    "lessonId": "18.0",
+    "englishRawText": "Mr. Miller can play tennis.",
+    "japaneseRawText": "ミラーさんは テニスをすることが できます。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Mr^_Miller_can_play_tennis^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/ミラーさんはテニスをすることができます。.ogg"
+  },
+  {
+    "lessonId": "18.0",
+    "englishRawText": "Mr. Miller can dance and cook.",
+    "japaneseRawText": "ミラーさんは ダンス と 料理 が できます。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Mr^_Miller_can_dance_and_cook^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/ミラーさんはダンスと料理ができます。.ogg"
+  },
+  {
+    "lessonId": "18.0",
+    "englishRawText": "Can I cook in the dormitory room?",
+    "japaneseRawText": "私は 寮の 部屋で 料理が できますか。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Can_I_cook_in_the_dormitory_room~.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/私は寮の部屋で料理ができますか。.ogg"
+  },
+  {
+    "lessonId": "18.0",
+    "englishRawText": "Can I book a flight over the phone?",
+    "japaneseRawText": "電話で 飛行機の 予約が できますか。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Can_I_book_a_flight_over_the_phone~.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/電話で飛行機の予約ができますか。.ogg"
+  },
+  {
+    "lessonId": "18.0",
+    "englishRawText": "Can I borrow a dictionary at the library?",
+    "japaneseRawText": "図書館で 辞書を 借りる ことが できますか。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Can_I_borrow_a_dictionary_at_the_library~.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/図書館で辞書を借りることができますか。.ogg"
+  },
+  {
+    "lessonId": "18.0",
+    "englishRawText": "Can I get to the airport by bus from the hotel?",
+    "japaneseRawText": "ホテルから バスで 空港へ 行く ことが できますか。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Can_I_get_to_the_airport_by_bus_from_the_hotel~.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/ホテルからバスで空港へ行くことができますか。.ogg"
+  },
+  {
+    "lessonId": "18.0",
+    "englishRawText": "About how many meters can you swim?",
+    "japaneseRawText": "何メートルぐらい 泳ぐ ことが できますか。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/About_how_many_meters_can_you_swim~.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/何メートルぐらい泳ぐことができますか。.ogg"
+  },
+  {
+    "lessonId": "18.0",
+    "englishRawText": "How long can I borrow the books?\nYou can borrow it for 2 weeks.",
+    "japaneseRawText": "どのくらい 本を 借りる ことが できますか。\n２週間 借りる ことが できます。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/How_long_can_I_borrow_the_books~{xn}You_can_borrow_it_for_2_weeks^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/どのくらい本を借りることができますか。{xn}２週間借りることができます。.ogg"
+  },
+  {
+    "lessonId": "18.0",
+    "englishRawText": "Which kind of food can you cook?\nI can make tempura.",
+    "japaneseRawText": "どんな 料理を 作る ことが できますか。 \n天ぷらを 作る ことが できます。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Which_kind_of_food_can_you_cook~{xn}I_can_make_tempura^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/どんな料理を作ることができますか。{xn}天ぷらを作ることができます。.ogg"
+  },
+  {
+    "lessonId": "18.0",
+    "englishRawText": "Until which time can I park the car?\nYou can park until 10PM.",
+    "japaneseRawText": "何時まで 車を 駐車 できますか。\n夜１０時まで 駐車 できます。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Until_which_time_can_I_park_the_car~{xn}You_can_park_until_10PM^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/何時まで車を駐車できますか。{xn}夜１０時まで駐車できます。.ogg"
+  },
+  {
+    "lessonId": "18.0",
+    "englishRawText": "We will arrive shortly... Can I stop the car here?\nNo, you can't stop in front of the store.\nOK, I will stop the car in front of your house.",
+    "japaneseRawText": "私たちは もうすぐ 着きます。ここで 車を 止めて も いいですか。\nいいえ、店の前に 止める ことが できません。\nはい、私は あなたの家の前に 車を止めます。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/We_will_arrive_shortly^^^_Can_I_stop_the_car_here~{xn}No`_you_can't_stop_in_front_of_the_store^{xn}OK`_I_will_stop_the_car_in_front_of_your_house^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/私たちはもうすぐ着きます。ここで車を止めてもいいですか。{xn}いいえ、店の前に止めることができません。{xn}はい、私はあなたの家の前に車を止めます。.ogg"
+  },
+  {
+    "lessonId": "18.0",
+    "englishRawText": "My hobbies are cooking and singing.\nReally? Singing is also my hobby.",
+    "japaneseRawText": "私の趣味は 料理と 歌 です。\n本当ですか。歌を歌う こと も 私の趣味 です。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/My_hobbies_are_cooking_and_singing^{xn}Really~_Singing_is_also_my_hobby^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/私の趣味は料理と歌です。{xn}本当ですか。歌を歌うことも私の趣味です。.ogg"
+  },
+  {
+    "lessonId": "18.0",
+    "englishRawText": "My hobby is reading books.\nReally? Me too!",
+    "japaneseRawText": "私の趣味は 本を読む こと です。\n本当に。私も。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/My_hobby_is_reading_books^{xn}Really~_Me_too!.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/私の趣味は本を読むことです。{xn}本当に。私も。.ogg"
+  },
+  {
+    "lessonId": "18.0",
+    "englishRawText": "I pray every day. I prays before going to bed.",
+    "japaneseRawText": "毎日 お祈り しています。 寝る 前に お祈りを します。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/I_pray_every_day^_I_prays_before_going_to_bed^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/毎日お祈りしています。寝る前にお祈りをします。.ogg"
+  },
+  {
+    "lessonId": "18.0",
+    "englishRawText": "I often read the newspaper before eating.\nI also often read the newspaper before going to work.",
+    "japaneseRawText": "私は 食べる 前に よく 新聞を 読みます。\n私も 仕事に 行く 前に よく 新聞を読みます。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/I_often_read_the_newspaper_before_eating^{xn}I_also_often_read_the_newspaper_before_going_to_work^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/私は食べる前によく新聞を読みます。{xn}私も仕事に行く前によく新聞を読みます。.ogg"
+  },
+  {
+    "lessonId": "18.0",
+    "englishRawText": "I always wash my hand before meal.",
+    "japaneseRawText": "いつも 食事の前に 手を 洗います。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/I_always_wash_my_hand_before_meal^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/いつも食事の前に手を洗います。.ogg"
+  },
+  {
+    "lessonId": "18.0",
+    "englishRawText": "I like listening to music before sleeping.",
+    "japaneseRawText": "寝る 前に 音楽を 聴くのが 好きです。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/I_like_listening_to_music_before_sleeping^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/寝る前に音楽を聴くのが好きです。.ogg"
+  },
+  {
+    "lessonId": "18.0",
+    "englishRawText": "Before swimming, I take a shower.",
+    "japaneseRawText": "泳ぐ 前に、シャワを 浴びます。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Before_swimming`_I_take_a_shower^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/泳ぐ前に、シャワを浴びます。.ogg"
+  },
+  {
+    "lessonId": "18.0",
+    "englishRawText": "Please call me before going to my house.",
+    "japaneseRawText": "私の家に 行く 前に 私に 電話を してください。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Please_call_me_before_going_to_my_house^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/私の家に行く前に私に電話をしてください。.ogg"
+  },
+  {
+    "lessonId": "18.0",
+    "englishRawText": "I will change money before traveling.",
+    "japaneseRawText": "旅行の 前に、お金を 換えます。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/I_will_change_money_before_traveling^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/旅行の前に、お金を換えます。.ogg"
+  },
+  {
+    "lessonId": "18.0",
+    "englishRawText": "Don't take the medicine before lunch.\nTake it after dinner please.",
+    "japaneseRawText": "昼食 前に 薬を 飲まないでください。\n夕食 後に 飲んでください。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Don't_take_the_medicine_before_lunch^{xn}Take_it_after_dinner_please^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/昼食前に薬を飲まないでください。{xn}夕食後に飲んでください。.ogg"
+  },
+  {
+    "lessonId": "18.0",
+    "englishRawText": "When do you go jogging?\nBefore going to the company.",
+    "japaneseRawText": "いつ ジョギングを しますか。\n会社へ 行く 前に、します。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/When_do_you_go_jogging~{xn}Before_going_to_the_company^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/いつジョギングをしますか。{xn}会社へ行く前に、します。.ogg"
+  },
+  {
+    "lessonId": "18.0",
+    "englishRawText": "Can I copy of the material?\nYou cannot copy those materials before the meeting.",
+    "japaneseRawText": "私は 資料のコピーが できますか？\n会議の前に それらの資料を コピーする ことが できません。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/Can_I_copy_of_the_material~{xn}You_cannot_copy_those_materials_before_the_meeting^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/私は資料のコピーができますか？{xn}会議の前にそれらの資料をコピーすることができません。.ogg"
+  },
+  {
+    "lessonId": "18.0",
+    "englishRawText": "I will send you your luggage before September 3rd.",
+    "japaneseRawText": "9月3日 前に 荷物を 送ります。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/I_will_send_you_your_luggage_before_September_3rd^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/9月3日前に荷物を送ります。.ogg"
+  },
+  {
+    "lessonId": "19.0",
+    "englishRawText": "I have seen sumo.",
+    "japaneseRawText": "相撲を 見た ことが あります。",
+    "englishAudioFileName": "audio/FEMALE/EN_US/I_have_seen_sumo^.mp3",
+    "japaneseAudioFileName": "audio/FEMALE/JA_JP/相撲を見たことがあります。.ogg"
+  }
+]

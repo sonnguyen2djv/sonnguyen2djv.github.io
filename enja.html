@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>EnJa</title>
+  <script>
+let enjasentences = null;
+async function fetchEnJaJson() {
+  try {
+    const res = await fetch('/enjasentences.json');
+    const jsonObj = await res.json();
+    console.log(jsonObj);
+    enjasentences = jsonObj;
+  } catch (e) {
+    console.error(e);
+  }
+}
+  </script>
+</head>
+<body>
+<button onclick="testLoadJson();">Test</button>
+</body>
+</html>

@@ -1,4 +1,3 @@
-let URL_TTS_SERVER = 'http://localhost:8080'; // Allow editing url!
 function textToSpeech(textInput, language) {
   if (!textInput) {
     alert('Empty input!')
@@ -12,9 +11,5 @@ function textToSpeech(textInput, language) {
 }
 function playAudioFromUrl(audioUrl) {
   const audioElm = new Audio(audioUrl);
-  audioElm.play().then(audioPlayResult => {
-    console.log(`Played audio from URL:${audioUrl}`);
-  }).catch(audioPlayError => {
-    console.warn(`Cannot play audio from URL:${audioUrl}`);
-  });
+  return audioElm.play();
 }
