@@ -17,6 +17,7 @@
   overflow: hidden;
   padding: 10px 5px;
   word-break: normal;
+  white-space: pre-wrap;
 }
 
 .beautiful-table th {
@@ -48,14 +49,16 @@ window.ntsonx = {name:'Son',age:25};
   japaneseRepresentativeText: string | null
 }
 } TypeEnJa*/
-/**@type TypeEnJa[]*/
-window.ENJA = null;
+window.GLOB = {
+  /**@type TypeEnJa[]*/
+  ENJA: null,
+};
 async function fetchEnJaJson() {
   try {
     const res = await fetch('/enjasentences.json');
     const jsonObj = await res.json();
     console.log(jsonObj);
-    window.ENJA = jsonObj;
+    GLOB.ENJA = jsonObj;
   } catch (e) {
     console.error(e);
   }
@@ -70,10 +73,10 @@ window.onload = () => {
     <div>{{helloWorldMessage}}</div>
     <div>{{ntson?.name}}-{{ntson?.age}}</div>
     <table class="beautiful-table">
-      <tr v-for="enJaItem of ENJA">
+      <tr v-for="enJaItem of glob.ENJA">
         <td>{{enJaItem.lessonId}}</td>
-        <td v-on:click="onclickJapaneseText">{{enJaItem.japaneseRepresentativeText || enJaItem.japaneseRawText}}</td>
-        <td v-on:click="onclickEnglishText">{{enJaItem.englishRawText}}</td>
+        <td v-on:click="onclickJapaneseText(enJaItem);">{{enJaItem.japaneseRepresentativeText || enJaItem.japaneseRawText}}</td>
+        <td v-on:click="onclickEnglishText(enJaItem);">{{enJaItem.englishRawText}}</td>
       </tr>
     </table>
   </div>
@@ -83,9 +86,10 @@ window.onload = () => {
       el: '#app',
       data: {
         helloWorldMessage: 'Hello Vue2!',
-        ntson: window.ntsonx
+        ntson: window.ntsonx,
+        glob: GLOB,
       },
-      method: {
+      methods: {
         /**@param {TypeEnJa} enJaItem*/
         onclickEnglishText(enJaItem) {
           playAudioFromUrl(enJaItem.englishAudioFileName);
