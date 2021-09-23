@@ -1,23 +1,134 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>EnJa</title>
+  <title>My first Vue app</title>
+  <style>
+.beautiful-table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.beautiful-table td {
+  border-color: #8c8c8c; /*table cell border color*/
+  border-style: solid;
+  border-width: 1px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  overflow: hidden;
+  padding: 10px 5px;
+  word-break: normal;
+  white-space: pre-wrap;
+}
+
+.beautiful-table th {
+  border-color: #8c8c8c; /*table cell border color*/
+  border-style: solid;
+  border-width: 1px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  overflow: hidden;
+  padding: 10px 5px;
+  word-break: normal;
+}
+  </style>
+
+  <script src="https://unpkg.com/vue"></script>
+  <!--TODO
+  <script src="tts.service.nts.js"></script>
+  -->
+  <script src="vue.js"></script>
+
   <script>
-let enjasentences = null;
+window.ntsonx = {name:'Son',age:25};
+/**@typedef {{
+  rawText: string
+  audioFileName: string
+}} LineInfo*/
+/**@typedef {
+{
+  lessonId: string | null
+  englishRawText: string
+  japaneseRawText: string
+  englishAudioFileName: string
+  japaneseAudioFileName: string
+  japaneseRepresentativeText: string | null
+  englishSentences: LineInfo[]
+  japaneseSentences: LineInfo[]
+}
+} TypeEnJa*/
+window.GLOB = {
+  /**@type TypeEnJa[]*/
+  ENJA: null,
+};
 async function fetchEnJaJson() {
   try {
     const res = await fetch('/enjasentences.json');
     const jsonObj = await res.json();
     console.log(jsonObj);
-    enjasentences = jsonObj;
+    GLOB.ENJA = jsonObj;
   } catch (e) {
     console.error(e);
   }
 }
+window.onload = () => {
+  fetchEnJaJson();
+}
+  </script>
+  <script>
+/**
+ * @param {HTMLAudioElement} audioElm
+ * @param {string} audioUrl
+ * */
+function playAudioElmFromUrl(audioUrl) {
+  const audioElm = document.querySelector('#elmId_audio');
+  audioElm.src = audioUrl;
+  return audioElm.play();
+}
   </script>
 </head>
 <body>
-<button onclick="testLoadJson();">Test</button>
+  <div id="app">
+    <div>{{helloWorldMessage}}</div>
+    <div>{{ntson?.name}}-{{ntson?.age}}</div>
+    <audio id="elmId_audio" src="" controls style="position: fixed; top: 200px; left: 0px; height: 30px; width: 100%;"></audio>
+    <table class="beautiful-table">
+      <tr v-for="enJaItem of glob.ENJA">
+        <td>{{enJaItem.lessonId}}</td>
+        <td>
+          <div v-for="line of enJaItem.japaneseSentences"
+               v-on:click="playAudioElmFromUrl_(line.audioFileName)">{{line.rawText}}</div>
+        </td>
+        <td>
+          <div v-for="line of enJaItem.englishSentences"
+               v-on:click="playAudioElmFromUrl_(line.audioFileName)">{{line.rawText}}</div>
+        </td>
+      </tr>
+    </table>
+  </div>
+
+  <script>
+    const app = new Vue({
+      el: '#app',
+      data: {
+        helloWorldMessage: 'Hello Vue2!',
+        ntson: window.ntsonx,
+        glob: GLOB,
+      },
+      methods: {
+        /**@param {TypeEnJa} enJaItem*/
+        onclickEnglishText(enJaItem) {
+          playAudioElmFromUrl(enJaItem.englishAudioFileName);
+        },
+        /**@param {TypeEnJa} enJaItem*/
+        onclickJapaneseText(enJaItem) {
+          playAudioElmFromUrl(enJaItem.japaneseAudioFileName);
+        },
+        playAudioElmFromUrl_(url) {
+          playAudioElmFromUrl(url);
+        }
+      }
+    });
+  </script>
 </body>
 </html>
