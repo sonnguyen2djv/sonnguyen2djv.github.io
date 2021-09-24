@@ -64,6 +64,15 @@
   <script src="vue.js"></script>
 
   <script>
+    window.addEventListener('keydown', function(e) {
+      if(e.keyCode === 32 && e.target === document.body) {
+        e.preventDefault();
+        document.querySelector('#elmId_audio').play();
+      }
+    });
+  </script>
+
+  <script>
 window.ntsonx = {name:'Son',age:25};
 /**@typedef {{
   rawText: string
@@ -84,6 +93,9 @@ window.ntsonx = {name:'Son',age:25};
 window.GLOB = {
   /**@type TypeEnJa[]*/
   ENJA: null,
+};
+window.GLOB_NON_REACTIVE =  {
+  AUDIO_PLAYBACK_RATE: 1,
 };
 async function fetchEnJaJson() {
   try {
@@ -107,6 +119,7 @@ window.onload = () => {
 function playAudioElmFromUrl(audioUrl) {
   const audioElm = document.querySelector('#elmId_audio');
   audioElm.src = audioUrl;
+  audioElm.playbackRate = GLOB_NON_REACTIVE.AUDIO_PLAYBACK_RATE;
   return audioElm.play();
 }
   </script>
@@ -115,7 +128,15 @@ function playAudioElmFromUrl(audioUrl) {
   <div id="app">
     <div>{{helloWorldMessage}}</div>
     <div>{{ntson?.name}}-{{ntson?.age}}</div>
-    <audio id="elmId_audio" src="" controls style="position: fixed; bottom: 50px; left: 0px; height: 30px; width: 100%;"></audio>
+    <div class="d-flex" style="position: fixed; bottom: 50px; left: 0px; height: 30px; width: 100%;">
+      <div style="height: 100%; width: 80%">
+        <audio id="elmId_audio" src="" controls style="height: 100%; width: 100%;"></audio>
+      </div>
+      <div>
+        <input type="number"
+               v-model="inputBinding_audioSpeed">
+      </div>
+    </div>
     <table class="beautiful-table">
       <tr v-for="enJaItem of glob.ENJA">
         <td>{{enJaItem.lessonId}}</td>
@@ -148,10 +169,23 @@ function playAudioElmFromUrl(audioUrl) {
   <script>
     const app = new Vue({
       el: '#app',
+      watch: {
+        inputBinding_audioSpeed: function(newValue, oldValue) {
+          const audioElm = document.querySelector('#elmId_audio');
+          const newPlaybackRate = (newValue / 10);
+          if (newPlaybackRate >= 0.5 && newPlaybackRate <= 2) {
+            audioElm.playbackRate = newPlaybackRate;
+            GLOB_NON_REACTIVE.AUDIO_PLAYBACK_RATE = newPlaybackRate;
+          }
+        }
+      },
+      props: {
+      },
       data: {
         helloWorldMessage: 'Hello Vue2!',
         ntson: window.ntsonx,
         glob: GLOB,
+        inputBinding_audioSpeed: 10,
       },
       methods: {
         /**@param {TypeEnJa} enJaItem*/
