@@ -64,20 +64,13 @@
   <script src="vue.js"></script>
 
   <script>
-    window.addEventListener('keydown', function(e) {
-      if(e.keyCode === 32 && e.target === document.body) {
-        e.preventDefault();
-        document.querySelector('#elmId_audio').play();
-      }
-    });
-  </script>
+/**--------------- Type definitions ---------------*/
 
-  <script>
-window.ntsonx = {name:'Son',age:25};
 /**@typedef {{
   rawText: string
   audioFileName: string
 }} LineInfo*/
+
 /**@typedef {
 {
   lessonId: string | null
@@ -90,13 +83,75 @@ window.ntsonx = {name:'Son',age:25};
   japaneseSentences: LineInfo[]
 }
 } TypeEnJa*/
+
+/**@typedef {
+Map<String, String[]>
+} LearningHistoryTotal*/
+  </script>
+
+  <script>
+/**--------------- Global variables declarations ---------------*/
 window.GLOB = {
   /**@type TypeEnJa[]*/
   ENJA: null,
 };
 window.GLOB_NON_REACTIVE =  {
   AUDIO_PLAYBACK_RATE: 1,
+  /**@type LearningHistoryTotal*/
+  LEARNING_HISTORY: null,
 };
+  </script>
+
+  <script>
+/**Learning history*/
+function getLearningHistoryFromLS() {
+  const learningHistory_jsonStr = localStorage.getItem('learningHistory');
+  const learningHistory = JSON.parse(learningHistory_jsonStr);
+  return learningHistory;
+}
+function saveLearningHistoryToLS(learningHistory) {
+  const learningHistoryKeys = Object.keys(learningHistory);
+  learningHistoryKeys.sort();
+  const learningHistory_jsonStr = JSON.stringify(learningHistory, learningHistoryKeys);
+  localStorage.setItem('learningHistory', learningHistory_jsonStr);
+  return learningHistory_jsonStr;
+}
+/**@param {string} learningHistoryKey
+ * @param {Date=} date (optional)*/
+function pushAccessDateToOneEntry(learningHistoryKey, date) {
+  if (!date) {
+    date = new Date();
+  }
+  const dateTime = date.getTime();
+  let learningHistory = getLearningHistoryFromLS();
+  if (!learningHistory) {
+    // Create new learningHistory if not found in LocalStorage.
+    alert('Welcome new user! Your learning history will be recorded!');
+    learningHistory = {};
+  }
+  let entry = learningHistory[learningHistoryKey];
+  if (!entry) {
+    entry = [];
+    learningHistory[learningHistoryKey] = entry;
+  }
+  entry.push(dateTime);
+  // Save to LocalStorage (and get the saving result).
+  const learningHistory_jsonStr = saveLearningHistoryToLS(learningHistory);
+  console.log(learningHistory_jsonStr); // TODO: remove this log.
+}
+  </script>
+
+  <script>
+    /**Initializations*/
+    window.addEventListener('keydown', function(e) {
+      if(e.keyCode === 32 && e.target === document.body) {
+        e.preventDefault();
+        document.querySelector('#elmId_audio').play();
+      }
+    });
+  </script>
+
+  <script>
 async function fetchEnJaJson() {
   try {
     const res = await fetch('/enjasentences.json');
@@ -141,7 +196,8 @@ function playAudioElmFromUrl(audioUrl) {
       <tr v-for="enJaItem of glob.ENJA">
         <td>{{enJaItem.lessonId}}</td>
         <td>
-          <div class="d-flex">
+          <div class="d-flex"
+            v-on:click="onclickEnJaItem(enJaItem)">
             <div class="d-flex text-center-for-flex hover-yellow" style="width: 10px;"
                  v-on:click="playAudioElmFromUrl_(enJaItem.japaneseAudioFileName)"></div>
             <div class="flex-grow-1">
@@ -198,7 +254,12 @@ function playAudioElmFromUrl(audioUrl) {
         },
         playAudioElmFromUrl_(url) {
           playAudioElmFromUrl(url);
-        }
+        },
+        /**@param {TypeEnJa} enJaItem*/
+        onclickEnJaItem(enJaItem) {
+          const japaneseRawText = enJaItem.japaneseRawText;
+          pushAccessDateToOneEntry(japaneseRawText);
+        },
       }
     });
   </script>
