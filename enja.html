@@ -3,6 +3,29 @@
 <head>
   <title>My first Vue app</title>
   <style>
+.d-inline-block {
+  display: inline-block;
+}
+.d-flex {
+  display: flex;
+}
+.flex-grow-1 {
+  flex-grow: 1;
+}
+
+.text-center-for-flex { /*Must be used with display: flex*/
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */
+}
+
+.hover-yellow:hover {
+  background-color: yellow;
+}
+
+.no-border {
+  border: none;
+}
+
 .beautiful-table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -15,7 +38,9 @@
   font-family: Arial, sans-serif;
   font-size: 14px;
   overflow: hidden;
+  /*
   padding: 10px 5px;
+  */
   word-break: normal;
   white-space: pre-wrap;
 }
@@ -96,12 +121,26 @@ function playAudioElmFromUrl(audioUrl) {
       <tr v-for="enJaItem of glob.ENJA">
         <td>{{enJaItem.lessonId}}</td>
         <td>
-          <div v-for="line of enJaItem.japaneseSentences"
-               v-on:click="playAudioElmFromUrl_(line.audioFileName)">{{line.rawText}}</div>
+          <div class="d-flex">
+            <div class="d-flex text-center-for-flex hover-yellow" style="width: 10px;"
+                 v-on:click="playAudioElmFromUrl_(enJaItem.japaneseAudioFileName)"></div>
+            <div class="flex-grow-1">
+              <div v-for="line of enJaItem.japaneseSentences"
+                   class="hover-yellow"
+                   v-on:click="playAudioElmFromUrl_(line.audioFileName)">{{line.rawText}}</div>
+            </div>
+          </div>
         </td>
         <td>
-          <div v-for="line of enJaItem.englishSentences"
-               v-on:click="playAudioElmFromUrl_(line.audioFileName)">{{line.rawText}}</div>
+          <div class="d-flex">
+            <div class="d-flex text-center-for-flex hover-yellow" style="width: 10px;"
+                 v-on:click="playAudioElmFromUrl_(enJaItem.englishAudioFileName)"></div>
+            <div class="flex-grow-1">
+              <div v-for="line of enJaItem.englishSentences"
+                   class="hover-yellow"
+                   v-on:click="playAudioElmFromUrl_(line.audioFileName)">{{line.rawText}}</div>
+            </div>
+          </div>
         </td>
       </tr>
     </table>
