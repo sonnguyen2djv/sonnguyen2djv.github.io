@@ -3,10 +3,10 @@
 <head>
   <title>My 2 Vue app</title>
 
-  <script src="https://unpkg.com/vue"></script>
   <!--
-  <script src="vue.js"></script>
+  <script src="https://unpkg.com/vue"></script>
   -->
+  <script src="vue.js"></script>
 
   <script>
 /**--------------- Global variables declarations ---------------*/
@@ -22,6 +22,8 @@ window.GLOB = {
   REPLAY_JA_AFTER: 1,
   /**Number of time that English audio will be played.*/
   REPLAY_EN: 1,
+  // Other:
+  SHOW_PLAY_BTN: true,
 };
   </script>
 
@@ -35,6 +37,12 @@ window.addEventListener('keydown', function(e) {
 });
 window.onload = async () => {
   await fetchEnJaJson();
+};
+  </script>
+
+  <script>
+async function doit() {
+  GLOB.SHOW_PLAY_BTN = false;
   const hash = window.location.hash ? window.location.hash.substring(1) : null;
   const parsedFloat = hash ? parseFloat(hash) : null;
   const start = (parsedFloat == null || isNaN(parsedFloat)) ? 0 : parsedFloat;
@@ -42,6 +50,23 @@ window.onload = async () => {
   while (true) {
     try {
       const enJaItem = GLOB.ENJA[GLOB.INDEX_CURRENT];
+      // Print JP.
+      let sb = 'ID: ' + GLOB.INDEX_CURRENT;
+      for (const line of enJaItem.japaneseSentences) {
+        if (sb) {
+          sb += '\n';
+        }
+        sb += line.rawText;
+      }
+      // Print EN.
+      sb += '-------------------------------------';
+      for (const line of enJaItem.englishSentences) {
+        if (sb) {
+          sb += '\n';
+        }
+        sb += line.rawText;
+      }
+      // Play audio
       for (let i = 0; i < GLOB.REPLAY_JA_BEFORE; i++) {
         if (i) {
           await sleep(500);
@@ -71,12 +96,10 @@ window.onload = async () => {
       }
     } catch (e) {
       console.debug(e);
+      await sleep(500);
     }
   }
-};
-  </script>
-
-  <script>
+}
 async function fetchEnJaJson() {
   try {
     const res = await fetch('/enjasentences.json');
@@ -121,41 +144,50 @@ async function waitForAudioFinish() {
 }
   </script>
 
+  <script>
+const VUE_CONFIG = {
+  el: '#app',
+  watch: {
+  },
+  props: {
+  },
+  data: {
+    glob: GLOB,
+  },
+  methods: {
+  }
+}
+console.log(GLOB);
+console.log(VUE_CONFIG);
+  </script>
+
 </head>
-<body>
+<body style="background-color: black; color: wheat;">
   <div id="app">
-    <div>OK-vue</div>
-    <div v-if="glob && glob.ENJA">
-      <div>OK-enja</div>
-      <div>Index: {{glob.INDEX_CURRENT}} - Lesson: {{glob.ENJA[glob.INDEX_CURRENT].lessonId}}</div>
-      <div>
-        <div class="d-flex">
-          <div class="d-flex text-center-for-flex hover-yellow" style="width: 10px;"></div>
-          <div class="flex-grow-1">
-            <div v-for="line of glob.ENJA[glob.INDEX_CURRENT].japaneseSentences"
-                 class="hover-yellow">{{line.rawText}}</div>
-          </div>
+    <div v-if="glob != null">
+      <div v-if="glob.SHOW_PLAY_BTN === true">
+        <button onclick="doit();">Play</button>
+      </div>
+      <div v-else>
+        <div>Index: {{glob.INDEX_CURRENT}} - Lesson: {{glob.ENJA[glob.INDEX_CURRENT].lessonId}}</div>
+        <div>
+          <div v-for="line of glob.ENJA[glob.INDEX_CURRENT].japaneseSentences"
+               class="hover-yellow">{{line.rawText}}</div>
         </div>
       </div>
     </div>
-    <div>
-      <audio id="elmId_audio" src="" controls style="height: 100%; width: 100%;"></audio>
-    </div>
+  </div>
+  <div>
+    <audio id="elmId_audio" src="" controls style="height: 100%; width: 100%;"></audio>
   </div>
 
   <script>
-    const app = new Vue({
-      el: '#app',
-      watch: {
-      },
-      props: {
-        glob: GLOB,
-      },
-      data: {
-      },
-      methods: {
-      }
-    });
+    try {
+      const app = new Vue(VUE_CONFIG);
+    } catch (e) {
+      console.error(e);
+      alert(e);
+    }
   </script>
 </body>
 </html>
