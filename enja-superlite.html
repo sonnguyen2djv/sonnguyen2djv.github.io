@@ -15,7 +15,7 @@ window.GLOB = {
   ENJA: null,
   INDEX_CURRENT: 0,
   // Configs:
-  AUDIO_PLAYBACK_RATE: 0.9,
+  AUDIO_PLAYBACK_RATE: 0.8,
   /**Number of time that Japanese audio will be played before playing English audio.*/
   REPLAY_JA_BEFORE: 2,
   /**Number of time that Japanese audio will be played after playing English audio.*/
@@ -24,6 +24,8 @@ window.GLOB = {
   REPLAY_EN: 1,
   // Other:
   SHOW_PLAY_BTN: true,
+  IS_PAUSING: false,
+  IS_INTENTIONAL_ERROR: false,
 };
   </script>
 
@@ -50,7 +52,7 @@ async function doit() {
   while (true) {
     try {
       const enJaItem = GLOB.ENJA[GLOB.INDEX_CURRENT];
-      // Print JP.
+      // Prepare print JP.
       let sb = 'ID: ' + GLOB.INDEX_CURRENT;
       for (const line of enJaItem.japaneseSentences) {
         if (sb) {
@@ -58,45 +60,42 @@ async function doit() {
         }
         sb += line.rawText;
       }
-      // Print EN.
-      sb += '-------------------------------------';
+      // Prepare print EN.
+      sb += '\n-------------------------------------';
       for (const line of enJaItem.englishSentences) {
         if (sb) {
           sb += '\n';
         }
         sb += line.rawText;
       }
+      // Print.
+      console.log(sb);
       // Play audio
       for (let i = 0; i < GLOB.REPLAY_JA_BEFORE; i++) {
         if (i) {
           await sleep(500);
         }
-        await playAudioElmFromUrl(enJaItem.japaneseAudioFileName);
-        await waitForAudioFinish();
+        await playAudioElmFromUrlToEnd(enJaItem.japaneseAudioFileName);
       }
       await sleep(500);
       for (let i = 0; i < GLOB.REPLAY_EN; i++) {
         if (i) {
           await sleep(500);
         }
-        await playAudioElmFromUrl(enJaItem.englishAudioFileName);
-        await waitForAudioFinish();
+        await playAudioElmFromUrlToEnd(enJaItem.englishAudioFileName, 1.2);
       }
       await sleep(500);
       for (let i = 0; i < GLOB.REPLAY_JA_AFTER; i++) {
         if (i) {
           await sleep(500);
         }
-        await playAudioElmFromUrl(enJaItem.japaneseAudioFileName);
-        await waitForAudioFinish();
+        await playAudioElmFromUrlToEnd(enJaItem.japaneseAudioFileName);
       }
-      GLOB.INDEX_CURRENT++;
-      if (GLOB.INDEX_CURRENT > GLOB.ENJA.length - 1) {
-        GLOB.INDEX_CURRENT = 0;
-      }
+      globIndexCurrentInc();
     } catch (e) {
       console.debug(e);
       await sleep(500);
+      GLOB.IS_INTENTIONAL_ERROR = false;
     }
   }
 }
@@ -104,25 +103,18 @@ async function fetchEnJaJson() {
   try {
     const res = await fetch('/enjasentences.json');
     const jsonObj = await res.json();
-    console.log(jsonObj);
+    console.debug(jsonObj);
     GLOB.ENJA = jsonObj;
   } catch (e) {
     console.error(e);
   }
 }
-/**
- * @param {HTMLAudioElement} audioElm
- * @param {string} audioUrl
- * */
-function playAudioElmFromUrl(audioUrl) {
+function playAudioElmFromUrl(audioUrl, customSpeed) {
   const audioElm = document.querySelector('audio');
   audioElm.src = audioUrl;
-  audioElm.playbackRate = GLOB.AUDIO_PLAYBACK_RATE;
+  audioElm.playbackRate = customSpeed || GLOB.AUDIO_PLAYBACK_RATE;
   return audioElm.play();
 }
-  </script>
-
-  <script>
 function sleep(timeMs) {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
@@ -134,14 +126,118 @@ async function waitForAudioFinish() {
   try {
     const audio = document.querySelector('audio');
     while (!audio.paused) {
-      console.log('waiting for audio to finish...');
+      console.debug('waiting for audio to finish...');
       await sleep(500);
     }
-    console.log('audio finished!');
+    console.debug('audio finished!');
   } catch (e) {
     console.error(e);
   }
 }
+async function playAudioElmFromUrlToEnd(audioUrl, customSpeed) {
+  await playAudioElmFromUrl(audioUrl, customSpeed);
+  await waitForPauseFlag();
+  await waitForAudioFinish();
+  throwIfWanted();
+}
+async function waitForPauseFlag() {
+  while (GLOB.IS_PAUSING) {
+    setAudioPlayingStatus(false);
+    await sleep(500);
+  }
+  setAudioPlayingStatus(true);
+}
+function setAudioPlayingStatus(isPlay) {
+  const audio = document.querySelector('audio');
+  if (audio) {
+    if (isPlay) {
+      audio.play();
+    } else {
+      audio.pause();
+    }
+  }
+}
+function restrictGlobIndexCurrentValue() {
+  if (GLOB.INDEX_CURRENT == null || isNaN(GLOB.INDEX_CURRENT)) {
+    GLOB.INDEX_CURRENT = 0;
+  }
+  if (GLOB.INDEX_CURRENT > GLOB.ENJA.length - 1) {
+    GLOB.INDEX_CURRENT = 0;
+  }
+  if (GLOB.INDEX_CURRENT < 0) {
+    if (GLOB.ENJA.length > 0) {
+      GLOB.INDEX_CURRENT = GLOB.ENJA.length - 1;
+    } else {
+      GLOB.INDEX_CURRENT = 0;
+    }
+  }
+}
+function globIndexCurrentInc() {
+  GLOB.INDEX_CURRENT++;
+  restrictGlobIndexCurrentValue();
+}
+function globIndexCurrentDec() {
+  GLOB.INDEX_CURRENT--;
+  restrictGlobIndexCurrentValue();
+}
+function throwIfWanted() {
+  if (GLOB.IS_INTENTIONAL_ERROR) {
+    throw new Error('Intentional Error :)');
+  }
+}
+function interuptCurrentLoop() {
+  GLOB.IS_INTENTIONAL_ERROR = true;
+}
+window.cmd = {
+  get pause() {
+    GLOB.IS_PAUSING = true;
+  },
+  get unpause() {
+    GLOB.IS_PAUSING = false;
+  },
+  get next() {
+    interuptCurrentLoop();
+    globIndexCurrentInc();
+  },
+  get prev() {
+    interuptCurrentLoop();
+    globIndexCurrentDec();
+  },
+  goto(index) {
+    interuptCurrentLoop();
+    GLOB.INDEX_CURRENT = index || 0;
+    restrictGlobIndexCurrentValue();
+  },
+  speed(value) {
+    if (value) {
+      GLOB.AUDIO_PLAYBACK_RATE = value;
+    }
+  },
+  textColor(color) {
+    if (color || color == null) {
+      // Show text in html.
+      document.querySelector('#app').style.color = (color === true || color == null) ? 'wheat' : color;
+    } else {
+      document.querySelector('#app').style.color = 'black';
+    }
+  },
+  text(status) {
+    this.textColor(status);
+  },
+  textSize(fontSize) {
+    document.querySelector('#app').style.fontSize = fontSize + 'px';
+  },
+  textPosition(top, left) {
+    if (top != null && left != null) {
+      document.querySelector('#app').style.position = 'absolute';
+      document.querySelector('#app').style.top = top + 'px';
+      document.querySelector('#app').style.left = left + 'px';
+    } else {
+      document.querySelector('#app').style.position = 'static';
+    }
+  }
+};
+window.CMD = window.cmd;
   </script>
 
   <script>
@@ -157,13 +253,13 @@ const VUE_CONFIG = {
   methods: {
   }
 }
-console.log(GLOB);
-console.log(VUE_CONFIG);
+console.debug(GLOB);
+console.debug(VUE_CONFIG);
   </script>
 
 </head>
-<body style="background-color: black; color: wheat;">
-  <div id="app">
+<body style="background-color: black; color: black;">
+  <div id="app" style="position: absolute; left: calc(50vw - 250px); top: calc(50vh - 50px); font-size: 30px;">
     <div v-if="glob != null">
       <div v-if="glob.SHOW_PLAY_BTN === true">
         <button onclick="doit();">Play</button>
