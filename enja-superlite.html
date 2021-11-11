@@ -287,6 +287,24 @@ console.debug(GLOB);
 console.debug(VUE_CONFIG);
   </script>
 
+  <script>
+function evaluateInputConsole() {
+  const inputConsole = document.querySelector('#elmId_inputConsole').value;
+  eval('cmd.' + inputConsole);
+}
+function bookmarkLocalStorage() {
+  let bookMarkStr = localStorage.getItem('bookmark');
+  if (!bookMarkStr) {
+    bookMarkStr = JSON.stringify([]);
+  }
+  const bookMarks = JSON.parse(bookMarkStr);
+  const newBookmarkItem = GLOB.INDEX_CURRENT + '\t' + GLOB.ENJA[GLOB.INDEX_CURRENT].japaneseRawText;
+  bookMarks.push(newBookmarkItem);
+  const prepareStr = JSON.stringify(bookMarks);
+  localStorage.setItem('bookmark', prepareStr);
+}
+  </script>
+
 </head>
 <body style="background-color: black; color: black;">
   <div id="app" style="position: absolute; left: calc(50vw - 250px); top: calc(50vh - 50px); font-size: 30px;">
@@ -305,6 +323,13 @@ console.debug(VUE_CONFIG);
   </div>
   <div>
     <audio id="elmId_audio" src="" controls style="height: 100%; width: 100%;"></audio>
+  </div>
+  <div>
+    <textarea id="elmId_inputConsole"></textarea>
+    <button onclick="evaluateInputConsole();">Evaluate</button>
+  </div>
+  <div>
+    <button onclick="bookmarkLocalStorage();" style="width: 100px; height: 100px;">Bookmark</button>
   </div>
 
   <script>
