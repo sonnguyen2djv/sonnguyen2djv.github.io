@@ -70,6 +70,8 @@ async function doit() {
       }
       // Print.
       console.log(sb);
+      // Send text to server for remote-logging.
+      sendToServerTry(sb).then();
       // Play audio
       for (let i = 0; i < GLOB.REPLAY_JA_BEFORE; i++) {
         if (i) {
@@ -188,6 +190,27 @@ function throwIfWanted() {
 function interuptCurrentLoop() {
   GLOB.IS_INTENTIONAL_ERROR = true;
 }
+async function sendToServerTry(text) {
+  try {
+    const response = await fetch('http://localhost:8000/enja-server', {
+      method: 'POST', // *GET, POST, PUT, DELETE, etc.
+      mode: 'no-cors', // no-cors, *cors, same-origin
+      cache: 'no-cache', // *default, no-cache, reload, force-cache, only-if-cached
+      credentials: 'omit', // include, *same-origin, omit
+      headers: {
+        'Content-Type': 'text/html; charset=UTF-8'
+        // 'Content-Type': 'application/x-www-form-urlencoded',
+      },
+      redirect: 'follow', // manual, *follow, error
+      referrerPolicy: 'no-referrer', // no-referrer, *no-referrer-when-downgrade, origin, origin-when-cross-origin, same-origin, strict-origin, strict-origin-when-cross-origin, unsafe-url
+      body: text // body data type must match "Content-Type" header
+    });
+    const responseValue = response.text();
+    console.debug('Server response: ' + responseValue);
+  } catch (e) {
+    console.debug('Server request error: ' + e);
+  }
+}
 window.cmd = {
   get pause() {
     GLOB.IS_PAUSING = true;
@@ -198,15 +221,22 @@ window.cmd = {
   get next() {
     interuptCurrentLoop();
     globIndexCurrentInc();
+    return GLOB.INDEX_CURRENT + ' : ' + GLOB.ENJA[GLOB.INDEX_CURRENT].japaneseRawText;
   },
   get prev() {
     interuptCurrentLoop();
     globIndexCurrentDec();
+    return GLOB.INDEX_CURRENT + ' : ' + GLOB.ENJA[GLOB.INDEX_CURRENT].japaneseRawText;
   },
-  goto(index) {
+  goto(index, relative) {
     interuptCurrentLoop();
-    GLOB.INDEX_CURRENT = index || 0;
+    if (relative) {
+    	GLOB.INDEX_CURRENT += (index || 0);
+    } else {
+    	GLOB.INDEX_CURRENT = index || 0;
+    }
     restrictGlobIndexCurrentValue();
+    return GLOB.INDEX_CURRENT + ' : ' + GLOB.ENJA[GLOB.INDEX_CURRENT].japaneseRawText;
   },
   speed(value) {
     if (value) {
