@@ -265,6 +265,10 @@ window.cmd = {
     } else {
       document.querySelector('#app').style.position = 'static';
     }
+  },
+  get alertBookmark() {
+    const bm = localStorage.getItem('bookmark');
+    alert(bm);
   }
 };
 window.CMD = window.cmd;
